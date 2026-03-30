@@ -16,87 +16,38 @@
 
 ## 🧠 Professional Summary
 
-<div align="center">
-  <table border="0" cellpadding="10">
-    <tr>
-      <td valign="top" width="50%">
-        <h3>🎓 Education</h3>
-        <p><strong>🎓 Computer Science Engineering Student</strong><br/>
-        <em>Specializing in Full-Stack Development & Data Analytics</em></p>
-        
-        <h3>📊 Core Competencies</h3>
-        <ul>
-          <li>📊 Data Analytics & Visualization</li>
-          <li>⚛️ Full-Stack Application Development</li>
-          <li>🚀 End-to-End Deployment Strategies</li>
-          <li>📱 Mobile App Development (Android)</li>
-        </ul>
-      </td>
-      <td valign="top" width="50%">
-        <h3>🚀 Development Philosophy</h3>
-        <ul>
-          <li>⚡ Building, Not Just Learning</li>
-          <li>🌐 Real-World Problem Solving</li>
-          <li>📱 Cross-Platform Excellence</li>
-          <li>🔥 Continuous Innovation</li>
-        </ul>
-        
-        <h3>📱 Notable Achievement</h3>
-        <p>✅ <strong>Full Stack App + Android APK</strong><br/>
-        Successfully deployed end-to-end application with mobile support</p>
-      </td>
-    </tr>
-  </table>
-</div>
+| **🎓 Education** | **🚀 Development Philosophy** |
+|------------------|------------------------------|
+| **Computer Science Engineering Student**<br/>*Specializing in Full-Stack Development & Data Analytics* | • ⚡ Building, Not Just Learning<br/>• 🌐 Real-World Problem Solving<br/>• 📱 Cross-Platform Excellence<br/>• 🔥 Continuous Innovation |
+| **📊 Core Competencies** | **📱 Notable Achievement** |
+| • 📊 Data Analytics & Visualization<br/>• ⚛️ Full-Stack Application Development<br/>• 🚀 End-to-End Deployment Strategies<br/>• 📱 Mobile App Development (Android) | ✅ **Full Stack App + Android APK**<br/>Successfully deployed end-to-end application with mobile support |
 
 ---
 
-## 🔥 Featured Project
+## 🔥 Featured Project: 30 - Task Manager App
 
 <div align="center">
-  <h2>🚀 30 - Task Manager App</h2>
   <p><em>A complete productivity ecosystem built from scratch with AI integration</em></p>
   
-  <div>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-    <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
-    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-    <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
-  </div>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
 </div>
 
 <br/>
 
-<div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <td valign="top" width="50%">
-        <h3 align="center">✨ Features</h3>
-        <ul>
-          <li>✅ Intelligent Task & Category Management</li>
-          <li>📅 Seamless Calendar Integration</li>
-          <li>🤖 AI-Powered Assistant</li>
-          <li>🔐 Secure JWT Authentication</li>
-          <li>📱 Native Android App Support</li>
-          <li>⚡ Smart Offline Detection</li>
-        </ul>
-      </td>
-      <td valign="top" width="50%">
-        <h3 align="center">🛠️ Architecture</h3>
-        <ul>
-          <li>🎨 Frontend: React (Vite) + Modern UI/UX</li>
-          <li>⚙️ Backend: Node.js + Express REST API</li>
-          <li>🗄️ Database: PostgreSQL with Prisma ORM</li>
-          <li>📱 Mobile: Capacitor for Android APK</li>
-          <li>☁️ Deployment: Vercel + Render</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
+| **✨ Features** | **🛠️ Architecture** |
+|-----------------|---------------------|
+| ✅ Intelligent Task & Category Management | 🎨 Frontend: React (Vite) + Modern UI/UX |
+| 📅 Seamless Calendar Integration | ⚙️ Backend: Node.js + Express REST API |
+| 🤖 AI-Powered Assistant | 🗄️ Database: PostgreSQL with Prisma ORM |
+| 🔐 Secure JWT Authentication | 📱 Mobile: Capacitor for Android APK |
+| 📱 Native Android App Support | ☁️ Deployment: Vercel + Render |
+| ⚡ Smart Offline Detection | 🚀 CI/CD Pipeline Integration |
 
 <p align="center">
   <a href="https://30-landing.vercel.app" target="_blank">
@@ -114,50 +65,39 @@
 
 ## 📊 Data Analytics Skills
 
-<div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <td align="center" width="33%">
-        <h4>📌 Data Processing</h4>
-        <p>Data Cleaning & Preprocessing<br/>Exploratory Data Analysis (EDA)<br/>Feature Engineering</p>
-      </td>
-      <td align="center" width="33%">
-        <h4>📈 Data Visualization</h4>
-        <p>Matplotlib & Seaborn<br/>Interactive Dashboards<br/>Statistical Plotting</p>
-      </td>
-      <td align="center" width="33%">
-        <h4>💾 Database & Querying</h4>
-        <p>SQL & Database Optimization<br/>Python (Pandas, NumPy)<br/>ETL Pipelines</p>
-      </td>
-    </tr>
-  </table>
-</div>
+| **📌 Data Processing** | **📈 Data Visualization** | **💾 Database & Querying** |
+|------------------------|--------------------------|---------------------------|
+| Data Cleaning & Preprocessing | Matplotlib & Seaborn | SQL & Database Optimization |
+| Exploratory Data Analysis (EDA) | Interactive Dashboards | Python (Pandas, NumPy) |
+| Feature Engineering | Statistical Plotting | ETL Pipelines |
 
 ---
 
 ## 🛠️ Technology Stack
 
+### 💻 Languages & Frameworks
 <div align="center">
-  <h3>💻 Languages & Frameworks</h3>
   <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,html,css" />
-  
-  <h3>🗄️ Database & Tools</h3>
+</div>
+
+### 🗄️ Database & Tools
+<div align="center">
   <img src="https://skillicons.dev/icons?i=postgres,git,github,vscode" />
-  
-  <h3>📊 Data Science & Analytics</h3>
-  <div>
-    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-    <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  </div>
-  
-  <h3>☁️ Deployment & Mobile</h3>
-  <div>
-    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-    <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
-    <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
-  </div>
+</div>
+
+### 📊 Data Science & Analytics
+<div align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</div>
+
+### ☁️ Deployment & Mobile
+<div align="center">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
 </div>
 
 ---
@@ -186,69 +126,24 @@
 
 ## 💼 What I Bring to the Table
 
-<div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <td align="center" width="33%">
-        <h3>💡 End-to-End Development</h3>
-        <p>Complete application lifecycle from concept to deployment with production-ready code</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>⚙️ Dual Expertise</h3>
-        <p>Strong foundation in both data analytics and full-stack software development</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>🚀 Production Experience</h3>
-        <p>Real-world deployment on Vercel, Render, and mobile platforms with CI/CD</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <h3>📱 Cross-Platform Skills</h3>
-        <p>Web to mobile conversion with Capacitor and native Android capabilities</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>🔥 Builder Mindset</h3>
-        <p>Consistent learning and practical implementation of modern technologies</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>🎯 Problem Solver</h3>
-        <p>Analytical approach to complex technical challenges with optimal solutions</p>
-      </td>
-    </tr>
-  </table>
-</div>
+| **💡 End-to-End Development** | **⚙️ Dual Expertise** | **🚀 Production Experience** |
+|------------------------------|----------------------|----------------------------|
+| Complete application lifecycle from concept to deployment with production-ready code | Strong foundation in both data analytics and full-stack software development | Real-world deployment on Vercel, Render, and mobile platforms with CI/CD |
+
+| **📱 Cross-Platform Skills** | **🔥 Builder Mindset** | **🎯 Problem Solver** |
+|------------------------------|------------------------|---------------------|
+| Web to mobile conversion with Capacitor and native Android capabilities | Consistent learning and practical implementation of modern technologies | Analytical approach to complex technical challenges with optimal solutions |
 
 ---
 
 ## 🎯 Current Mission & Future Goals
 
-<div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <th width="50%">⚡ Current Mission</th>
-      <th width="50%">🚀 Future Goals</th>
-    </tr>
-    <tr>
-      <td valign="top">
-        <ul>
-          <li>🚀 Building impactful real-world projects</li>
-          <li>📊 Improving data analytics and visualization skills</li>
-          <li>📱 Expanding into mobile and AI-based applications</li>
-          <li>💡 Learning by building and solving real problems</li>
-        </ul>
-      </td>
-      <td valign="top">
-        <ul>
-          <li>🤖 Build AI-powered intelligent applications</li>
-          <li>📊 Advanced Data Analytics & Machine Learning Projects</li>
-          <li>🌐 Launch production-level SaaS products</li>
-          <li>💼 Secure top-tier internship opportunities</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
+| **⚡ Current Mission** | **🚀 Future Goals** |
+|-----------------------|---------------------|
+| 🚀 Building impactful real-world projects | 🤖 Build AI-powered intelligent applications |
+| 📊 Improving data analytics and visualization skills | 📊 Advanced Data Analytics & Machine Learning Projects |
+| 📱 Expanding into mobile and AI-based applications | 🌐 Launch production-level SaaS products |
+| 💡 Learning by building and solving real problems | 💼 Secure top-tier internship opportunities |
 
 ---
 
@@ -290,14 +185,3 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&gradientColor1=6C63FF&gradientColor2=FF6584&animation=twinkling" />
 </p>
-
-<!-- 
-  🔥 Professional Profile Features:
-  ✅ Clean, modern design with professional typography
-  ✅ Comprehensive skill showcase with visual indicators
-  ✅ Interactive GitHub stats and activity graphs
-  ✅ Clear value proposition and career roadmap
-  ✅ Mobile-responsive layout for all devices
-  ✅ Optimized for both light and dark GitHub themes
-  ✅ Properly formatted tables for all sections
--->
