@@ -17,19 +17,19 @@
 ## 🧠 Professional Summary
 
 <div align="center">
-  <table>
+  <table border="0" cellpadding="10">
     <tr>
       <td valign="top" width="50%">
         <h3>🎓 Education</h3>
-        <p><strong>Computer Science Engineering Student</strong><br/>
+        <p><strong>🎓 Computer Science Engineering Student</strong><br/>
         <em>Specializing in Full-Stack Development & Data Analytics</em></p>
         
         <h3>📊 Core Competencies</h3>
         <ul>
-          <li>Data Analytics & Visualization</li>
-          <li>Full-Stack Application Development</li>
-          <li>End-to-End Deployment Strategies</li>
-          <li>Mobile App Development (Android)</li>
+          <li>📊 Data Analytics & Visualization</li>
+          <li>⚛️ Full-Stack Application Development</li>
+          <li>🚀 End-to-End Deployment Strategies</li>
+          <li>📱 Mobile App Development (Android)</li>
         </ul>
       </td>
       <td valign="top" width="50%">
@@ -54,21 +54,27 @@
 ## 🔥 Featured Project
 
 <div align="center">
-  <h2>30 - Task Manager App</h2>
+  <h2>🚀 30 - Task Manager App</h2>
   <p><em>A complete productivity ecosystem built from scratch with AI integration</em></p>
   
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+  <div>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+    <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
+  </div>
 </div>
 
+<br/>
+
 <div align="center">
-  <table>
+  <table border="0" width="100%">
     <tr>
-      <td align="left" width="50%">
-        <h3>✨ Features</h3>
+      <td valign="top" width="50%">
+        <h3 align="center">✨ Features</h3>
         <ul>
           <li>✅ Intelligent Task & Category Management</li>
           <li>📅 Seamless Calendar Integration</li>
@@ -78,8 +84,8 @@
           <li>⚡ Smart Offline Detection</li>
         </ul>
       </td>
-      <td align="left" width="50%">
-        <h3>🛠️ Architecture</h3>
+      <td valign="top" width="50%">
+        <h3 align="center">🛠️ Architecture</h3>
         <ul>
           <li>🎨 Frontend: React (Vite) + Modern UI/UX</li>
           <li>⚙️ Backend: Node.js + Express REST API</li>
@@ -106,41 +112,52 @@
 
 ---
 
-## 📊 Technical Expertise
-
-<h3 align="center">Data Analytics Skills</h3>
+## 📊 Data Analytics Skills
 
 <div align="center">
-  <table>
+  <table border="0" width="100%">
     <tr>
       <td align="center" width="33%">
         <h4>📌 Data Processing</h4>
         <p>Data Cleaning & Preprocessing<br/>Exploratory Data Analysis (EDA)<br/>Feature Engineering</p>
       </td>
       <td align="center" width="33%">
-        <h4>📈 Visualization</h4>
+        <h4>📈 Data Visualization</h4>
         <p>Matplotlib & Seaborn<br/>Interactive Dashboards<br/>Statistical Plotting</p>
       </td>
       <td align="center" width="33%">
-        <h4>💾 Data Engineering</h4>
-        <p>SQL & Database Querying<br/>Python (Pandas, NumPy)<br/>ETL Pipelines</p>
+        <h4>💾 Database & Querying</h4>
+        <p>SQL & Database Optimization<br/>Python (Pandas, NumPy)<br/>ETL Pipelines</p>
       </td>
     </tr>
   </table>
 </div>
 
-<h3 align="center">🛠️ Technology Stack</h3>
+---
+
+## 🛠️ Technology Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,postgres,html,css,git,github,vscode" />
-  <br/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" />
-  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" />
+  <h3>💻 Languages & Frameworks</h3>
+  <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,html,css" />
+  
+  <h3>🗄️ Database & Tools</h3>
+  <img src="https://skillicons.dev/icons?i=postgres,git,github,vscode" />
+  
+  <h3>📊 Data Science & Analytics</h3>
+  <div>
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+    <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  </div>
+  
+  <h3>☁️ Deployment & Mobile</h3>
+  <div>
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
+    <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+  </div>
 </div>
 
 ---
@@ -167,36 +184,36 @@
 
 ---
 
-## 💼 Professional Value Proposition
+## 💼 What I Bring to the Table
 
 <div align="center">
-  <table>
+  <table border="0" width="100%">
     <tr>
-      <td align="center">
+      <td align="center" width="33%">
         <h3>💡 End-to-End Development</h3>
-        <p>Complete application lifecycle from concept to deployment</p>
+        <p>Complete application lifecycle from concept to deployment with production-ready code</p>
       </td>
-      <td align="center">
+      <td align="center" width="33%">
         <h3>⚙️ Dual Expertise</h3>
-        <p>Strong foundation in both data analytics and software development</p>
+        <p>Strong foundation in both data analytics and full-stack software development</p>
       </td>
-      <td align="center">
+      <td align="center" width="33%">
         <h3>🚀 Production Experience</h3>
-        <p>Real-world deployment on Vercel, Render, and mobile platforms</p>
+        <p>Real-world deployment on Vercel, Render, and mobile platforms with CI/CD</p>
       </td>
     </tr>
     <tr>
-      <td align="center">
+      <td align="center" width="33%">
         <h3>📱 Cross-Platform Skills</h3>
-        <p>Web to mobile conversion with Capacitor and native Android</p>
+        <p>Web to mobile conversion with Capacitor and native Android capabilities</p>
       </td>
-      <td align="center">
+      <td align="center" width="33%">
         <h3>🔥 Builder Mindset</h3>
-        <p>Consistent learning and practical implementation</p>
+        <p>Consistent learning and practical implementation of modern technologies</p>
       </td>
-      <td align="center">
+      <td align="center" width="33%">
         <h3>🎯 Problem Solver</h3>
-        <p>Analytical approach to complex technical challenges</p>
+        <p>Analytical approach to complex technical challenges with optimal solutions</p>
       </td>
     </tr>
   </table>
@@ -204,29 +221,29 @@
 
 ---
 
-## 🎯 Roadmap & Vision
+## 🎯 Current Mission & Future Goals
 
 <div align="center">
-  <table>
+  <table border="0" width="100%">
     <tr>
-      <th width="50%">⚡ Current Focus</th>
-      <th width="50%">🚀 Future Objectives</th>
+      <th width="50%">⚡ Current Mission</th>
+      <th width="50%">🚀 Future Goals</th>
     </tr>
     <tr>
       <td valign="top">
         <ul>
-          <li>Building impactful real-world projects</li>
-          <li>Advanced data analytics & visualization</li>
-          <li>Mobile and AI-based application development</li>
-          <li>Continuous learning through practical building</li>
+          <li>🚀 Building impactful real-world projects</li>
+          <li>📊 Improving data analytics and visualization skills</li>
+          <li>📱 Expanding into mobile and AI-based applications</li>
+          <li>💡 Learning by building and solving real problems</li>
         </ul>
       </td>
       <td valign="top">
         <ul>
-          <li>AI-powered intelligent applications</li>
-          <li>Production-level SaaS products</li>
-          <li>Advanced data analytics certifications</li>
-          <li>Top-tier internship opportunities</li>
+          <li>🤖 Build AI-powered intelligent applications</li>
+          <li>📊 Advanced Data Analytics & Machine Learning Projects</li>
+          <li>🌐 Launch production-level SaaS products</li>
+          <li>💼 Secure top-tier internship opportunities</li>
         </ul>
       </td>
     </tr>
@@ -235,7 +252,7 @@
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 Let's Connect
 
 <p align="center">
   <strong>💼 Open to internships, collaborations, and exciting opportunities</strong>
@@ -263,6 +280,7 @@
 <p align="center">
   If you find value in my projects, consider:
 </p>
+
 <p align="center">
   🌟 Starring my repositories<br/>
   🤝 Connecting for collaborations<br/>
@@ -281,4 +299,5 @@
   ✅ Clear value proposition and career roadmap
   ✅ Mobile-responsive layout for all devices
   ✅ Optimized for both light and dark GitHub themes
+  ✅ Properly formatted tables for all sections
 -->
