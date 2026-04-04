@@ -1,115 +1,188 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=7C6BF6&center=true&vCenter=true&width=500&lines=Computer+Science+Engineer;Full-Stack+%C2%B7+Data+Analytics+%C2%B7+Mobile;Building+real+products%2C+not+demos." />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=6c5ce7&height=4&section=header&reversal=false" width="100%" />
 </div>
 
 <br/>
 
-# Hemanth Naidu
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Syne&weight=800&size=52&pause=99999&color=A29BFE&center=true&vCenter=true&width=600&height=80&lines=Hemanth+Naidu" />
+    <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=800&size=52&pause=99999&color=6C5CE7&center=true&vCenter=true&width=600&height=80&lines=Hemanth+Naidu" alt="Hemanth Naidu" />
+  </picture>
+</div>
 
-Computer Science Engineering Student specializing in full-stack development and data analytics. I build end-to-end products — from database schema to deployed Android APK — with a focus on clean architecture and real-world usability.
-
-[![Email](https://img.shields.io/badge/Email-hemanthnaidunr%40gmail.com-7c6bf6?style=flat-square&logo=gmail&logoColor=white)](mailto:hemanthnaidunr@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-hemanthnaidu-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemanthnaidu)
-[![GitHub](https://img.shields.io/badge/GitHub-Hemanthnr--alt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt)
-[![Views](https://komarev.com/ghpvc/?username=Hemanthnr-alt&label=views&color=7c6bf6&style=flat-square)](https://github.com/Hemanthnr-alt)
-
----
-
-## Featured Project — 30 · Task Manager
-
-> A complete productivity ecosystem — web app, REST API, PostgreSQL, AI assistant, and native Android APK. Conceived, built, and deployed end-to-end.
-
-[![Demo](https://img.shields.io/badge/Live_Demo-30--landing.vercel.app-7c6bf6?style=flat-square)](https://30-landing.vercel.app)
-[![APK](https://img.shields.io/badge/Android_APK-Download-3DDC84?style=flat-square&logo=android&logoColor=white)](https://30-landing.vercel.app/download)
-[![Source](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt/30-task-manager)
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=13&pause=2000&color=7A7470&center=true&vCenter=true&width=480&lines=Computer+Science+Engineer;Full-Stack+%C2%B7+Data+Analytics+%C2%B7+Mobile;Building+real+products%2C+not+demos." />
+</div>
 
 <br/>
 
+<div align="center">
+  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email-6c5ce7?style=flat-square&logo=gmail&logoColor=white&label=hemanthnaidunr%40gmail.com&labelColor=1a1a2e&color=6c5ce7" /></a>&nbsp;
+  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn-1a1a2e?style=flat-square&logo=linkedin&logoColor=white&label=hemanthnaidu&labelColor=1a1a2e&color=6c5ce7" /></a>&nbsp;
+  <a href="https://github.com/Hemanthnr-alt"><img src="https://img.shields.io/badge/GitHub-1a1a2e?style=flat-square&logo=github&logoColor=white&label=Hemanthnr--alt&labelColor=1a1a2e&color=6c5ce7" /></a>&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Hemanthnr-alt&label=views&color=6c5ce7&style=flat-square&labelColor=1a1a2e" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=6c5ce7&height=1&section=header" width="60%" />
+</div>
+
+<br/>
+
+## `01` — Featured Project
+
 <table>
 <tr>
-<td valign="top" width="50%">
+<td>
 
-**Features**
+### 30 · Task Manager &nbsp; ![Live](https://img.shields.io/badge/●_LIVE-00b894?style=flat-square&labelColor=e0fdf4&color=00b894)
 
-- Task & category management
-- AI-powered assistant
-- Calendar integration
-- JWT authentication
-- Native Android APK via Capacitor
-- Offline detection
-
-</td>
-<td valign="top" width="50%">
-
-**Stack**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=nodedotjs&logoColor=339933)
-![Express](https://img.shields.io/badge/Express-1a1a1a?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a1a?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Prisma](https://img.shields.io/badge/Prisma-1a1a1a?style=flat-square&logo=prisma&logoColor=white)
-![Capacitor](https://img.shields.io/badge/Capacitor-1a1a1a?style=flat-square&logo=capacitor&logoColor=119EFF)
-![Vercel](https://img.shields.io/badge/Vercel-1a1a1a?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-1a1a1a?style=flat-square&logo=render&logoColor=46E3B7)
+A complete productivity ecosystem — web app, REST API, PostgreSQL database, AI assistant, and native Android APK. Conceived, built, and deployed end-to-end.
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-## Skills
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Features**
+
+```
+01  Task & category management
+02  AI-powered assistant
+03  Calendar integration
+04  JWT authentication
+05  Native Android APK
+06  Smart offline detection
+```
+
+</td>
+<td width="50%" valign="top">
+
+**Stack**
+
+![React](https://img.shields.io/badge/React-1a1a2e?style=flat-square&logo=react&logoColor=61dafb)
+![Node.js](https://img.shields.io/badge/Node.js-1a1a2e?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-1a1a2e?style=flat-square&logo=express&logoColor=ffffff)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a2e?style=flat-square&logo=postgresql&logoColor=4169e1)
+![Prisma](https://img.shields.io/badge/Prisma-1a1a2e?style=flat-square&logo=prisma&logoColor=ffffff)
+![Capacitor](https://img.shields.io/badge/Capacitor-1a1a2e?style=flat-square&logo=capacitor&logoColor=119eff)
+![Vercel](https://img.shields.io/badge/Vercel-1a1a2e?style=flat-square&logo=vercel&logoColor=ffffff)
+![Render](https://img.shields.io/badge/Render-1a1a2e?style=flat-square&logo=render&logoColor=46e3b7)
+
+**Architecture**
+
+```
+React (Vite) → Express REST API → PostgreSQL
+Capacitor    → Android APK
+Vercel (web) · Render (API)
+```
+
+</td>
+</tr>
+</table>
+
+[![↗ Live Demo](https://img.shields.io/badge/↗_Live_Demo-6c5ce7?style=for-the-badge)](https://30-landing.vercel.app)
+[![⬇ Android APK](https://img.shields.io/badge/⬇_Android_APK-1a1a2e?style=for-the-badge&logo=android&logoColor=00b894)](https://30-landing.vercel.app/download)
+[![{} Source](https://img.shields.io/badge/{}_Source-1a1a2e?style=for-the-badge&logo=github)](https://github.com/Hemanthnr-alt/30-task-manager)
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=6c5ce7&height=1&section=header" width="60%" />
+</div>
+
+<br/>
+
+## `02` — Skills
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 **Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-1a1a1a?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-1a1a1a?style=flat-square&logo=css3&logoColor=1572B6)
+
+![React](https://img.shields.io/badge/React-1a1a2e?style=flat-square&logo=react&logoColor=61dafb)
+![JavaScript](https://img.shields.io/badge/JS-1a1a2e?style=flat-square&logo=javascript&logoColor=f7df1e)
+![HTML5](https://img.shields.io/badge/HTML5-1a1a2e?style=flat-square&logo=html5&logoColor=e34f26)
+![CSS3](https://img.shields.io/badge/CSS3-1a1a2e?style=flat-square&logo=css3&logoColor=1572b6)
+![Vite](https://img.shields.io/badge/Vite-1a1a2e?style=flat-square&logo=vite&logoColor=646cff)
+
+</td>
+<td width="33%" valign="top">
 
 **Backend & Database**
-![Node.js](https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=nodedotjs&logoColor=339933)
-![Express](https://img.shields.io/badge/Express-1a1a1a?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a1a?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Prisma](https://img.shields.io/badge/Prisma-1a1a1a?style=flat-square&logo=prisma&logoColor=white)
 
-**Data & Python**
-![Python](https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=3776AB)
-![Pandas](https://img.shields.io/badge/Pandas-1a1a1a?style=flat-square&logo=pandas&logoColor=150458)
-![NumPy](https://img.shields.io/badge/NumPy-1a1a1a?style=flat-square&logo=numpy&logoColor=013243)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-1a1a1a?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-1a1a2e?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-1a1a2e?style=flat-square&logo=express&logoColor=ffffff)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a2e?style=flat-square&logo=postgresql&logoColor=4169e1)
+![Prisma](https://img.shields.io/badge/Prisma-1a1a2e?style=flat-square&logo=prisma&logoColor=ffffff)
+![Git](https://img.shields.io/badge/Git-1a1a2e?style=flat-square&logo=git&logoColor=f05032)
 
-**Deployment & Mobile**
-![Vercel](https://img.shields.io/badge/Vercel-1a1a1a?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-1a1a1a?style=flat-square&logo=render&logoColor=46E3B7)
-![Capacitor](https://img.shields.io/badge/Capacitor-1a1a1a?style=flat-square&logo=capacitor&logoColor=119EFF)
-![Android](https://img.shields.io/badge/Android-1a1a1a?style=flat-square&logo=android&logoColor=3DDC84)
-![Git](https://img.shields.io/badge/Git-1a1a1a?style=flat-square&logo=git&logoColor=F05032)
+</td>
+<td width="33%" valign="top">
 
----
+**Data & Mobile**
 
-## Stats
+![Python](https://img.shields.io/badge/Python-1a1a2e?style=flat-square&logo=python&logoColor=3776ab)
+![Pandas](https://img.shields.io/badge/Pandas-1a1a2e?style=flat-square&logo=pandas&logoColor=150458)
+![NumPy](https://img.shields.io/badge/NumPy-1a1a2e?style=flat-square&logo=numpy&logoColor=013243)
+![Capacitor](https://img.shields.io/badge/Capacitor-1a1a2e?style=flat-square&logo=capacitor&logoColor=119eff)
+![Android](https://img.shields.io/badge/Android-1a1a2e?style=flat-square&logo=android&logoColor=3ddc84)
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <div align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&hide_border=true&bg_color=0d0d0f&title_color=7c6bf6&icon_color=7c6bf6&text_color=6b6b8a&include_all_commits=true&rank_icon=github" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=6c5ce7&height=1&section=header" width="60%" />
+</div>
+
+<br/>
+
+## `03` — GitHub Stats
+
+<div align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&hide_border=true&bg_color=0f0e17&title_color=6c5ce7&icon_color=6c5ce7&text_color=7a7470&include_all_commits=true&rank_icon=github&ring_color=6c5ce7" />
   &nbsp;
-  <img height="155" src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&hide_border=true&background=0d0d0f&stroke=1c1c24&ring=7c6bf6&fire=f0997b&currStreakNum=ffffff&sideNums=6b6b8a&dates=3d3d55&currStreakLabel=7c6bf6&sideLabels=3d3d55" />
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&hide_border=true&background=0f0e17&stroke=1e1b3a&ring=6c5ce7&fire=a29bfe&currStreakNum=ffffff&sideNums=7a7470&dates=3a3632&currStreakLabel=6c5ce7&sideLabels=3a3632" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&hide_border=true&bg_color=0d0d0f&color=7c6bf6&line=7c6bf6&point=f0997b&area=true&area_color=7c6bf6" width="94%" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&hide_border=true&bg_color=0f0e17&color=6c5ce7&line=6c5ce7&point=a29bfe&area=true&area_color=6c5ce7" width="92%" />
 </div>
 
----
+<br/>
 
-## What I'm working toward
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=6c5ce7&height=1&section=header" width="60%" />
+</div>
+
+<br/>
+
+## `04` — Mission
 
 ```
-→ AI-powered applications at scale
-→ Advanced data analytics & machine learning
-→ Production-level SaaS products
-→ Top-tier engineering internship
+→  AI-powered applications at scale
+→  Advanced data analytics & machine learning
+→  Production-level SaaS products
+→  Top-tier engineering internship
 ```
 
----
+<br/>
 
-<sub>Open to internships, collaborations, and interesting conversations. &nbsp;·&nbsp; Built with intention.</sub>
+<div align="center">
+  <sub>Open to internships, collaborations, and interesting conversations.</sub>
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=6c5ce7&height=4&section=footer" width="100%" />
+</div>
