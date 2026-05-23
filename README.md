@@ -1,52 +1,39 @@
-<!--
-  ██╗  ██╗███████╗███╗   ███╗ █████╗ ███╗   ██╗████████╗██╗  ██╗
-  ██║  ██║██╔════╝████╗ ████║██╔══██╗████╗  ██║╚══██╔══╝██║  ██║
-  ███████║█████╗  ██╔████╔██║███████║██╔██╗ ██║   ██║   ███████║
-  ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══██║██║╚██╗██║   ██║   ██╔══██║
-  ██║  ██║███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║   ██║  ██║
-  ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:111111&height=1&section=header" width="100%"/>
+</div>
 
-  naidu@github:~$ cat README.md
--->
+<br/>
+
+<div align="center">
+  <picture>
+    <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=300&size=11&duration=1&pause=99999&color=666666&center=true&vCenter=true&width=200&lines=BENGALURU+%C2%B7+INDIA+%C2%B7+2025" alt="location"/>
+  </picture>
+</div>
+
+<br/>
 
 <div align="center">
 
-```
-naidu@dev:~$ whoami
-```
+<picture>
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=72&duration=1&pause=99999&color=0A0A0A&center=true&vCenter=true&width=700&height=90&lines=Hemanth+Naidu" alt="Hemanth Naidu"/>
+</picture>
 
 </div>
 
 <div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   ██╗  ██╗███████╗███╗   ███╗ █████╗ ███╗   ██╗████████╗██╗  ██╗║
-║   ██║  ██║██╔════╝████╗ ████║██╔══██╗████╗  ██║╚══██╔══╝██║  ██║║
-║   ███████║█████╗  ██╔████╔██║███████║██╔██╗ ██║   ██║   ███████║║
-║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══██║██║╚██╗██║   ██║   ██╔══██║║
-║   ██║  ██║███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║   ██║  ██║║
-║   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝║
-║                                                                  ║
-║           N A I D U  ·  Product Builder  ·  Bengaluru           ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
+<picture>
+  <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=300&size=15&duration=1&pause=99999&color=444444&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%C2%B7+Android+Engineer+%C2%B7+Data+Analyst" alt="role"/>
+</picture>
 </div>
+
+<br/><br/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=13&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=600&lines=naidu%40dev%3A~%24+git+log+--oneline+--all;%E2%86%92+3+Android+apps+shipped+to+production+users;%E2%86%92+Full-stack+web+%2B+api+%2B+mobile+ecosystem;naidu%40dev%3A~%24+cat+status.txt;%E2%86%92+Open+to+internships+%F0%9F%9F%A2+%7C+DM+me!)](https://github.com/Hemanthnr-alt)
-
-</div>
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemanthnaidunr@gmail.com)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemanthnaidu)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt)&nbsp;
-[![Profile Views](https://komarev.com/ghpvc/?username=Hemanthnr-alt&style=for-the-badge&color=00ff9c&label=VISITORS)](https://github.com/Hemanthnr-alt)
+[![Gmail](https://img.shields.io/badge/Email-0A0A0A?style=flat-square&logo=gmail&logoColor=white&label=)](mailto:hemanthnaidunr@gmail.com)&ensp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0A?style=flat-square&logo=linkedin&logoColor=white&label=)](https://linkedin.com/in/hemanthnaidu)&ensp;
+[![GitHub](https://img.shields.io/badge/GitHub-0A0A0A?style=flat-square&logo=github&logoColor=white&label=)](https://github.com/Hemanthnr-alt)&ensp;
+[![Views](https://komarev.com/ghpvc/?username=Hemanthnr-alt&style=flat-square&color=0A0A0A&label=)](https://github.com/Hemanthnr-alt)
 
 </div>
 
@@ -54,82 +41,165 @@ naidu@dev:~$ whoami
 
 ---
 
-<div align="center">
-
-```bash
-naidu@dev:~$ cat /etc/profile
-```
-
-</div>
-
-```json
-{
-  "name"      : "Hemanth Naidu",
-  "role"      : "CSE Student → Product Builder",
-  "location"  : "Bengaluru, Karnataka 🇮🇳",
-  "stack"     : ["React", "Node.js", "PostgreSQL", "Python", "Capacitor"],
-  "currently" : "Building the 30 Ecosystem — 3 apps · real users · real impact",
-  "approach"  : "idea → build → ship → validate → iterate",
-  "open_to"   : "Internships & Collaborations  ←  ping me 🟢"
-}
-```
-
 <br/>
 
----
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50%" valign="top">
 
-<div align="center">
+**About**
 
-```bash
-naidu@dev:~$ ls -la ~/projects/30-ecosystem/
+I build things that ship — not prototypes, not mockups. Real products with real users, real feedback loops, and real iteration cycles.
+
+Currently architecting the **30 Ecosystem**: three cross-platform Android apps covering fitness, nutrition, and productivity — unified by a single backend and shared design language.
+
+I believe the gap between "learning to code" and "building for users" is where most developers stall. I chose to close that gap early.
+
+</td>
+<td width="8%"></td>
+<td width="42%" valign="top">
+
+**At a glance**
+
+```
+Apps shipped      3 Android · Live
+Architecture      Offline-first
+Access            Zero paywalls
+Stack             React · Node · Postgres
+                  Capacitor · Python
+Status            Open to internships ●
 ```
 
-</div>
-
-<div align="center">
-
-<table>
-<thead>
-<tr>
-<th align="left"><code>type</code></th>
-<th align="left">app</th>
-<th align="left">description</th>
-<th align="left">core features</th>
-<th align="left">status</th>
+</td>
 </tr>
-</thead>
-<tbody>
-<tr>
-<td><code>💪</code></td>
-<td><strong>30-fitness/</strong></td>
-<td>Workout Trainer</td>
-<td>4 programs · Offline-first · Streaks · Analytics</td>
-<td><img src="https://img.shields.io/badge/LIVE-22c55e?style=flat-square"/></td>
-</tr>
-<tr>
-<td><code>🍎</code></td>
-<td><strong>30-calz/</strong></td>
-<td>Calorie Tracker</td>
-<td>TDEE · Macros · Hydration · 28-day heatmap</td>
-<td><img src="https://img.shields.io/badge/LIVE-22c55e?style=flat-square"/></td>
-</tr>
-<tr>
-<td><code>✅</code></td>
-<td><strong>30-todo/</strong></td>
-<td>Productivity App</td>
-<td>Tasks · Calendar · Habits · AI-assisted</td>
-<td><img src="https://img.shields.io/badge/LIVE-22c55e?style=flat-square"/></td>
-</tr>
-</tbody>
 </table>
 
-</div>
+<br/>
+
+---
+
+<br/>
+
+## Work
+
+<br/>
+
+<table width="100%" border="0">
+<tr>
+
+<td width="33%" valign="top" align="center">
+
+<br/>
+
+**`01`**
+
+### 💪 30 Fitness
+
+*Workout Trainer*
+
+<br/>
+
+Four structured training programs built for consistency. Streak tracking, achievement system, and progress analytics — all running offline-first.
+
+<br/>
+
+![React](https://img.shields.io/badge/React-f0f0f0?style=flat-square&logo=react&logoColor=0A0A0A)
+![Node.js](https://img.shields.io/badge/Node.js-f0f0f0?style=flat-square&logo=nodedotjs&logoColor=0A0A0A)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-f0f0f0?style=flat-square&logo=postgresql&logoColor=0A0A0A)
+![Capacitor](https://img.shields.io/badge/Capacitor-f0f0f0?style=flat-square&logo=capacitor&logoColor=0A0A0A)
+
+<br/>
+
+![Live](https://img.shields.io/badge/●_LIVE-22c55e?style=flat-square&labelColor=22c55e&color=f0fff4&label=)
+
+</td>
+
+<td width="33%" valign="top" align="center">
+
+<br/>
+
+**`02`**
+
+### 🍎 30 Calz
+
+*Calorie Tracker*
+
+<br/>
+
+TDEE calculator, food diary, macro and hydration tracking. A 28-day heatmap turns daily logs into visible momentum.
+
+<br/>
+
+![React](https://img.shields.io/badge/React-f0f0f0?style=flat-square&logo=react&logoColor=0A0A0A)
+![Node.js](https://img.shields.io/badge/Node.js-f0f0f0?style=flat-square&logo=nodedotjs&logoColor=0A0A0A)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-f0f0f0?style=flat-square&logo=postgresql&logoColor=0A0A0A)
+![Capacitor](https://img.shields.io/badge/Capacitor-f0f0f0?style=flat-square&logo=capacitor&logoColor=0A0A0A)
+
+<br/>
+
+![Live](https://img.shields.io/badge/●_LIVE-22c55e?style=flat-square&labelColor=22c55e&color=f0fff4&label=)
+
+</td>
+
+<td width="33%" valign="top" align="center">
+
+<br/>
+
+**`03`**
+
+### ✅ 30 Todo
+
+*Productivity App*
+
+<br/>
+
+Smart task management, calendar-based planning, and habit streak tracking — with AI-assisted workflows woven in from the ground up.
+
+<br/>
+
+![React](https://img.shields.io/badge/React-f0f0f0?style=flat-square&logo=react&logoColor=0A0A0A)
+![Node.js](https://img.shields.io/badge/Node.js-f0f0f0?style=flat-square&logo=nodedotjs&logoColor=0A0A0A)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-f0f0f0?style=flat-square&logo=postgresql&logoColor=0A0A0A)
+![Capacitor](https://img.shields.io/badge/Capacitor-f0f0f0?style=flat-square&logo=capacitor&logoColor=0A0A0A)
+
+<br/>
+
+![Live](https://img.shields.io/badge/●_LIVE-22c55e?style=flat-square&labelColor=22c55e&color=f0fff4&label=)
+
+</td>
+
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## Stack
+
+<br/>
 
 <div align="center">
 
-```
-3 directories  ·  React + Node.js + PostgreSQL + Capacitor  ·  0 paywalls  ·  real users
-```
+![Python](https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-0A0A0A?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
+![React](https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=white)&nbsp;
+![Node.js](https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
+![Express](https://img.shields.io/badge/Express-0A0A0A?style=for-the-badge&logo=express&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A0A?style=for-the-badge&logo=postgresql&logoColor=white)&nbsp;
+![Prisma](https://img.shields.io/badge/Prisma-0A0A0A?style=for-the-badge&logo=prisma&logoColor=white)&nbsp;
+![Android](https://img.shields.io/badge/Android-0A0A0A?style=for-the-badge&logo=android&logoColor=white)&nbsp;
+![Capacitor](https://img.shields.io/badge/Capacitor-0A0A0A?style=for-the-badge&logo=capacitor&logoColor=white)&nbsp;
+![Vite](https://img.shields.io/badge/Vite-0A0A0A?style=for-the-badge&logo=vite&logoColor=white)
+
+![Pandas](https://img.shields.io/badge/Pandas-0A0A0A?style=for-the-badge&logo=pandas&logoColor=white)&nbsp;
+![NumPy](https://img.shields.io/badge/NumPy-0A0A0A?style=for-the-badge&logo=numpy&logoColor=white)&nbsp;
+![Vercel](https://img.shields.io/badge/Vercel-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)&nbsp;
+![Render](https://img.shields.io/badge/Render-0A0A0A?style=for-the-badge&logo=render&logoColor=white)&nbsp;
+![Git](https://img.shields.io/badge/Git-0A0A0A?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
@@ -137,141 +207,82 @@ naidu@dev:~$ ls -la ~/projects/30-ecosystem/
 
 ---
 
-<div align="center">
+<br/>
 
-```bash
-naidu@dev:~$ cat tech-stack.sh
-```
-
-</div>
-
-```bash
-#!/bin/bash
-
-# ── languages ─────────────────────────────────────────────────────
-LANGUAGES=( Python JavaScript )
-
-# ── frontend ──────────────────────────────────────────────────────
-FRONTEND=( React HTML5 CSS3 Vite )
-
-# ── backend ───────────────────────────────────────────────────────
-BACKEND=( "Node.js" Express PostgreSQL Prisma )
-
-# ── mobile & deploy ───────────────────────────────────────────────
-MOBILE=( Android Capacitor )
-DEPLOY=( Vercel Render )
-
-# ── data science ──────────────────────────────────────────────────
-DATA=( Pandas NumPy Matplotlib )
-
-# ── tools ─────────────────────────────────────────────────────────
-TOOLS=( Git GitHub "VS Code" )
-
-echo "Stack loaded. Ready to ship. 🚀"
-```
+## Stats
 
 <br/>
 
----
-
 <div align="center">
 
-```bash
-naidu@dev:~$ git log --graph --pretty=format:'%h -%d %s (%cr)' --abbrev-commit
-```
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&hide_border=true&bg_color=ffffff&title_color=0A0A0A&icon_color=0A0A0A&text_color=444444&include_all_commits=true&count_private=true&hide_title=true&border_radius=0"/>
+&nbsp;&nbsp;
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&hide_border=true&background=ffffff&ring=0A0A0A&fire=0A0A0A&currStreakLabel=0A0A0A&sideLabels=888888&dates=aaaaaa&stroke=f0f0f0&border_radius=0"/>
 
 </div>
 
 <div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff9c&icon_color=00bfff&text_color=8b8fa8&include_all_commits=true&count_private=true&rank_icon=github&border_radius=10"/>
-&nbsp;
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&hide_border=true&background=0d1117&ring=00ff9c&fire=00bfff&currStreakLabel=00ff9c&sideLabels=8b8fa8&dates=555566&stroke=1e2030&border_radius=10"/>
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&bg_color=0d1117&color=00ff9c&line=00bfff&point=ffffff&hide_border=true&area=true&area_color=00ff9c15&border_radius=10" width="95%"/>
-</div>
-
-<div align="center">
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanthnr-alt&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff9c&text_color=8b8fa8&langs_count=8&border_radius=10"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&bg_color=ffffff&color=aaaaaa&line=0A0A0A&point=0A0A0A&hide_border=true&area=false&border_radius=0" width="92%"/>
 </div>
 
 <br/>
 
 ---
 
-<div align="center">
+<br/>
 
-```bash
-naidu@dev:~$ cat roadmap.txt
-```
+## Next
 
-</div>
+<br/>
 
-```
-SHIPPED ─────────────────────────────────────────── [████████████ 100%]
+<table width="100%">
+<tr>
+<td width="50%">
 
-  [✓]  3 Android apps in production  ·  live  ·  real users
-  [✓]  Full-stack ecosystem          ·  web + api + db + mobile
-  [✓]  Offline-first architecture across all 3 apps
-  [✓]  Zero paywalls                 ·  all features free
+**Shipped**
 
-IN PROGRESS ─────────────────────────────────────── [██████░░░░░░  50%]
+- [x] &nbsp; 3 Android apps — in production
+- [x] &nbsp; Full-stack ecosystem across web, API, DB, mobile
+- [x] &nbsp; Offline-first architecture on all three apps
+- [x] &nbsp; Zero paywalls, all features free for real users
 
-  [~]  AI-powered features & intelligent applications     ━━━━━━━━▶
-  [~]  Data Analytics & Machine Learning projects         ━━━━━━━━▶
-  [~]  Production-level SaaS launch                       ━━━━━━▶
-  [~]  Top-tier tech internship                           ━━━━━━▶
+</td>
+<td width="50%">
 
-naidu@dev:~$ █
-```
+**In progress**
+
+- [ ] &nbsp; AI-powered features & intelligent applications
+- [ ] &nbsp; Data Analytics & Machine Learning projects
+- [ ] &nbsp; Production-level SaaS launch
+- [ ] &nbsp; Top-tier tech internship
+
+</td>
+</tr>
+</table>
 
 <br/>
 
 ---
 
+<br/>
+
 <div align="center">
 
-```bash
-naidu@dev:~$ ./connect.sh
-```
+*"Building at the intersection of productivity, fitness, and data —*
+*one commit at a time."*
 
-```
-Initializing handshake protocols...
-```
+<br/>
 
-[![Gmail](https://img.shields.io/badge/→_hemanthnaidunr@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemanthnaidunr@gmail.com)
-
-[![LinkedIn](https://img.shields.io/badge/→_linkedin.com%2Fin%2Fhemanthnaidu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemanthnaidu)
-
-[![GitHub](https://img.shields.io/badge/→_github.com%2FHemanthnr--alt-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt)
-
-```
-Connection established. Let's build something. ✓
-```
+[![Email](https://img.shields.io/badge/hemanthnaidunr@gmail.com-0A0A0A?style=flat-square)](mailto:hemanthnaidunr@gmail.com)&ensp;
+[![LinkedIn](https://img.shields.io/badge/linkedin.com%2Fin%2Fhemanthnaidu-0A0A0A?style=flat-square)](https://linkedin.com/in/hemanthnaidu)&ensp;
+[![GitHub](https://img.shields.io/badge/github.com%2FHemanthnr--alt-0A0A0A?style=flat-square)](https://github.com/Hemanthnr-alt)
 
 </div>
 
 <br/>
 
----
-
 <div align="center">
-
-```
-╔─────────────────────────────────────────────────────────────────────╗
-│                                                                     │
-│   "Building at the intersection of productivity, fitness & data —   │
-│    one commit at a time."                                           │
-│                                                      — Hemanth      │
-╚─────────────────────────────────────────────────────────────────────╝
-```
-
-```bash
-naidu@dev:~$ exit
-# session ended · thanks for visiting · see you in the commits 👋
-```
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0A0A0A&height=3&section=footer" width="40%"/>
 </div>
 
-<!--- Made with ❤️  by Hemanth Naidu · github.com/Hemanthnr-alt --->
+<br/>
