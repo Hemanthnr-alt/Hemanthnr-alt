@@ -1,85 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="100%">
   <defs>
-    <!-- Cosmic Background -->
-    <linearGradient id="foot-cosmic" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#010204" />
-      <stop offset="60%" stop-color="#04060c" />
-      <stop offset="100%" stop-color="#090618" />
+    <!-- PCB Substrate -->
+    <linearGradient id="foot-pcb" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#04060a" />
+      <stop offset="50%" stop-color="#070a12" />
+      <stop offset="100%" stop-color="#04070d" />
     </linearGradient>
 
-    <!-- Inverted Eclipse Corona -->
-    <radialGradient id="foot-eclipse-core" cx="50%" cy="0%" r="65%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="20%" stop-color="#7000ff" stop-opacity="0.55" />
-      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.2" />
-      <stop offset="80%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <linearGradient id="foot-ring-glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
-      <stop offset="25%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#7000ff" stop-opacity="0" />
+    <!-- Gold Accent -->
+    <linearGradient id="foot-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="30%" stop-color="#fbbf24" />
+      <stop offset="70%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#d97706" />
     </linearGradient>
 
-    <filter id="foot-lens" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="b1" />
-      <feGaussianBlur stdDeviation="2" result="b2" />
+    <linearGradient id="foot-chip-surface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e1422" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <pattern id="foot-pcb-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.25" />
+    </pattern>
+
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="gb" />
       <feMerge>
-        <feMergeNode in="b1" />
-        <feMergeNode in="b2" />
+        <feMergeNode in="gb" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
   </defs>
 
   <style>
-    @keyframes foot-twinkle { 0%, 100% { opacity: 0.85; } 50% { opacity: 0.2; } }
-    @keyframes pulse-arc { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.7; } }
-    .twinkle { animation: foot-twinkle 2.8s infinite ease-in-out; }
-    .arc { animation: pulse-arc 4s infinite ease-in-out; }
+    @keyframes pulse-gold { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.35; } }
+    .gold-pulse { animation: pulse-gold 2.4s infinite ease-in-out; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
   </style>
 
-  <!-- Deep Canvas -->
-  <rect width="1200" height="180" fill="url(#foot-cosmic)" />
+  <!-- PCB Base -->
+  <rect width="1200" height="180" fill="url(#foot-pcb)" />
+  <rect width="1200" height="180" fill="url(#foot-pcb-grid)" />
 
-  <!-- Inverted Corona Bloom at Top -->
-  <ellipse cx="600" cy="0" rx="550" ry="120" fill="url(#foot-eclipse-core)" class="arc" />
+  <!-- Top Inbound Circuit Traces from Motherboard -->
+  <g stroke="#00f2fe" stroke-width="1.4" stroke-opacity="0.5" fill="none" stroke-linejoin="round">
+    <path d="M 120 0 L 120 30 L 180 60 L 280 60" />
+    <path d="M 200 0 L 200 40 L 250 60 L 280 60" />
+    <path d="M 1080 0 L 1080 30 L 1020 60 L 920 60" />
+    <path d="M 1000 0 L 1000 40 L 950 60 L 920 60" />
+  </g>
 
-  <!-- Inverted Lens Flare Arc at Top -->
-  <path d="M 50 0 C 250 110, 950 110, 1150 0" fill="none" stroke="url(#foot-ring-glow)" stroke-width="3" filter="url(#foot-lens)" />
-  <path d="M 200 0 C 380 80, 820 80, 1000 0" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.9" filter="url(#foot-lens)" />
+  <!-- Gold Vias on Traces -->
+  <g fill="#ffd700">
+    <circle cx="180" cy="60" r="2.5" />
+    <circle cx="250" cy="60" r="2.5" />
+    <circle cx="1020" cy="60" r="2.5" />
+    <circle cx="950" cy="60" r="2.5" />
+  </g>
 
-  <!-- Twinkling Deep Stars -->
-  <circle cx="150" cy="110" r="1.5" fill="#00f2fe" class="twinkle" />
-  <circle cx="320" cy="140" r="1.2" fill="#c084fc" class="twinkle" />
-  <circle cx="880" cy="120" r="1.6" fill="#00f2fe" class="twinkle" />
-  <circle cx="1060" cy="100" r="1.4" fill="#38bdf8" class="twinkle" />
+  <!-- Central Southbridge Silicon Chip -->
+  <g transform="translate(180, 42)">
+    <!-- Package Carrier with Gold Pin Trim -->
+    <rect width="840" height="96" rx="12" fill="url(#foot-chip-surface)" stroke="url(#foot-gold)" stroke-width="2" />
 
-  <!-- Center Doctrine Monolith Box -->
-  <g transform="translate(160, 75)">
-    <rect width="880" height="48" rx="14" fill="#060912" fill-opacity="0.9" stroke="#1e293b" stroke-width="1.4" />
-    
-    <!-- Glowing Beacon -->
-    <circle cx="28" cy="24" r="4.5" fill="#00f2fe" class="twinkle" />
-    
-    <!-- Doctrine Content -->
-    <text x="48" y="29" class="mono" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="1">
+    <!-- Gold Pin Connectors on Top Edge -->
+    <g fill="url(#foot-gold)">
+      <rect x="60" y="-5" width="12" height="6" rx="1" />
+      <rect x="90" y="-5" width="12" height="6" rx="1" />
+      <rect x="120" y="-5" width="12" height="6" rx="1" />
+      <rect x="700" y="-5" width="12" height="6" rx="1" />
+      <rect x="730" y="-5" width="12" height="6" rx="1" />
+      <rect x="760" y="-5" width="12" height="6" rx="1" />
+    </g>
+
+    <!-- Left Hardware Notch -->
+    <circle cx="28" cy="48" r="5" fill="#ffd700" class="gold-pulse" filter="url(#gold-glow)" />
+
+    <!-- Main Doctrine Statement -->
+    <text x="52" y="44" class="mono" font-size="14" font-weight="700" fill="#f8fafc" letter-spacing="1">
       &gt;_ &quot;Master the 1% standard &#8212; building at the intersection of productivity, systems &amp; performance.&quot;
     </text>
+    <text x="52" y="70" class="mono" font-size="11" fill="#64748b" letter-spacing="1.5">
+      HEMANTH NAIDU // LOCAL-FIRST SOVEREIGNTY &#8226; HARDWARE-LEVEL DISCIPLINE
+    </text>
 
-    <!-- Right Locked In Chip -->
-    <g transform="translate(735, 10)">
-      <rect width="130" height="28" rx="14" fill="#0c1e14" stroke="#10b981" stroke-width="1" />
-      <circle cx="16" cy="14" r="4" fill="#10b981" />
-      <text x="28" y="18" class="mono" font-size="10.5" font-weight="800" fill="#34d399">0xLOCKED_IN</text>
+    <!-- Right Live Status Stamp -->
+    <g transform="translate(680, 32)">
+      <rect width="136" height="30" rx="15" fill="#0c1e14" stroke="#10b981" stroke-width="1.2" />
+      <circle cx="18" cy="15" r="4" fill="#10b981" />
+      <text x="30" y="19" class="mono" font-size="10.5" font-weight="800" fill="#34d399">0xLOCKED_IN</text>
     </g>
   </g>
 
-  <!-- Bottom Coordinates Decal -->
-  <text x="600" y="152" text-anchor="middle" class="mono" font-size="9.5" fill="#475569" letter-spacing="2.5">
-    HEMANTH NAIDU &#8226; LOCAL-FIRST ARCHITECTURE &#8226; 0% TELEMETRY &#8226; PERMANENTLY SOVEREIGN
+  <!-- Bottom Hardware Decal -->
+  <text x="600" y="165" text-anchor="middle" class="mono" font-size="9.5" fill="#475569" letter-spacing="2">
+    BUS_INTERCONNECT: 256-BIT &#8226; PROTOCOL: DETERMINISTIC &#8226; BANGALORE_IN &#8226; PERSISTENT EXECUTION
   </text>
 </svg>
