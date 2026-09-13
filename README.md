@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-<!-- ==================== QUICK ACTION NAVIGATION (CLEAN & NO UNDERLINE ARTIFACTS) ==================== -->
+<!-- ==================== QUICK ACTION NAVIGATION ==================== -->
 <p align="center">
   <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Official_Site-161b22?style=for-the-badge&logo=googlechrome&logoColor=00F2FE&labelColor=0d1117" /></a>
   <a href="https://lock-in-eta-nine.vercel.app/lock-in.apk"><img src="https://img.shields.io/badge/Download_Lock_In_APK-161b22?style=for-the-badge&logo=android&logoColor=22c55e&labelColor=0d1117" /></a>
@@ -35,6 +35,16 @@
 
 ---
 
+## 🛰️ System Telemetry & Hardware Directives
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/telemetry-card.svg" width="100%" alt="Hemanth Naidu System Telemetry & Hardware Directives" />
+
+</div>
+
+---
+
 ## 🛠️ Technology Arsenal
 
 <div align="center">
@@ -47,7 +57,7 @@
 
 <br/><br/>
 
-<!-- BESPOKE VECTOR TECH STACK MATRIX (REPLACED GREY TABLE) -->
+<!-- BESPOKE VECTOR TECH STACK MATRIX -->
 <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/tech-stack-card.svg" width="100%" alt="Hemanth Naidu Technology Arsenal & Skills Matrix" />
 
 </div>
@@ -75,20 +85,32 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/today-agenda-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
+      <a href="https://lock-in-eta-nine.vercel.app/">
+        <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/today-agenda-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/>
+      </a>
+      <br/><br/>
       <sub><b>📅 Today Agenda</b></sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/habits-overview-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
+      <a href="https://lock-in-eta-nine.vercel.app/">
+        <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/habits-overview-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/>
+      </a>
+      <br/><br/>
       <sub><b>🔥 Atomic Habits</b></sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/calories-nutrition-macros-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
+      <a href="https://lock-in-eta-nine.vercel.app/">
+        <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/calories-nutrition-macros-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/>
+      </a>
+      <br/><br/>
       <sub><b>🥗 43-Nutrient Engine</b></sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/timer-intervals-soundscapes-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
-      <sub><b>⏱️ Focus & Soundscapes</b></sub>
+      <a href="https://lock-in-eta-nine.vercel.app/">
+        <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/timer-intervals-soundscapes-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/>
+      </a>
+      <br/><br/>
+      <sub><b>⏱️ Focus &amp; Soundscapes</b></sub>
     </td>
   </tr>
 </table>
@@ -170,6 +192,7 @@ I am actively open to **Software Engineering Roles**, **Full-Stack / Mobile Engi
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f2fe,30:6c5ce7,70:8a2be2,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+<!-- BESPOKE CYBER FOOTER WAVE -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/footer-wave.svg" width="100%" alt="Hemanth Naidu Cyber Footer Wave" />
 
 </div>
