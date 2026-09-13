@@ -1,65 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="100%" height="100%">
   <defs>
     <!-- Background Gradients -->
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050608" />
-      <stop offset="30%" stop-color="#090d15" />
-      <stop offset="70%" stop-color="#110d28" />
-      <stop offset="100%" stop-color="#061220" />
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040508" />
+      <stop offset="25%" stop-color="#070b14" />
+      <stop offset="65%" stop-color="#100b2b" />
+      <stop offset="100%" stop-color="#051222" />
     </linearGradient>
 
-    <!-- Aurora Glows -->
-    <radialGradient id="glow-violet" cx="25%" cy="30%" r="55%">
-      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.42" />
+    <!-- Aurora Radial Blooms -->
+    <radialGradient id="bloom-violet" cx="22%" cy="28%" r="60%">
+      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.48" />
+      <stop offset="60%" stop-color="#7928ca" stop-opacity="0.12" />
       <stop offset="100%" stop-color="#7928ca" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glow-cyan" cx="80%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.36" />
+    <radialGradient id="bloom-cyan" cx="82%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.42" />
+      <stop offset="60%" stop-color="#00f2fe" stop-opacity="0.1" />
       <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glow-magenta" cx="50%" cy="85%" r="50%">
-      <stop offset="0%" stop-color="#ff0080" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#ff0080" stop-opacity="0" />
+    <radialGradient id="bloom-magenta" cx="50%" cy="85%" r="55%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bloom-emerald" cx="95%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Text Gradients -->
-    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Typography Linear Gradients -->
+    <linearGradient id="hero-name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="40%" stop-color="#f8fafc" />
-      <stop offset="75%" stop-color="#c7d2fe" />
+      <stop offset="35%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#c7d2fe" />
+      <stop offset="90%" stop-color="#38bdf8" />
       <stop offset="100%" stop-color="#00f2fe" />
     </linearGradient>
 
-    <linearGradient id="badge-border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="badge-glow-border" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7928ca" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#00f2fe" stop-opacity="1" />
-      <stop offset="100%" stop-color="#10b981" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#00f2fe" stop-opacity="1" />
+      <stop offset="80%" stop-color="#10b981" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.8" />
     </linearGradient>
 
-    <!-- Bottom Wave Gradients -->
-    <linearGradient id="wave-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.35" />
-      <stop offset="40%" stop-color="#7928ca" stop-opacity="0.5" />
-      <stop offset="80%" stop-color="#00f2fe" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.25" />
+    <!-- Wave Multi-Gradients -->
+    <linearGradient id="wave-deep-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.4" />
+      <stop offset="45%" stop-color="#7928ca" stop-opacity="0.55" />
+      <stop offset="80%" stop-color="#00f2fe" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.3" />
     </linearGradient>
 
-    <linearGradient id="wave-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#090d14" />
-      <stop offset="25%" stop-color="#180f38" />
+    <linearGradient id="wave-deep-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#060912" />
+      <stop offset="25%" stop-color="#180d38" />
       <stop offset="55%" stop-color="#6c5ce7" />
       <stop offset="85%" stop-color="#00cec9" />
       <stop offset="100%" stop-color="#00f2fe" />
     </linearGradient>
 
-    <!-- Glow & Shadow Filters -->
+    <!-- Filters -->
     <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feGaussianBlur stdDeviation="6" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
     <filter id="laser-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="9" result="blur1" />
       <feGaussianBlur stdDeviation="3" result="blur2" />
       <feMerge>
         <feMergeNode in="blur1" />
@@ -69,139 +77,158 @@
     </filter>
 
     <filter id="name-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.9" />
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.95" />
+      <feDropShadow dx="0" dy="0" stdDeviation="24" flood-color="#00f2fe" flood-opacity="0.22" />
     </filter>
 
-    <!-- Cyber Grid Pattern -->
-    <pattern id="cyber-grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f2fe" stroke-width="0.7" stroke-opacity="0.06" />
-      <circle cx="40" cy="0" r="1" fill="#00f2fe" fill-opacity="0.25" />
+    <!-- Cyber Matrix Grid -->
+    <pattern id="cyber-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#00f2fe" stroke-width="0.6" stroke-opacity="0.07" />
+      <circle cx="36" cy="0" r="1" fill="#00f2fe" fill-opacity="0.35" />
     </pattern>
   </defs>
 
   <style>
-    @keyframes pulse-dot {
+    @keyframes pulse-live {
       0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.35; transform: scale(0.8); }
+      50% { opacity: 0.3; transform: scale(0.75); }
     }
-    @keyframes sonar-ring {
-      0% { r: 6px; opacity: 0.8; }
-      100% { r: 20px; opacity: 0; }
+    @keyframes radar-sweep {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes sonar-wave {
+      0% { r: 5px; opacity: 0.85; }
+      100% { r: 24px; opacity: 0; }
     }
     @keyframes twinkle-a {
-      0%, 100% { opacity: 0.8; transform: scale(1); }
-      50% { opacity: 0.15; transform: scale(0.5); }
+      0%, 100% { opacity: 0.9; transform: scale(1); }
+      50% { opacity: 0.15; transform: scale(0.4); }
     }
     @keyframes twinkle-b {
-      0%, 100% { opacity: 0.2; transform: scale(0.6); }
-      50% { opacity: 0.9; transform: scale(1.1); }
+      0%, 100% { opacity: 0.2; transform: scale(0.5); }
+      50% { opacity: 1; transform: scale(1.2); }
     }
-    .pulse-beacon { animation: pulse-dot 2s infinite ease-in-out; }
-    .sonar { animation: sonar-ring 2.4s infinite ease-out; }
-    .star-1 { animation: twinkle-a 3s infinite ease-in-out; }
-    .star-2 { animation: twinkle-b 2.5s infinite ease-in-out; }
-    .mono-type { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
-    .display-type { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, Helvetica, Arial, sans-serif; }
+    @keyframes laser-breathe {
+      0%, 100% { stroke-opacity: 0.95; }
+      50% { stroke-opacity: 0.65; }
+    }
+    .live-dot { animation: pulse-live 1.8s infinite ease-in-out; }
+    .sonar-ring { animation: sonar-wave 2.2s infinite ease-out; }
+    .star-a { animation: twinkle-a 2.8s infinite ease-in-out; }
+    .star-b { animation: twinkle-b 3.2s infinite ease-in-out; }
+    .laser-line { animation: laser-breathe 3s infinite ease-in-out; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+    .display { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif; }
   </style>
 
-  <!-- Background Layer -->
-  <rect width="1200" height="370" fill="url(#bg-grad)" />
-  <rect width="1200" height="370" fill="url(#cyber-grid)" />
+  <!-- Background Base -->
+  <rect width="1200" height="390" fill="url(#hero-bg)" />
+  <rect width="1200" height="390" fill="url(#cyber-grid)" />
 
-  <!-- Ambient Light blooms -->
-  <circle cx="280" cy="140" r="320" fill="url(#glow-violet)" />
-  <circle cx="920" cy="120" r="340" fill="url(#glow-cyan)" />
-  <circle cx="600" cy="280" r="230" fill="url(#glow-magenta)" />
+  <!-- Aurora Blooms -->
+  <circle cx="260" cy="150" r="340" fill="url(#bloom-violet)" />
+  <circle cx="940" cy="130" r="360" fill="url(#bloom-cyan)" />
+  <circle cx="600" cy="300" r="250" fill="url(#bloom-magenta)" />
+  <circle cx="1120" cy="280" r="220" fill="url(#bloom-emerald)" />
 
-  <!-- Constellation Particles / Cyber Stars -->
+  <!-- Constellation Twinkles -->
   <g fill="#00f2fe">
-    <circle cx="140" cy="95" r="1.5" class="star-1" />
-    <circle cx="210" cy="190" r="1.2" class="star-2" />
-    <circle cx="340" cy="70" r="1.8" class="star-1" />
-    <circle cx="860" cy="75" r="1.5" class="star-2" />
-    <circle cx="1020" cy="180" r="1.3" class="star-1" />
-    <circle cx="1080" cy="110" r="2" class="star-2" />
-    <circle cx="950" cy="240" r="1.4" class="star-1" />
-    <circle cx="180" cy="270" r="1.5" class="star-2" />
+    <circle cx="120" cy="85" r="1.5" class="star-a" />
+    <circle cx="190" cy="180" r="1.3" class="star-b" />
+    <circle cx="310" cy="65" r="2.0" class="star-a" />
+    <circle cx="890" cy="80" r="1.6" class="star-b" />
+    <circle cx="1040" cy="170" r="1.4" class="star-a" />
+    <circle cx="1100" cy="95" r="2.2" class="star-b" />
+    <circle cx="980" cy="240" r="1.5" class="star-a" />
+    <circle cx="160" cy="260" r="1.8" class="star-b" />
+    <circle cx="70" cy="140" r="1.2" class="star-a" />
+    <circle cx="1140" cy="210" r="1.6" class="star-b" />
   </g>
 
-  <!-- Corner Circuit Accents & Bracket Geometry -->
-  <g stroke="#00f2fe" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+  <!-- Corner Tech Geometry -->
+  <g stroke="#00f2fe" stroke-opacity="0.5" stroke-width="1.6" fill="none">
     <!-- Top-Left -->
-    <path d="M 32 50 L 32 30 L 52 30" />
-    <circle cx="32" cy="30" r="2.5" fill="#00f2fe" />
-    <line x1="60" y1="30" x2="130" y2="30" stroke="#00f2fe" stroke-opacity="0.25" stroke-dasharray="3 3" />
+    <path d="M 32 52 L 32 28 L 56 28" />
+    <circle cx="32" cy="28" r="2.5" fill="#00f2fe" />
+    <line x1="64" y1="28" x2="140" y2="28" stroke="#00f2fe" stroke-opacity="0.25" stroke-dasharray="3 3" />
+    <line x1="32" y1="60" x2="32" y2="90" stroke="#00f2fe" stroke-opacity="0.2" stroke-dasharray="2 2" />
 
     <!-- Top-Right -->
-    <path d="M 1168 50 L 1168 30 L 1148 30" />
-    <circle cx="1168" cy="30" r="2.5" fill="#00f2fe" />
-    <line x1="1140" y1="30" x2="1070" y2="30" stroke="#00f2fe" stroke-opacity="0.25" stroke-dasharray="3 3" />
+    <path d="M 1168 52 L 1168 28 L 1144 28" />
+    <circle cx="1168" cy="28" r="2.5" fill="#00f2fe" />
+    <line x1="1136" y1="28" x2="1060" y2="28" stroke="#00f2fe" stroke-opacity="0.25" stroke-dasharray="3 3" />
+    <line x1="1168" y1="60" x2="1168" y2="90" stroke="#00f2fe" stroke-opacity="0.2" stroke-dasharray="2 2" />
   </g>
 
   <!-- Top Metadata HUD Displays -->
-  <text x="56" y="40" class="mono-type" font-size="11" fill="#00f2fe" fill-opacity="0.8" letter-spacing="2">
-    OPERATOR // 0xHEMANTH • LOCAL_FIRST_CORE
+  <text x="60" y="38" class="mono" font-size="11" fill="#00f2fe" fill-opacity="0.85" letter-spacing="2">
+    OPERATOR // 0xHEMANTH &#8226; LOCAL_FIRST_CORE
   </text>
-  <text x="1144" y="40" text-anchor="end" class="mono-type" font-size="11" fill="#10b981" fill-opacity="0.9" letter-spacing="2">
-    ● 100% CLIENT-SIDE • ZERO TELEMETRY
+  <text x="1140" y="38" text-anchor="end" class="mono" font-size="11" fill="#10b981" fill-opacity="0.9" letter-spacing="2">
+    &#9679; 100% CLIENT-SIDE &#8226; ZERO TELEMETRY
   </text>
 
-  <!-- High-Tech Central Status Badge -->
-  <g transform="translate(385, 50)">
-    <rect x="0" y="0" width="430" height="34" rx="17" fill="#0c1017" fill-opacity="0.9" stroke="url(#badge-border-grad)" stroke-width="1.4" filter="url(#neon-glow)" />
-    <!-- Pulsing Live Dot + Sonar Ring -->
-    <circle cx="26" cy="17" r="5" fill="#00f2fe" class="pulse-beacon" />
-    <circle cx="26" cy="17" r="6" fill="none" stroke="#00f2fe" stroke-width="1" class="sonar" />
-    <text x="46" y="21.5" class="mono-type" font-size="12" font-weight="700" fill="#f1f5f9" letter-spacing="2">
-      STATUS: <tspan fill="#00f2fe">LOCKED IN</tspan> • <tspan fill="#10b981">PRODUCTION ACTIVE</tspan>
+  <!-- Central High-Tech Live Radar Pill -->
+  <g transform="translate(375, 46)">
+    <rect x="0" y="0" width="450" height="36" rx="18" fill="#0a0e16" fill-opacity="0.9" stroke="url(#badge-glow-border)" stroke-width="1.5" filter="url(#neon-glow)" />
+    <!-- Live Dot & Expanding Sonar -->
+    <circle cx="28" cy="18" r="5" fill="#00f2fe" class="live-dot" />
+    <circle cx="28" cy="18" r="6" fill="none" stroke="#00f2fe" stroke-width="1" class="sonar-ring" />
+    <!-- Text Inside Pill -->
+    <text x="48" y="22.5" class="mono" font-size="12" font-weight="800" fill="#f8fafc" letter-spacing="2">
+      STATUS: <tspan fill="#00f2fe">LOCKED IN</tspan> &#8226; <tspan fill="#10b981">HIGH VELOCITY</tspan>
     </text>
+    <!-- Right decorative chip -->
+    <rect x="375" y="8" width="60" height="20" rx="10" fill="#0e1726" stroke="#00f2fe" stroke-opacity="0.3" stroke-width="1" />
+    <text x="405" y="21" text-anchor="middle" class="mono" font-size="9.5" fill="#38bdf8" font-weight="700">v2.6</text>
   </g>
 
   <!-- Main Hero Title -->
   <g filter="url(#name-shadow)">
-    <text x="600" y="168" text-anchor="middle" class="display-type" font-size="78" font-weight="900" fill="url(#name-grad)" letter-spacing="4.5">
+    <text x="600" y="172" text-anchor="middle" class="display" font-size="82" font-weight="900" fill="url(#hero-name-grad)" letter-spacing="5">
       HEMANTH NAIDU
     </text>
   </g>
 
   <!-- Subtitle with Glowing Accent Chips -->
   <g filter="url(#name-shadow)">
-    <text x="600" y="215" text-anchor="middle" class="display-type" font-size="20.5" font-weight="500" fill="#94a3b8" letter-spacing="1.2">
-      Architecting <tspan fill="#00f2fe" font-weight="700">Local-First Systems</tspan> &#8226; <tspan fill="#3ddc84" font-weight="700">Android Specialist</tspan> &#8226; <tspan fill="#c084fc" font-weight="700">Full-Stack</tspan>
+    <text x="600" y="222" text-anchor="middle" class="display" font-size="21" font-weight="500" fill="#94a3b8" letter-spacing="1.5">
+      Architecting <tspan fill="#00f2fe" font-weight="800">Local-First Systems</tspan> &#8226; <tspan fill="#3ddc84" font-weight="800">Android Specialist</tspan> &#8226; <tspan fill="#c084fc" font-weight="800">Full-Stack</tspan>
     </text>
   </g>
 
-  <!-- Tactical Architecture Pill Dock -->
-  <g transform="translate(195, 240)">
+  <!-- Tactical Architecture Pill Dock (4 Columns) -->
+  <g transform="translate(180, 248)">
     <!-- Pill 1: 0ms Latency -->
     <g transform="translate(0, 0)">
-      <rect width="190" height="30" rx="15" fill="#090d16" fill-opacity="0.85" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1.2" />
-      <text x="95" y="19.5" text-anchor="middle" class="mono-type" font-size="11.5" font-weight="600" fill="#00f2fe" letter-spacing="1">⚡ 0ms ZERO-LATENCY</text>
+      <rect width="195" height="32" rx="16" fill="#080c14" fill-opacity="0.9" stroke="#00f2fe" stroke-opacity="0.45" stroke-width="1.2" />
+      <text x="97" y="20.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#00f2fe" letter-spacing="1">&#9889; 0ms ZERO-LATENCY</text>
     </g>
     <!-- Pill 2: Sovereign Storage -->
-    <g transform="translate(206, 0)">
-      <rect width="198" height="30" rx="15" fill="#090d16" fill-opacity="0.85" stroke="#818cf8" stroke-opacity="0.45" stroke-width="1.2" />
-      <text x="99" y="19.5" text-anchor="middle" class="mono-type" font-size="11.5" font-weight="600" fill="#c7d2fe" letter-spacing="1">🛡️ CLIENT SOVEREIGNTY</text>
+    <g transform="translate(215, 0)">
+      <rect width="205" height="32" rx="16" fill="#080c14" fill-opacity="0.9" stroke="#818cf8" stroke-opacity="0.5" stroke-width="1.2" />
+      <text x="102" y="20.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#c7d2fe" letter-spacing="1">&#128737; CLIENT SOVEREIGN</text>
     </g>
     <!-- Pill 3: Android Engine -->
-    <g transform="translate(420, 0)">
-      <rect width="190" height="30" rx="15" fill="#090d16" fill-opacity="0.85" stroke="#3ddc84" stroke-opacity="0.4" stroke-width="1.2" />
-      <text x="95" y="19.5" text-anchor="middle" class="mono-type" font-size="11.5" font-weight="600" fill="#4ade80" letter-spacing="1">📱 ANDROID RUNTIME</text>
+    <g transform="translate(440, 0)">
+      <rect width="195" height="32" rx="16" fill="#080c14" fill-opacity="0.9" stroke="#3ddc84" stroke-opacity="0.45" stroke-width="1.2" />
+      <text x="97" y="20.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#4ade80" letter-spacing="1">&#128241; ANDROID NATIVE</text>
     </g>
     <!-- Pill 4: Production Shipped -->
-    <g transform="translate(626, 0)">
-      <rect width="184" height="30" rx="15" fill="#090d16" fill-opacity="0.85" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1.2" />
-      <text x="92" y="19.5" text-anchor="middle" class="mono-type" font-size="11.5" font-weight="600" fill="#f472b6" letter-spacing="1">🔥 PRODUCTION READY</text>
+    <g transform="translate(655, 0)">
+      <rect width="185" height="32" rx="16" fill="#080c14" fill-opacity="0.9" stroke="#ec4899" stroke-opacity="0.45" stroke-width="1.2" />
+      <text x="92" y="20.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#f472b6" letter-spacing="1">&#128293; PROD SHIPPED</text>
     </g>
   </g>
 
   <!-- Multi-Layered Cybernetic Waving Horizon -->
   <!-- Layer 1: Ambient Under-wave -->
-  <path d="M 0 325 C 220 290, 480 365, 740 315 C 930 280, 1080 330, 1200 300 L 1200 370 L 0 370 Z" fill="url(#wave-grad-1)" />
+  <path d="M 0 340 C 220 300, 480 385, 740 330 C 930 295, 1080 350, 1200 315 L 1200 390 L 0 390 Z" fill="url(#wave-deep-1)" />
 
   <!-- Layer 2: Main Foreground Wave -->
-  <path d="M 0 340 C 280 360, 530 295, 820 335 C 990 358, 1110 318, 1200 330 L 1200 370 L 0 370 Z" fill="url(#wave-grad-2)" />
+  <path d="M 0 355 C 280 380, 530 310, 820 352 C 990 376, 1110 335, 1200 348 L 1200 390 L 0 390 Z" fill="url(#wave-deep-2)" />
 
-  <!-- Layer 3: Neon Laser Crest / Horizon line -->
-  <path d="M 0 340 C 280 360, 530 295, 820 335 C 990 358, 1110 318, 1200 330" fill="none" stroke="#00f2fe" stroke-width="2.5" stroke-opacity="0.9" filter="url(#laser-glow)" />
+  <!-- Layer 3: Neon Laser Crest / Horizon line with pulse -->
+  <path d="M 0 355 C 280 380, 530 310, 820 352 C 990 376, 1110 335, 1200 348" fill="none" stroke="#00f2fe" stroke-width="3" class="laser-line" filter="url(#laser-glow)" />
 </svg>
