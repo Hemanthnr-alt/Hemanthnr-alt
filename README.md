@@ -1,62 +1,65 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,25:764ba2,50:f093fb,75:4facfe,100:00f2fe&height=280&section=header&text=Hemanth%20Naidu&fontSize=62&fontColor=ffffff&fontAlignY=42&fontAlign=50&desc=Full-Stack%20%E2%80%A2%20Android%20%E2%80%A2%20Data%20Analytics&descSize=18&descAlignY=62&descColor=ffffffcc&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,25:764ba2,50:f093fb,75:4facfe,100:00f2fe&height=260&section=header&text=Hemanth%20Naidu&fontSize=56&fontColor=ffffff&fontAlignY=40&fontAlign=50&desc=Local-First%20Systems%20%E2%80%A2%20Android%20Engineering%20%E2%80%A2%20Full-Stack&descSize=18&descAlignY=62&descColor=ffffffcc&animation=fadeIn" width="100%"/>
 
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3000&pause=800&color=667EEA&center=true&vCenter=true&width=650&lines=🚀+Architecting+high-performance+local-first+software;📱+Creator+of+Lock+In+%26+LockIn+Fitness;⚡+100%25+offline-first+·+Zero+cloud+lock-in+·+Sub-second+latency;🌱+Open+to+software+engineering+roles%2C+internships+%26+collabs!)](https://github.com/Hemanthnr-alt)
 
-<div align="center">
+<br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=667EEA&center=true&vCenter=true&width=620&lines=🚀+Building+production-ready+software%2C+not+just+demos;📱+Offline-first+Android+apps+shipped+to+real+users;⚡+Full-Stack+%7C+React+·+Node.js+·+PostgreSQL+·+Capacitor;🌱+Open+to+internships%2C+collabs+%26+engineering+roles!)](https://github.com/Hemanthnr-alt)
+[![Lock In Web](https://img.shields.io/badge/Lock_In_Web-667eea?style=for-the-badge&logo=googlechrome&logoColor=white)](https://30-landing.vercel.app/)&nbsp;
+[![Download APK](https://img.shields.io/badge/Download_APK-22c55e?style=for-the-badge&logo=android&logoColor=white)](https://30-landing.vercel.app/lock-in.apk)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemanthnaidu)&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemanthnaidunr@gmail.com)&nbsp;
+[![Profile Views](https://komarev.com/ghpvc/?username=Hemanthnr-alt&style=for-the-badge&color=764ba2&label=VISITORS)](https://github.com/Hemanthnr-alt)
 
 </div>
 
 <br/>
 
-<div align="center">
-
-[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-667eea?style=for-the-badge&logo=googlechrome&logoColor=white)](https://30-landing.vercel.app/)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemanthnaidu)&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemanthnaidunr@gmail.com)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt)&nbsp;
-[![Profile Views](https://komarev.com/ghpvc/?username=Hemanthnr-alt&style=for-the-badge&color=764ba2&label=VISITORS)](https://github.com/Hemanthnr-alt)
-
-</div>
-
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🎓 About Me
+### 👨‍💻 About Me
 
 <table>
 <tr>
-<td>
+<td width="62%" valign="top">
 
-```javascript
-const hemanth = {
-  name    : "Hemanth Naidu 🧑‍💻",
-  based   : "Bengaluru, India 🇮🇳",
-  role    : "CSE Student → Product Builder",
-  focus   : ["Full-Stack Engineering", "Android", "Systems & Data"],
-  mantra  : "idea → build → ship → validate → iterate ♻️",
-  current : "30 Ecosystem — Production apps · real users · real impact",
-  openTo  : "Internships & Collabs 🟢",
-  funFact : "I ship products, not prototypes 🚀"
+```typescript
+interface DeveloperProfile {
+  name: string;
+  based: string;
+  focus: string[];
+  flagshipProjects: string[];
+  corePhilosophy: string;
+  openTo: string;
+}
+
+const hemanth: DeveloperProfile = {
+  name: "Hemanth Naidu",
+  based: "Bengaluru, India 🇮🇳",
+  focus: ["Local-First Android Systems", "Full-Stack Architecture", "Performance Optimization"],
+  flagshipProjects: ["Lock In Ecosystem", "LockIn Fitness"],
+  corePhilosophy: "Master the 1% standard — build offline-first, friction-free products",
+  openTo: "Software Engineering Internships & High-Impact Collabs 🟢"
 };
 ```
 
-</td>
-<td align="center" width="38%">
+- 💡 **Engineering Approach:** I engineer real, production-ready software designed to run completely on-device with zero cloud latency, zero telemetry, and zero paywalls.
+- 📱 **Mobile & Systems:** Deep expertise building offline-first Android applications with local SQLite persistence, reactive state management, and native Capacitor/Expo integration.
+- 🎯 **Current Focus:** Expanding the **Lock In** ecosystem and seeking ambitious engineering teams to build high-performance products.
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220" style="border-radius:16px"/>
+</td>
+<td width="38%" align="center" valign="middle">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="240" style="border-radius:16px;"/>
 
 </td>
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
-## 🎨 Tech Stack
+### 🛠️ Tech Stack & Tooling
 
 <div align="center">
 
@@ -66,204 +69,182 @@ const hemanth = {
 
 <br/><br/>
 
-### 💻 Languages & Frameworks
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)&nbsp;
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
-![Express](https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white)&nbsp;
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### 🗄️ Database & Cloud
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)&nbsp;
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)&nbsp;
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)&nbsp;
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-
-### 📱 Mobile & Tools
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)&nbsp;
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white)&nbsp;
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;
-![VSCode](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)&nbsp;
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### 📊 Data Science & Analytics
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)&nbsp;
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)&nbsp;
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | `JavaScript (ES6+)`, `TypeScript`, `Python`, `SQL`, `HTML5`, `CSS3` |
+| **Mobile & Native** | `Android SDK`, `Capacitor`, `React Native / Expo`, `SQLite`, `Home Screen Widgets` |
+| **Frontend & Web** | `React.js`, `Tailwind CSS`, `Vite`, `Responsive UI/UX`, `Web Audio API` |
+| **Backend & Databases** | `Node.js`, `Express.js`, `PostgreSQL`, `Prisma ORM`, `RESTful APIs` |
+| **Data Science & Tools** | `Pandas`, `NumPy`, `Matplotlib`, `Git`, `GitHub Actions`, `Postman`, `Vercel` |
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
-## 🚀 Featured Applications & Ecosystem
+### 🚀 Flagship Applications & Repositories
 
 <div align="center">
-
-> *A unified cross-platform Android ecosystem for fitness & productivity.*  
-> *Production apps · Unified backend · Zero paywalls · Real users.*
-
+  <em>Autonomous, privacy-first mobile software engineered for daily performance mastery.</em>
 </div>
 
 <br/>
 
-<table align="center" width="100%">
-<tr>
-
-<!-- PROJECT 1: 30 FITNESS -->
-<td align="center" width="50%" valign="top">
-<img src="https://img.shields.io/badge/01-FITNESS-667eea?style=for-the-badge&labelColor=764ba2"/>
-<br/><br/>
-<h3>💪 30 Fitness</h3>
-<em>Personalized Workout & Performance Trainer</em>
-<br/><br/>
-
-![](https://img.shields.io/badge/●_LIVE-22c55e?style=flat-square)&nbsp;
-![](https://img.shields.io/badge/OFFLINE--FIRST-10b981?style=flat-square)
-
-<br/><br/>
-
-🏋️ 4 progressive overload training programs<br/>
-⚡ Local-first persistence · Zero lag · Habit streaks<br/>
-📊 Volume tracking, achievements & performance analytics
-
-<br/>
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node](https://img.shields.io/badge/Node-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PG](https://img.shields.io/badge/PG-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Cap](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-</td>
-
-<!-- PROJECT 2: 30 TODO -->
-<td align="center" width="50%" valign="top">
-<img src="https://img.shields.io/badge/02-PRODUCTIVITY-4facfe?style=for-the-badge&labelColor=00f2fe&logoColor=000"/>
-<br/><br/>
-<h3>✅ 30 Todo</h3>
-<em>Smart Task, Habit & Routine Suite</em>
-<br/><br/>
-
-![](https://img.shields.io/badge/●_LIVE-22c55e?style=flat-square)&nbsp;
-![](https://img.shields.io/badge/OFFLINE--FIRST-10b981?style=flat-square)
-
-<br/><br/>
-
-📅 Smart task scheduling & weekly timeline view<br/>
-🔥 Atomic habit tracking with streak consistency heatmaps<br/>
-🤖 Intelligent workflow breakdowns & distraction-free UI
-
-<br/>
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node](https://img.shields.io/badge/Node-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PG](https://img.shields.io/badge/PG-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Cap](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-</td>
-
-</tr>
-</table>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&theme=tokyonight&hide_border=true&border_radius=16&include_all_commits=true&count_private=true&rank_icon=github" height="170"/>
-&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&theme=tokyonight&hide_border=true&border_radius=16" height="170"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanthnr-alt&layout=compact&theme=tokyonight&hide_border=true&border_radius=16&langs_count=8" height="155"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&theme=tokyo-night&hide_border=true&border_radius=16&area=true" width="94%"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## ✨ Impact Snapshot
-
-<div align="center">
-
+<!-- ==================== LOCK IN ==================== -->
 <table>
 <tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/PRODUCTION-APPS_SHIPPED-667eea?style=for-the-badge" />
-<br/><sub>Deployed to production</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/⚡-OFFLINE_FIRST-f093fb?style=for-the-badge" />
-<br/><sub>Works without internet</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/0-PAYWALLS-4facfe?style=for-the-badge" />
-<br/><sub>All features are free</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/●-REAL_USERS-22c55e?style=for-the-badge" />
-<br/><sub>Validated feedback</sub>
+<td>
+
+### 📱 1. Lock In — Local-First Personal Performance Engine
+
+> **Master the 1% Standard.**  
+> A complete, offline-first personal operating system for Android uniting daily task management, atomic habits, clinical micronutrient analysis, focus timers, stealth encrypted vaults, and executive PDF dossier generation.
+
+<br/>
+
+<div align="center">
+
+[![Live Website](https://img.shields.io/badge/🌐_Official_Landing-667eea?style=for-the-badge)](https://30-landing.vercel.app/)&nbsp;
+[![Download APK](https://img.shields.io/badge/📲_Download_APK_(v1.0)-22c55e?style=for-the-badge&logo=android&logoColor=white)](https://30-landing.vercel.app/lock-in.apk)&nbsp;
+[![Ecosystem Repo](https://img.shields.io/badge/💻_Ecosystem_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt/Lock-In-Ecosystem)&nbsp;
+[![Landing Repo](https://img.shields.io/badge/🚀_Landing_Repo-4facfe?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt/Lock-In)
+
+</div>
+
+<br/>
+
+**⚡ Core Architecture & Capabilities:**
+- 📅 **Unified Today Agenda:** Consolidates pending tasks, atomic habits, water intake, and nutrition into one frictionless timeline.
+- 🔬 **Clinical 43-Nutrient Nutrition Engine:** Analyzes 13 vitamins, 9 minerals, omega ratios, and fiber backed by a **2,233+ offline USDA/ICMR food database**.
+- ⏱️ **Focus Engine & Procedural Soundscapes:** Pomodoro, intervals, and stopwatch paired with real-time procedural audio (Rainstorm, 40Hz Alpha Waves, Forest Stream).
+- 🔐 **Google Keep-Style Notes & Stealth Vault:** Rapid note-to-task sync plus a triple-tap hidden PIN vault for encrypted private data.
+- 📊 **Executive PDF Dossiers:** Generates client-side 30-day comprehensive performance audit reports in light/dark themes.
+- 📱 **Android Home Screen Widgets:** Live glanceable agenda tracking and one-tap habit completion.
+
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Client--Side_PDF-EA4335?style=flat-square"/>
+</div>
+
 </td>
 </tr>
 </table>
 
+<br/>
+
+<!-- ==================== LOCKIN FITNESS ==================== -->
+<table>
+<tr>
+<td>
+
+### 💪 2. LockIn Fitness — 30-Day Progressive Workout Engine
+
+> **Transform Your Body in 30 Days — Zero Paywalls, Pure Consistency.**  
+> A dedicated offline-first Android fitness application delivering structured progressive overload training programs, exercise execution guides, rest timer intervals, and habit streaks.
+
+<br/>
+
+<div align="center">
+
+[![Fitness Repo](https://img.shields.io/badge/💻_Fitness_Repository-667eea?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hemanthnr-alt/30-fitness)&nbsp;
+[![Download APK](https://img.shields.io/badge/📲_Download_Fitness_APK-22c55e?style=for-the-badge&logo=android&logoColor=white)](https://drive.google.com/uc?export=download&id=1IM1d-ry0EAzqpBK4OY2xccU1Tr6I9VUL)
+
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
 
-## 🗺️ What's Next
+**⚡ Core Architecture & Capabilities:**
+- 🏋️ **4 Progressive Training Programs:** Periodized workout splits engineered for muscle hypertrophy, strength, and endurance.
+- ⏱️ **Integrated Rest & Interval Timers:** Audio chimes and interval tracking designed for hands-free workout sessions.
+- 📈 **Consistency Heatmaps & Streaks:** Visual representation of consistency to enforce training discipline.
+- 💾 **100% Offline SQLite Database:** Instant load times, zero buffering, and full data sovereignty on your device.
+
+<div align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Expo_SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android_Native-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🛡️ The Local-First Engineering Philosophy
 
 <div align="center">
 
-| Status | Milestone |
-|:------:|-----------|
-| ✅ | Shipped production Android apps with real users |
-| ✅ | Full-stack architecture — web · api · database · mobile |
-| ✅ | Local-first & offline-first data synchronization |
-| ✅ | Zero paywalls, 100% free open-access tooling |
-| 🔄 | AI-powered features & intelligent workflow agents |
-| 🔄 | Advanced Data Analytics & Statistical modeling |
-| 🔄 | High-availability cloud backend microservices |
-| 🎯 | High-impact Software Engineering roles & internships |
+| ⚡ Zero Cloud Latency | 🔒 Private By Default | 🛡️ Zero Paywalls | 📱 True Native Performance |
+| :---: | :---: | :---: | :---: |
+| 100% on-device SQLite & local cache execution | No accounts, no telemetry, encrypted vaults | Every feature accessible to all users for free | 60fps responsive Android UX via Capacitor & Expo |
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
-## 🤝 Let's Build Together
+### 📊 GitHub Activity & Analytics
 
 <div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&include_all_commits=true&count_private=true" height="175"/>
+&nbsp;
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&theme=tokyonight&hide_border=true&border_radius=14" height="175"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanthnr-alt&layout=compact&theme=tokyonight&hide_border=true&border_radius=14&langs_count=8" height="165"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&theme=tokyo-night&hide_border=true&border_radius=14&area=true" width="96%"/>
+
+</div>
+
+---
+
+### 🎯 Roadmap & Current Focus
+
+- [x] **Lock In:** Released v1.0 Android APK with 8 unified performance pillars
+- [x] **LockIn Fitness:** Built 30-day progressive training plans with offline SQLite tracking
+- [x] **Distribution:** Launched official landing page, live APK downloads & sample executive reports
+- [ ] **Lock In v2.0:** Home screen interactive quick-log widget updates & custom soundscape engine
+- [ ] **AI-Assisted Logging:** On-device NLP task parser and intelligent macronutrient estimator
+- [ ] **Ecosystem Sync:** Peer-to-peer encrypted local sync between Android & Desktop
+
+---
+
+### 🤝 Let's Build Together
+
+<div align="center">
+
+I am actively open to **Software Engineering Internships**, **Full-Stack / Mobile Engineering roles**, and ambitious collaborations!
+
+<br/>
 
 <a href="mailto:hemanthnaidunr@gmail.com">
-<img src="https://img.shields.io/badge/📧_hemanthnaidunr@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/📧_Direct_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-
-<br/><br/>
-
+&nbsp;&nbsp;
 <a href="https://linkedin.com/in/hemanthnaidu">
-<img src="https://img.shields.io/badge/💼_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/💼_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-&nbsp;
-<a href="https://github.com/Hemanthnr-alt">
-<img src="https://img.shields.io/badge/🐙_Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+&nbsp;&nbsp;
+<a href="https://30-landing.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_Lock_In_Official-667eea?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-> ### *"Building at the intersection of productivity, fitness & data —*
-> ### *one commit at a time." 🚀*
+> *"Master the 1% standard — building at the intersection of productivity, systems & performance."*
 
-</div>
+<br/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f2fe,25:4facfe,50:f093fb,75:764ba2,100:667eea&height=140&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f2fe,25:4facfe,50:f093fb,75:764ba2,100:667eea&height=120&section=footer&animation=fadeIn" width="100%"/>
+
 </div>
