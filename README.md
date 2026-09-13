@@ -3,10 +3,10 @@
 <!-- ==================== TOP BANNER (KEPT AS REQUESTED) ==================== -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,20:161b22,40:6c5ce7,70:8a2be2,100:00f2fe&height=260&section=header&text=Hemanth%20Naidu&fontSize=58&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Architecting%20Local-First%20Systems%20%E2%80%A2%20Android%20%E2%80%A2%20Full-Stack&descSize=17&descAlignY=62&descColor=00f2fecc&animation=fadeIn" width="100%"/>
 
-<!-- ==================== DYNAMIC TYPING SVG (OPTIMIZED & NO CLIPPING) ==================== -->
-<a href="https://github.com/Hemanthnr-alt">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2500&pause=800&color=00F2FE&center=true&vCenter=true&width=550&height=40&lines=Architecting+Local-First+Mobile+Apps;Creator+of+Lock+In+%26+LockIn+Fitness;100%25+Offline+--+Zero+Telemetry;Shipping+Production-Ready+Software+Daily!" alt="Typing Headline" />
-</a>
+<br/>
+
+<!-- ==================== BESPOKE VECTOR HERO SUB-DOCK ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-subdock.svg" width="100%" alt="Hemanth Naidu Hero Sub-Dock" />
 
 <br/><br/>
 
