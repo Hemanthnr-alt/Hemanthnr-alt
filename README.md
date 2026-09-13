@@ -37,58 +37,16 @@
 
 <div align="center">
 
-> ### *"Master the 1% standard — building offline-first systems where performance, privacy, and UX are non-negotiable."*
-
-<br/>
-
-<img src="https://img.shields.io/badge/Architecture-Local--First_Systems-6c5ce7?style=for-the-badge&logo=sqlite&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/Platform-Native_Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/Privacy-Zero_Telemetry-00f2fe?style=for-the-badge&logo=shield&logoColor=black" />&nbsp;
-<img src="https://img.shields.io/badge/Status-Shipping_Production-22c55e?style=for-the-badge&logo=git&logoColor=white" />
+<img src="assets/engineering-card.svg" width="100%" alt="Hemanth Naidu Engineering Identity & Core Doctrine" />
 
 <br/><br/>
 
+<a href="https://30-landing.vercel.app/"><img src="https://img.shields.io/badge/Architecture-Local--First_Systems-6c5ce7?style=for-the-badge&logo=sqlite&logoColor=white" /></a>&nbsp;
+<a href="https://30-landing.vercel.app/lock-in.apk"><img src="https://img.shields.io/badge/Platform-Native_Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>&nbsp;
+<a href="https://github.com/Hemanthnr-alt/Lock-In-Ecosystem"><img src="https://img.shields.io/badge/Privacy-Zero_Telemetry-00f2fe?style=for-the-badge&logo=shield&logoColor=black" /></a>&nbsp;
+<a href="https://github.com/Hemanthnr-alt/30-fitness"><img src="https://img.shields.io/badge/Status-Shipping_Production-22c55e?style=for-the-badge&logo=git&logoColor=white" /></a>
+
 </div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎯 Core Engineering Doctrine
-- ⚡ **Local-First Vanguard:** 100% on-device SQLite architecture with deterministic state and sub-1ms query execution.
-- 🔒 **Absolute Data Sovereignty:** Zero accounts, zero tracking, and zero telemetry — complete privacy by default.
-- 🛡️ **Zero Paywalls:** Production-grade personal performance engines engineered without subscriptions.
-- 📱 **60fps Native UX:** Hardware-accelerated fluid interfaces paired with live home screen widgets.
-
-</td>
-<td width="50%" valign="top">
-
-### 🚀 Active Deployments & Builds
-- 📱 **[Lock In (Android v1.0)](https://30-landing.vercel.app/):** 8 unified performance pillars (Agenda, 43-Nutrient Engine, Focus Audio, Stealth Vault, PDF Dossiers).
-- 💪 **[LockIn Fitness](https://github.com/Hemanthnr-alt/30-fitness):** Cross-platform 30-day progressive overload training suite with offline SQLite tracking.
-- 🌐 **[Official Web Distribution](https://30-landing.vercel.app/):** Production landing page, live APK downloads, and sample reports.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧩 Technical Specialization
-- **Mobile Systems:** `Capacitor` · `Android SDK` · `React Native / Expo` · `Home Screen Widgets`
-- **Frontend & UI:** `React 18` · `TypeScript` · `Tailwind CSS` · `Vite` · `Web Audio API`
-- **Backend & Data:** `SQLite Engine` · `Node.js` · `Express.js` · `PostgreSQL` · `Prisma ORM`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔭 Current R&D Pursuits
-- 🧠 **On-Device NLP:** Natural language task & meal parsing running 100% locally.
-- 🔄 **Encrypted P2P Sync:** Zero-knowledge peer-to-peer local sync between Android & Desktop.
-- 💼 **Elite Engineering:** Open to Software Engineering roles, internships & collaborative builds.
-
-</td>
-</tr>
-</table>
 
 ---
 
