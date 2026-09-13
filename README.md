@@ -150,13 +150,17 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Hemanthnr-alt&show_icons=true&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=16&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00f2fe&icon_color=6c5ce7&text_color=c9d1d9" height="175"/>
-&nbsp;
-<img src="https://streak-stats.demolab.com/?user=Hemanthnr-alt&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=16&background=0d1117&ring=6c5ce7&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=c9d1d9" height="175"/>
+<!-- BESPOKE CADENCE & STACK WEIGHT CARD -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/cadence-card.svg" width="100%" alt="Hemanth Naidu GitHub Cadence & Production Metrics" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Hemanthnr-alt&layout=compact&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=16&langs_count=8&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" height="165"/>
+<!-- BALANCED DUAL LIVE STATS DOCK -->
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Hemanthnr-alt&show_icons=true&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=14&include_all_commits=true&count_private=true&bg_color=0c1017&title_color=00f2fe&icon_color=6c5ce7&text_color=c9d1d9" height="175"/>
+  &nbsp;&nbsp;
+  <img src="https://streak-stats.demolab.com/?user=Hemanthnr-alt&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=14&background=0c1017&ring=6c5ce7&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=c9d1d9" height="175"/>
+</p>
 
 </div>
 
@@ -176,19 +180,17 @@
 
 <div align="center">
 
-I am actively open to **Software Engineering Roles**, **Full-Stack / Mobile Engineering positions**, and ambitious collaborations!
+<!-- BESPOKE COMMUNICATIONS TERMINAL CARD -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/connect-card.svg" width="100%" alt="Hemanth Naidu Communications Terminal & Relay" />
 
-<br/>
+<br/><br/>
 
 <p align="center">
-  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Explore_Lock_In-6c5ce7?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email_Direct-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117"/></a>
+  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn_Network-161b22?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0d1117"/></a>
+  <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Production_Live-161b22?style=for-the-badge&logo=googlechrome&logoColor=00F2FE&labelColor=0d1117"/></a>
+  <a href="https://github.com/Hemanthnr-alt"><img src="https://img.shields.io/badge/GitHub_Hub-161b22?style=for-the-badge&logo=github&logoColor=a29bfe&labelColor=0d1117"/></a>
 </p>
-
-<br/>
-
-> *"Master the 1% standard — building at the intersection of productivity, systems & performance."*
 
 <br/>
 
