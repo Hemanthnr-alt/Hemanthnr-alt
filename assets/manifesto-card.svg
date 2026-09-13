@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="manBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#8a2be2"/>
+    </linearGradient>
+    <linearGradient id="manBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#141a26"/>
+    </linearGradient>
+    <linearGradient id="manCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181e2b"/>
+      <stop offset="100%" stop-color="#111622"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .bold { font-weight: 700; }
+  </style>
+
+  <!-- Frame -->
+  <rect x="2" y="2" width="836" height="226" rx="16" fill="url(#manBg)" stroke="url(#manBorder)" stroke-width="1.8"/>
+
+  <!-- Title -->
+  <text x="32" y="38" fill="#ffffff" font-size="16" class="sans bold">🛡️ THE LOCAL-FIRST MANIFESTO</text>
+  <text x="340" y="38" fill="#8b949e" font-size="12" class="sans">Architectural non-negotiables for high-performance software</text>
+
+  <!-- 4 Cards -->
+  <!-- Card 1 -->
+  <rect x="24" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
+  <text x="40" y="92" font-size="22">⚡</text>
+  <text x="40" y="118" fill="#00f2fe" font-size="13" class="sans bold">Zero Cloud Latency</text>
+  <text x="40" y="140" fill="#8b949e" font-size="11" class="sans">Sub-1ms queries</text>
+  <text x="40" y="156" fill="#8b949e" font-size="11" class="sans">On-device SQLite</text>
+  <text x="40" y="172" fill="#8b949e" font-size="11" class="sans">Zero network lag</text>
+
+  <!-- Card 2 -->
+  <rect x="224" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
+  <text x="240" y="92" font-size="22">🔒</text>
+  <text x="240" y="118" fill="#a29bfe" font-size="13" class="sans bold">Total Data Privacy</text>
+  <text x="240" y="140" fill="#8b949e" font-size="11" class="sans">Zero telemetry</text>
+  <text x="240" y="156" fill="#8b949e" font-size="11" class="sans">No remote accounts</text>
+  <text x="240" y="172" fill="#8b949e" font-size="11" class="sans">Client encrypted vault</text>
+
+  <!-- Card 3 -->
+  <rect x="424" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
+  <text x="440" y="92" font-size="22">🛡️</text>
+  <text x="440" y="118" fill="#22c55e" font-size="13" class="sans bold">Zero Paywalls</text>
+  <text x="440" y="140" fill="#8b949e" font-size="11" class="sans">100% features free</text>
+  <text x="440" y="156" fill="#8b949e" font-size="11" class="sans">No monthly subs</text>
+  <text x="440" y="172" fill="#8b949e" font-size="11" class="sans">Accessible forever</text>
+
+  <!-- Card 4 -->
+  <rect x="624" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
+  <text x="640" y="92" font-size="22">📱</text>
+  <text x="640" y="118" fill="#f093fb" font-size="13" class="sans bold">60fps Native UX</text>
+  <text x="640" y="140" fill="#8b949e" font-size="11" class="sans">Hardware accelerated</text>
+  <text x="640" y="156" fill="#8b949e" font-size="11" class="sans">Home screen widgets</text>
+  <text x="640" y="172" fill="#8b949e" font-size="11" class="sans">Capacitor &amp; Expo</text>
+</svg>

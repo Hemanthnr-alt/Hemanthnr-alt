@@ -1,16 +1,16 @@
 <div align="center">
 
-<!-- TOP BANNER (KEPT AS REQUESTED) -->
+<!-- ==================== TOP BANNER (KEPT EXACTLY AS REQUESTED) ==================== -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,20:161b22,40:6c5ce7,70:8a2be2,100:00f2fe&height=260&section=header&text=Hemanth%20Naidu&fontSize=58&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Architecting%20Local-First%20Systems%20%E2%80%A2%20Android%20%E2%80%A2%20Full-Stack&descSize=17&descAlignY=62&descColor=00f2fecc&animation=fadeIn" width="100%"/>
 
-<!-- DYNAMIC TYPING SVG (TESTED 200 OK) -->
+<!-- ==================== DYNAMIC TYPING SVG ==================== -->
 <a href="https://github.com/Hemanthnr-alt">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2600&pause=750&color=00F2FE&center=true&vCenter=true&width=660&lines=Architecting+autonomous+local-first+mobile+software;Creator+of+Lock+In+and+LockIn+Fitness;100%25+offline-first+--+Zero+telemetry+--+Sub-1ms+state;Master+the+1%25+standard+--+Shipping+real+products;Open+to+high-impact+software+engineering+roles!" />
 </a>
 
 <br/><br/>
 
-<!-- ACTION BADGES -->
+<!-- ==================== QUICK ACTION NAVIGATION ==================== -->
 <a href="https://30-landing.vercel.app/">
   <img src="https://img.shields.io/badge/Official_Site-161b22?style=for-the-badge&logo=googlechrome&logoColor=00F2FE&labelColor=0d1117" />
 </a>&nbsp;
@@ -37,7 +37,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/engineering-card.svg" width="100%" alt="Hemanth Naidu Engineering Identity & Core Doctrine" />
+<img src="assets/engineering-card.svg" width="100%" alt="Hemanth Naidu Engineering Identity & Core Doctrine" />
 
 <br/><br/>
 
@@ -78,11 +78,9 @@
 
 <div align="center">
 
-### Lock In — Local-First Personal Performance Engine
-**Master the 1% Standard.**  
-*A 100% offline personal operating system uniting daily task scheduling, atomic habit tracking, clinical-grade 43-nutrient dietary analysis, focus timers, stealth encrypted notes vault, live home screen widgets, and executive PDF dossier generation.*
+<img src="assets/lockin-showcase-card.svg" width="100%" alt="Lock In Personal Performance Engine" />
 
-<br/>
+<br/><br/>
 
 <a href="https://30-landing.vercel.app/">
   <img src="https://img.shields.io/badge/Official_Website-6c5ce7?style=for-the-badge&logo=googlechrome&logoColor=white" />
@@ -99,7 +97,7 @@
 
 <br/><br/>
 
-<!-- MOBILE APP UI SHOWCASE GALLERY -->
+<!-- MOBILE UI GALLERY -->
 <table>
   <tr>
     <td align="center" width="25%">
@@ -116,26 +114,11 @@
     </td>
     <td align="center" width="25%">
       <img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/timer-intervals-soundscapes-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
-      <sub><b>⏱️ Focus & Audio</b></sub>
+      <sub><b>⏱️ Focus & Soundscapes</b></sub>
     </td>
   </tr>
 </table>
 
-</div>
-
-<br/>
-
-| ⚡ Performance Pillar | 🔬 Technical Architecture & Capabilities |
-| :--- | :--- |
-| **📅 Unified Today Agenda** | Consolidates tasks, atomic habits, water tracking, and nutrition into one frictionless daily timeline with drag-and-drop routine reordering & haptic cues. |
-| **🥗 Clinical 43-Nutrient Engine** | Goes far beyond calorie counting: tracks **13 vitamins, 9 minerals, omega ratios, and fiber** against personalized RDA benchmarks using a **2,233+ offline USDA & ICMR database**. |
-| **⏱️ Focus Engine & Soundscapes** | Countdown, intervals, and stopwatch paired with real-time procedural audio synthesis (Rainstorm, 40Hz Alpha Waves, Forest Stream). |
-| **🔐 Notes & Stealth Vault** | Google Keep-style notes with bidirectional task sync and a triple-tap hidden PIN vault for encrypted private data. |
-| **📊 Executive PDF Dossiers** | Generates client-side 30-day comprehensive personal performance audit reports in light and dark themes with zero external server dependencies. |
-| **📱 Home Screen Widgets** | Glanceable native Android home screen widgets for live agenda tracking and one-tap habit completions. |
-
-<div align="center">
-  <code>React 18</code> • <code>Capacitor</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>SQLite Engine</code> • <code>Web Audio API</code> • <code>Client-Side PDF</code>
 </div>
 
 ---
@@ -144,11 +127,9 @@
 
 <div align="center">
 
-### LockIn Fitness — 30-Day Progressive Workout Suite
-**Transform Your Body in 30 Days — Zero Paywalls, Pure Consistency.**  
-*An offline-first Android fitness application delivering structured progressive overload training programs, rest timers, and habit streaks.*
+<img src="assets/fitness-showcase-card.svg" width="100%" alt="LockIn Fitness Progressive Workout Suite" />
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/Hemanthnr-alt/30-fitness">
   <img src="https://img.shields.io/badge/Fitness_Repository-6c5ce7?style=for-the-badge&logo=github&logoColor=white" />
@@ -159,28 +140,13 @@
 
 </div>
 
-<br/>
-
-| ⚡ Training Pillar | 🔬 Technical Architecture & Capabilities |
-| :--- | :--- |
-| **🏋️ 4 Progressive Training Splits** | Science-backed periodized programs engineered for muscle hypertrophy, strength adaptation, and progressive overload. |
-| **⏱️ Hands-Free Rest Timers** | Automated interval chimes and cues for distraction-free gym execution. |
-| **📈 Discipline Heatmaps** | Rolling consistency visualizers and streak milestones to build unbreakable exercise habits. |
-| **💾 100% Offline SQLite** | Instant workout logging with zero network latency and complete on-device data ownership. |
-
-<div align="center">
-  <code>React Native</code> • <code>Expo</code> • <code>TypeScript</code> • <code>Expo SQLite</code> • <code>Native Android</code>
-</div>
-
 ---
 
 ## 🛡️ The Local-First Manifesto
 
 <div align="center">
 
-| ⚡ Zero Cloud Latency | 🔒 Complete Privacy | 🛡️ Zero Paywalls | 📱 60fps Native UX |
-| :---: | :---: | :---: | :---: |
-| On-device SQLite queries execute in sub-millisecond time | No accounts, no background trackers, encrypted PIN vault | 100% of capabilities are completely free & accessible | Smooth hardware-accelerated animations via Capacitor & Expo |
+<img src="assets/manifesto-card.svg" width="100%" alt="The Local-First Engineering Manifesto" />
 
 </div>
 
@@ -202,14 +168,13 @@
 
 ---
 
-## 🎯 Roadmap & Milestones
+## 🎯 Roadmap & Engineering Milestones
 
-- [x] **Lock In v1.0:** Shipped production Android APK with 8 unified performance pillars
-- [x] **LockIn Fitness:** Built 30-day progressive training plans with offline SQLite tracking
-- [x] **Distribution:** Launched official landing page, live APK downloads & executive sample reports
-- [ ] **Lock In v2.0:** Home screen interactive quick-log widget updates & custom soundscape engine
-- [ ] **On-Device AI Parser:** Local NLP model for effortless natural language task & meal logging
-- [ ] **Encrypted P2P Sync:** Zero-knowledge local sync between Android devices and Desktop
+<div align="center">
+
+<img src="assets/roadmap-card.svg" width="100%" alt="Lock In Ecosystem Roadmap & Engineering Milestones" />
+
+</div>
 
 ---
 
