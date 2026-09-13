@@ -11,10 +11,10 @@
 <br/><br/>
 
 <!-- ==================== QUICK ACTION NAVIGATION ==================== -->
-<a href="https://30-landing.vercel.app/">
+<a href="https://lock-in-eta-nine.vercel.app/">
   <img src="https://img.shields.io/badge/Official_Site-161b22?style=for-the-badge&logo=googlechrome&logoColor=00F2FE&labelColor=0d1117" />
 </a>&nbsp;
-<a href="https://30-landing.vercel.app/lock-in.apk">
+<a href="https://lock-in-eta-nine.vercel.app/lock-in.apk">
   <img src="https://img.shields.io/badge/Download_Lock_In_APK-161b22?style=for-the-badge&logo=android&logoColor=22c55e&labelColor=0d1117" />
 </a>&nbsp;
 <a href="https://linkedin.com/in/hemanthnaidu">
@@ -41,8 +41,8 @@
 
 <br/><br/>
 
-<a href="https://30-landing.vercel.app/"><img src="https://img.shields.io/badge/Architecture-Local--First_Systems-6c5ce7?style=for-the-badge&logo=sqlite&logoColor=white" /></a>&nbsp;
-<a href="https://30-landing.vercel.app/lock-in.apk"><img src="https://img.shields.io/badge/Platform-Native_Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>&nbsp;
+<a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Architecture-Local--First_Systems-6c5ce7?style=for-the-badge&logo=sqlite&logoColor=white" /></a>&nbsp;
+<a href="https://lock-in-eta-nine.vercel.app/lock-in.apk"><img src="https://img.shields.io/badge/Platform-Native_Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>&nbsp;
 <a href="https://github.com/Hemanthnr-alt/Lock-In-Ecosystem"><img src="https://img.shields.io/badge/Privacy-Zero_Telemetry-00f2fe?style=for-the-badge&logo=shield&logoColor=black" /></a>&nbsp;
 <a href="https://github.com/Hemanthnr-alt/30-fitness"><img src="https://img.shields.io/badge/Status-Shipping_Production-22c55e?style=for-the-badge&logo=git&logoColor=white" /></a>
 
@@ -82,10 +82,10 @@
 
 <br/><br/>
 
-<a href="https://30-landing.vercel.app/">
+<a href="https://lock-in-eta-nine.vercel.app/">
   <img src="https://img.shields.io/badge/Official_Website-6c5ce7?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>&nbsp;
-<a href="https://30-landing.vercel.app/lock-in.apk">
+<a href="https://lock-in-eta-nine.vercel.app/lock-in.apk">
   <img src="https://img.shields.io/badge/Download_APK_(v1.0)-22c55e?style=for-the-badge&logo=android&logoColor=white" />
 </a>&nbsp;
 <a href="https://github.com/Hemanthnr-alt/Lock-In-Ecosystem">
@@ -194,7 +194,7 @@ I am actively open to **Software Engineering Roles**, **Full-Stack / Mobile Engi
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;&nbsp;
-<a href="https://30-landing.vercel.app/">
+<a href="https://lock-in-eta-nine.vercel.app/">
   <img src="https://img.shields.io/badge/Explore_Lock_In-6c5ce7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
