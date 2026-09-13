@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ==================== TOP BANNER (KEPT AS REQUESTED) ==================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,20:161b22,40:6c5ce7,70:8a2be2,100:00f2fe&height=260&section=header&text=Hemanth%20Naidu&fontSize=58&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Architecting%20Local-First%20Systems%20%E2%80%A2%20Android%20%E2%80%A2%20Full-Stack&descSize=17&descAlignY=62&descColor=00f2fecc&animation=fadeIn" width="100%"/>
+<!-- ==================== BESPOKE CYBER HERO BANNER ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-banner.svg" width="100%" alt="Hemanth Naidu Cyber Hero Banner"/>
 
 <br/>
 
