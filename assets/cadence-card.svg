@@ -1,47 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07090e" />
-      <stop offset="40%" stop-color="#0c1018" />
-      <stop offset="100%" stop-color="#080e1a" />
+      <stop offset="0%" stop-color="#07020d" />
+      <stop offset="50%" stop-color="#110418" />
+      <stop offset="100%" stop-color="#08020e" />
     </linearGradient>
 
-    <!-- Card Border Gradient -->
-    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.85" />
-      <stop offset="35%" stop-color="#6c5ce7" stop-opacity="0.7" />
-      <stop offset="70%" stop-color="#ec4899" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#10b981" stop-opacity="0.75" />
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055" stop-opacity="0.9" />
+      <stop offset="25%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ff0055" stop-opacity="0.9" />
     </linearGradient>
 
-    <!-- Glow Filter -->
-    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00f2fe" flood-opacity="0.12" />
-    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fde047" />
+    </linearGradient>
 
-    <!-- Tech Distribution Bar Gradients -->
-    <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="100%" stop-color="#38bdf8" />
-    </linearGradient>
-    <linearGradient id="ktGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a855f7" />
-      <stop offset="100%" stop-color="#c084fc" />
-    </linearGradient>
-    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10b981" />
-      <stop offset="100%" stop-color="#34d399" />
-    </linearGradient>
-    <linearGradient id="uiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f43f5e" />
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055" />
       <stop offset="100%" stop-color="#fb7185" />
     </linearGradient>
 
-    <!-- Background Grid Pattern -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.05" />
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.04" />
     </pattern>
+
+    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#ff0055" flood-opacity="0.15" />
+    </filter>
   </defs>
 
   <style>
@@ -58,107 +57,77 @@
   <rect x="2" y="2" width="996" height="316" rx="18" fill="url(#bg)" stroke="url(#border)" stroke-width="1.6" filter="url(#cardGlow)" />
   <rect x="2" y="2" width="996" height="316" rx="18" fill="url(#grid)" />
 
-  <!-- Header Section -->
+  <!-- Top Window Bar -->
   <g transform="translate(30, 26)">
-    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#00f2fe" stroke-width="2" />
-    <text x="26" y="14" class="sans" font-size="14.5" font-weight="800" fill="#ffffff" letter-spacing="1.5">
-      GITHUB CADENCE &amp; PRODUCTION METRICS
-    </text>
-    <text x="26" y="28" class="mono" font-size="10" fill="#64748b" letter-spacing="1">
-      VERIFIED CONTINUOUS INTEGRATION // MULTI-REPO SHIP VELOCITY
-    </text>
-
-    <!-- Live Status Pill -->
-    <rect x="760" y="-4" width="180" height="26" rx="13" fill="#0c1e14" stroke="#10b981" stroke-width="1" />
-    <circle cx="776" cy="9" r="4.5" fill="#10b981" class="beacon" />
-    <text x="788" y="13" class="mono" font-size="10.5" font-weight="700" fill="#34d399" letter-spacing="1">CADENCE: CONTINUOUS</text>
+    <circle cx="6" cy="6" r="4.5" fill="#ff0055" />
+    <circle cx="22" cy="6" r="4.5" fill="#f59e0b" />
+    <circle cx="38" cy="6" r="4.5" fill="#22c55e" />
+    <text x="56" y="10" fill="#94a3b8" font-size="11.5" class="mono">cadence://github.com/Hemanthnr-alt/production-velocity</text>
+    
+    <rect x="760" y="-3" width="180" height="22" rx="11" fill="#20040f" stroke="#ff0055" stroke-width="1" />
+    <circle cx="774" cy="8" r="4" fill="#00f2fe" class="beacon" />
+    <text x="786" y="12" fill="#fde047" font-size="9.5" font-weight="bold" class="mono">ACTIVE DISPATCH LIVE</text>
   </g>
 
-  <!-- Top 4 Metric Badges -->
-  <g transform="translate(30, 72)">
-    <!-- Metric 1: Commits -->
-    <g transform="translate(0, 0)">
-      <rect width="220" height="74" rx="10" fill="#0d111a" stroke="#1e293b" stroke-width="1" />
-      <text x="16" y="22" class="mono" font-size="10" font-weight="600" fill="#00f2fe">TOTAL COMMITS</text>
-      <text x="16" y="52" class="sans" font-size="26" font-weight="900" fill="#ffffff">320+</text>
-      <text x="88" y="50" class="mono" font-size="11" fill="#38bdf8">&#8593; Active Daily</text>
-    </g>
+  <!-- Title & Headline -->
+  <text x="32" y="74" fill="#ffffff" font-size="18" font-weight="800" class="sans">GITHUB PRODUCTION CADENCE &amp; COMMIT VELOCITY</text>
+  <text x="32" y="93" fill="#cbd5e1" font-size="12" class="sans">Real-time repository statistics, code distribution weight, and production deliverables</text>
 
-    <!-- Metric 2: Quality Grade -->
-    <g transform="translate(240, 0)">
-      <rect width="220" height="74" rx="10" fill="#0d111a" stroke="#1e293b" stroke-width="1" />
-      <text x="16" y="22" class="mono" font-size="10" font-weight="600" fill="#c084fc">CODEBASE GRADE</text>
-      <text x="16" y="52" class="sans" font-size="26" font-weight="900" fill="#a855f7">A+</text>
-      <text x="64" y="50" class="mono" font-size="11" fill="#c084fc">Top 5% Tier</text>
-    </g>
+  <!-- 4 Stat Counters in Grid -->
+  <g transform="translate(30, 114)">
+    <!-- Metric 1 -->
+    <rect x="0" y="0" width="220" height="80" rx="10" fill="#16051c" stroke="#320b3e" stroke-width="1" />
+    <text x="16" y="24" fill="#94a3b8" font-size="10.5" font-weight="600" class="sans">TOTAL COMMITS (YTD)</text>
+    <text x="16" y="58" fill="#ffffff" font-size="24" font-weight="800" class="mono">1,050+</text>
+    <text x="140" y="56" fill="url(#goldGrad)" font-size="13" font-weight="bold" class="mono">⚡ HIGH</text>
 
-    <!-- Metric 3: Architecture -->
-    <g transform="translate(480, 0)">
-      <rect width="220" height="74" rx="10" fill="#0d111a" stroke="#1e293b" stroke-width="1" />
-      <text x="16" y="22" class="mono" font-size="10" font-weight="600" fill="#34d399">OFFLINE SOVEREIGNTY</text>
-      <text x="16" y="52" class="sans" font-size="26" font-weight="900" fill="#10b981">100%</text>
-      <text x="92" y="50" class="mono" font-size="11" fill="#34d399">0% Cloud Trap</text>
-    </g>
+    <!-- Metric 2 -->
+    <rect x="240" y="0" width="220" height="80" rx="10" fill="#180709" stroke="#3f130b" stroke-width="1" />
+    <text x="16" y="24" fill="#94a3b8" font-size="10.5" font-weight="600" class="sans">FLAGSHIP REPOSITORIES</text>
+    <text x="16" y="58" fill="#ffffff" font-size="24" font-weight="800" class="mono">5 LIVE</text>
+    <text x="140" y="56" fill="url(#crimsonGrad)" font-size="13" font-weight="bold" class="mono">★ 100%</text>
 
-    <!-- Metric 4: Latency -->
-    <g transform="translate(720, 0)">
-      <rect width="220" height="74" rx="10" fill="#0d111a" stroke="#1e293b" stroke-width="1" />
-      <text x="16" y="22" class="mono" font-size="10" font-weight="600" fill="#f472b6">QUERY EXECUTION</text>
-      <text x="16" y="52" class="sans" font-size="26" font-weight="900" fill="#f43f5e">&lt;0.8ms</text>
-      <text x="110" y="50" class="mono" font-size="11" fill="#f472b6">In-Memory</text>
-    </g>
+    <!-- Metric 3 -->
+    <rect x="480" y="0" width="220" height="80" rx="10" fill="#07161b" stroke="#0e323e" stroke-width="1" />
+    <text x="16" y="24" fill="#94a3b8" font-size="10.5" font-weight="600" class="sans">NATIVE ANDROID BUILDS</text>
+    <text x="16" y="58" fill="#ffffff" font-size="24" font-weight="800" class="mono">2 SHIPPED</text>
+    <text x="140" y="56" fill="url(#cyanGrad)" font-size="13" font-weight="bold" class="mono">APK v1.0</text>
+
+    <!-- Metric 4 -->
+    <rect x="720" y="0" width="220" height="80" rx="10" fill="#0a1a12" stroke="#123d25" stroke-width="1" />
+    <text x="16" y="24" fill="#94a3b8" font-size="10.5" font-weight="600" class="sans">LOCAL-FIRST COVERAGE</text>
+    <text x="16" y="58" fill="#ffffff" font-size="24" font-weight="800" class="mono">100%</text>
+    <text x="135" y="56" fill="url(#greenGrad)" font-size="13" font-weight="bold" class="mono">OFFLINE</text>
   </g>
 
-  <!-- Lower Section: Real Technology Weight & Engineering Distribution -->
-  <g transform="translate(30, 162)">
-    <rect width="940" height="96" rx="12" fill="#090d15" stroke="#1e293b" stroke-width="1" />
+  <!-- Stack Distribution Weight Header -->
+  <text x="32" y="224" fill="#cbd5e1" font-size="11" font-weight="700" class="mono">LANGUAGE &amp; ARCHITECTURE DISTRIBUTION WEIGHT</text>
 
-    <text x="20" y="26" class="sans" font-size="12" font-weight="700" fill="#e2e8f0" letter-spacing="1">
-      ACTUAL SYSTEM STACK WEIGHT &amp; PRODUCTION FOOTPRINT
-    </text>
-    <text x="920" y="26" text-anchor="end" class="mono" font-size="10" fill="#64748b">
-      ACROSS 4 ACTIVE REPOSITORIES
-    </text>
-
-    <!-- Visual Stack Progress Bar -->
-    <g transform="translate(20, 38)">
-      <!-- Segment 1: TypeScript / React -->
-      <rect x="0" y="0" width="376" height="14" rx="4" fill="url(#tsGrad)" />
-      <!-- Segment 2: Kotlin / Android -->
-      <rect x="380" y="0" width="235" height="14" rx="4" fill="url(#ktGrad)" />
-      <!-- Segment 3: SQLite / IndexedDB -->
-      <rect x="619" y="0" width="169" height="14" rx="4" fill="url(#dbGrad)" />
-      <!-- Segment 4: Tailwind / CSS3 -->
-      <rect x="792" y="0" width="108" height="14" rx="4" fill="url(#uiGrad)" />
-    </g>
-
-    <!-- Legend Tags Below Bar -->
-    <g transform="translate(20, 76)">
-      <!-- Item 1 -->
-      <circle cx="6" cy="-4" r="4.5" fill="#00f2fe" />
-      <text x="16" y="0" class="mono" font-size="11" fill="#e2e8f0"><tspan font-weight="700">TypeScript / React</tspan> <tspan fill="#64748b">(42%)</tspan></text>
-
-      <!-- Item 2 -->
-      <circle cx="270" cy="-4" r="4.5" fill="#a855f7" />
-      <text x="280" y="0" class="mono" font-size="11" fill="#e2e8f0"><tspan font-weight="700">Android / Kotlin</tspan> <tspan fill="#64748b">(26%)</tspan></text>
-
-      <!-- Item 3 -->
-      <circle cx="510" cy="-4" r="4.5" fill="#10b981" />
-      <text x="520" y="0" class="mono" font-size="11" fill="#e2e8f0"><tspan font-weight="700">SQLite &amp; Dexie.js</tspan> <tspan fill="#64748b">(19%)</tspan></text>
-
-      <!-- Item 4 -->
-      <circle cx="740" cy="-4" r="4.5" fill="#f43f5e" />
-      <text x="750" y="0" class="mono" font-size="11" fill="#e2e8f0"><tspan font-weight="700">Tailwind / Audio FX</tspan> <tspan fill="#64748b">(13%)</tspan></text>
-    </g>
+  <!-- Multi-Segment Distribution Bar -->
+  <g transform="translate(30, 234)">
+    <rect x="0" y="0" width="940" height="14" rx="7" fill="#1b0722" />
+    <!-- TypeScript 46% -->
+    <rect x="0" y="0" width="432" height="14" rx="7" fill="url(#goldGrad)" />
+    <!-- Android/Kotlin 24% -->
+    <rect x="432" y="0" width="225" height="14" fill="url(#crimsonGrad)" />
+    <!-- SQLite & DB 18% -->
+    <rect x="657" y="0" width="169" height="14" fill="url(#greenGrad)" />
+    <!-- Web/CSS 12% -->
+    <rect x="826" y="0" width="114" height="14" rx="7" fill="url(#cyanGrad)" />
   </g>
 
-  <!-- Bottom Command Status -->
-  <g transform="translate(30, 272)">
-    <rect width="940" height="30" rx="6" fill="#06080d" stroke="#1e293b" stroke-width="1" />
-    <text x="16" y="19" class="mono" font-size="10.5" fill="#00f2fe">&gt;_</text>
-    <text x="36" y="19" class="mono" font-size="10.5" fill="#94a3b8">
-      STATUS: <tspan fill="#10b981">ALL REPOSITORIES PASSING CI</tspan> &#8226; <tspan fill="#00f2fe">ECOSYSTEM: PRODUCTION READY</tspan> &#8226; <tspan fill="#f472b6">DAILY DISCIPLINE</tspan>
-    </text>
-    <text x="924" y="19" text-anchor="end" class="mono" font-size="10" fill="#64748b">[BUILD_PASS]</text>
+  <!-- Legend Labels -->
+  <g transform="translate(30, 276)" font-size="11" class="mono">
+    <circle cx="6" cy="6" r="5" fill="#f59e0b" />
+    <text x="18" y="10" fill="#ffffff">TypeScript &amp; React (46%)</text>
+
+    <circle cx="270" cy="6" r="5" fill="#ff0055" />
+    <text x="282" y="10" fill="#ffffff">Android &amp; Native Bridge (24%)</text>
+
+    <circle cx="560" cy="6" r="5" fill="#22c55e" />
+    <text x="572" y="10" fill="#ffffff">SQLite &amp; Prisma (18%)</text>
+
+    <circle cx="790" cy="6" r="5" fill="#00f2fe" />
+    <text x="802" y="10" fill="#ffffff">Tailwind &amp; Web (12%)</text>
   </g>
 </svg>

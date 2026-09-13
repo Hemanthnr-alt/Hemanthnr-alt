@@ -1,62 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 250" width="100%" height="100%">
   <defs>
-    <linearGradient id="manBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#6c5ce7"/>
-      <stop offset="100%" stop-color="#8a2be2"/>
+    <linearGradient id="manBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="25%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#ff0055"/>
     </linearGradient>
     <linearGradient id="manBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#141a26"/>
-    </linearGradient>
-    <linearGradient id="manCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#181e2b"/>
-      <stop offset="100%" stop-color="#111622"/>
+      <stop offset="0%" stop-color="#07020d"/>
+      <stop offset="50%" stop-color="#110418"/>
+      <stop offset="100%" stop-color="#09020f"/>
     </linearGradient>
   </defs>
 
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; }
     .bold { font-weight: 700; }
   </style>
 
   <!-- Frame -->
-  <rect x="2" y="2" width="836" height="226" rx="16" fill="url(#manBg)" stroke="url(#manBorder)" stroke-width="1.8"/>
+  <rect x="2" y="2" width="836" height="246" rx="16" fill="url(#manBg)" stroke="url(#manBorder)" stroke-width="1.8"/>
 
-  <!-- Title -->
-  <text x="32" y="38" fill="#ffffff" font-size="16" class="sans bold">🛡️ THE LOCAL-FIRST MANIFESTO</text>
-  <text x="340" y="38" fill="#8b949e" font-size="12" class="sans">Architectural non-negotiables for high-performance software</text>
+  <!-- Title & Icon -->
+  <text x="32" y="44" fill="#ffffff" font-size="18" class="sans bold">🛡️ THE LOCAL-FIRST ENGINEERING MANIFESTO</text>
+  <line x1="32" y1="56" x2="808" y2="56" stroke="#25062e" stroke-width="1"/>
 
-  <!-- 4 Cards -->
-  <!-- Card 1 -->
-  <rect x="24" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
-  <text x="40" y="92" font-size="22">⚡</text>
-  <text x="40" y="118" fill="#00f2fe" font-size="13" class="sans bold">Zero Cloud Latency</text>
-  <text x="40" y="140" fill="#8b949e" font-size="11" class="sans">Sub-1ms queries</text>
-  <text x="40" y="156" fill="#8b949e" font-size="11" class="sans">On-device SQLite</text>
-  <text x="40" y="172" fill="#8b949e" font-size="11" class="sans">Zero network lag</text>
+  <!-- 3 Articles -->
+  <!-- Article 1 -->
+  <g transform="translate(32, 74)">
+    <rect width="244" height="142" rx="8" fill="#170620" stroke="#310a3d" stroke-width="1"/>
+    <text x="16" y="28" fill="#f59e0b" font-size="13" class="sans bold">Article I : Sovereignty</text>
+    <text x="16" y="52" fill="#cbd5e1" font-size="11.5" class="sans">Your software should never</text>
+    <text x="16" y="70" fill="#cbd5e1" font-size="11.5" class="sans">hold your data hostage behind</text>
+    <text x="16" y="88" fill="#cbd5e1" font-size="11.5" class="sans">a login wall or a cloud</text>
+    <text x="16" y="106" fill="#cbd5e1" font-size="11.5" class="sans">server migration.</text>
+    <text x="16" y="126" fill="#fde047" font-size="10" class="mono">STATUS: 100% LOCAL</text>
+  </g>
 
-  <!-- Card 2 -->
-  <rect x="224" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
-  <text x="240" y="92" font-size="22">🔒</text>
-  <text x="240" y="118" fill="#a29bfe" font-size="13" class="sans bold">Total Data Privacy</text>
-  <text x="240" y="140" fill="#8b949e" font-size="11" class="sans">Zero telemetry</text>
-  <text x="240" y="156" fill="#8b949e" font-size="11" class="sans">No remote accounts</text>
-  <text x="240" y="172" fill="#8b949e" font-size="11" class="sans">Client encrypted vault</text>
+  <!-- Article 2 -->
+  <g transform="translate(296, 74)">
+    <rect width="248" height="142" rx="8" fill="#170620" stroke="#310a3d" stroke-width="1"/>
+    <text x="16" y="28" fill="#ff0055" font-size="13" class="sans bold">Article II : Latency</text>
+    <text x="16" y="52" fill="#cbd5e1" font-size="11.5" class="sans">A human thought takes 100ms.</text>
+    <text x="16" y="70" fill="#cbd5e1" font-size="11.5" class="sans">Your UI should respond in</text>
+    <text x="16" y="88" fill="#cbd5e1" font-size="11.5" class="sans">under 16ms. No spinning</text>
+    <text x="16" y="106" fill="#cbd5e1" font-size="11.5" class="sans">loaders for simple state.</text>
+    <text x="16" y="126" fill="#ff708f" font-size="10" class="mono">TARGET: &lt; 0.8ms DB</text>
+  </g>
 
-  <!-- Card 3 -->
-  <rect x="424" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
-  <text x="440" y="92" font-size="22">🛡️</text>
-  <text x="440" y="118" fill="#22c55e" font-size="13" class="sans bold">Zero Paywalls</text>
-  <text x="440" y="140" fill="#8b949e" font-size="11" class="sans">100% features free</text>
-  <text x="440" y="156" fill="#8b949e" font-size="11" class="sans">No monthly subs</text>
-  <text x="440" y="172" fill="#8b949e" font-size="11" class="sans">Accessible forever</text>
-
-  <!-- Card 4 -->
-  <rect x="624" y="60" width="186" height="142" rx="10" fill="url(#manCard)" stroke="#232e3f" stroke-width="1"/>
-  <text x="640" y="92" font-size="22">📱</text>
-  <text x="640" y="118" fill="#f093fb" font-size="13" class="sans bold">60fps Native UX</text>
-  <text x="640" y="140" fill="#8b949e" font-size="11" class="sans">Hardware accelerated</text>
-  <text x="640" y="156" fill="#8b949e" font-size="11" class="sans">Home screen widgets</text>
-  <text x="640" y="172" fill="#8b949e" font-size="11" class="sans">Capacitor &amp; Expo</text>
+  <!-- Article 3 -->
+  <g transform="translate(564, 74)">
+    <rect width="244" height="142" rx="8" fill="#170620" stroke="#310a3d" stroke-width="1"/>
+    <text x="16" y="28" fill="#00f2fe" font-size="13" class="sans bold">Article III : Longevity</text>
+    <text x="16" y="52" fill="#cbd5e1" font-size="11.5" class="sans">SQLite files built today will</text>
+    <text x="16" y="70" fill="#cbd5e1" font-size="11.5" class="sans">be readable in 2050. Cloud</text>
+    <text x="16" y="88" fill="#cbd5e1" font-size="11.5" class="sans">APIs will be deprecated</text>
+    <text x="16" y="106" fill="#cbd5e1" font-size="11.5" class="sans">in 18 months.</text>
+    <text x="16" y="126" fill="#7dd3fc" font-size="10" class="mono">FORMAT: SQLITE 3</text>
+  </g>
 </svg>

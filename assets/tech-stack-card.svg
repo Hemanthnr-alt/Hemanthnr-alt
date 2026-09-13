@@ -1,20 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 280" width="100%" height="100%">
   <defs>
-    <linearGradient id="techBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6c5ce7"/>
-      <stop offset="50%" stop-color="#8a2be2"/>
-      <stop offset="100%" stop-color="#00f2fe"/>
+    <linearGradient id="techBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="25%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#ff0055"/>
     </linearGradient>
     
     <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="60%" stop-color="#121622"/>
-      <stop offset="100%" stop-color="#151b26"/>
+      <stop offset="0%" stop-color="#07020d"/>
+      <stop offset="50%" stop-color="#110418"/>
+      <stop offset="100%" stop-color="#09020f"/>
     </linearGradient>
 
     <linearGradient id="colBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#181e2b"/>
-      <stop offset="100%" stop-color="#111622"/>
+      <stop offset="0%" stop-color="#17061f"/>
+      <stop offset="100%" stop-color="#0e0314"/>
     </linearGradient>
   </defs>
 
@@ -28,61 +30,60 @@
   <rect x="2" y="2" width="836" height="276" rx="16" fill="url(#techBg)" stroke="url(#techBorder)" stroke-width="1.8"/>
 
   <!-- Top Bar -->
-  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 40 L 2 40 Z" fill="#161b24"/>
-  <line x1="2" y1="40" x2="838" y2="40" stroke="#21262d" stroke-width="1"/>
+  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 40 L 2 40 Z" fill="#120417"/>
+  <line x1="2" y1="40" x2="838" y2="40" stroke="#25062e" stroke-width="1"/>
 
-  <circle cx="24" cy="21" r="5" fill="#ff5f56"/>
-  <circle cx="42" cy="21" r="5" fill="#ffbd2e"/>
-  <circle cx="60" cy="21" r="5" fill="#27c93f"/>
+  <circle cx="24" cy="21" r="5" fill="#ff0055"/>
+  <circle cx="42" cy="21" r="5" fill="#f59e0b"/>
+  <circle cx="60" cy="21" r="5" fill="#22c55e"/>
 
-  <text x="80" y="25" fill="#8b949e" font-size="11.5" class="mono">matrix://technology-arsenal-and-skills</text>
+  <text x="80" y="25" fill="#94a3b8" font-size="11.5" class="mono">matrix://technology-arsenal-and-skills</text>
   
-  <rect x="696" y="10" width="124" height="20" rx="10" fill="#13231b" stroke="#22c55e" stroke-width="1"/>
-  <circle cx="709" cy="20" r="3.5" fill="#22c55e"/>
-  <text x="719" y="24" fill="#22c55e" font-size="10" class="mono bold">VERIFIED STACK</text>
+  <rect x="686" y="10" width="134" height="20" rx="10" fill="#241403" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="699" cy="20" r="3.5" fill="#fbbf24"/>
+  <text x="709" y="24" fill="#fbbf24" font-size="10" class="mono bold">VERIFIED STACK</text>
 
   <!-- 4 Columns -->
   <!-- Col 1: Mobile & Native -->
-  <rect x="22" y="54" width="188" height="174" rx="10" fill="url(#colBg)" stroke="#232e3f" stroke-width="1"/>
-  <text x="36" y="78" fill="#00f2fe" font-size="12.5" class="sans bold">📱 Mobile &amp; Native</text>
-  <line x1="36" y1="88" x2="196" y2="88" stroke="#2a364a" stroke-width="1"/>
-  <text x="36" y="110" fill="#c9d1d9" font-size="11.5" class="mono">• Android SDK</text>
-  <text x="36" y="132" fill="#c9d1d9" font-size="11.5" class="mono">• Capacitor</text>
-  <text x="36" y="154" fill="#c9d1d9" font-size="11.5" class="mono">• React Native</text>
-  <text x="36" y="176" fill="#c9d1d9" font-size="11.5" class="mono">• Expo SQLite</text>
-  <text x="36" y="198" fill="#c9d1d9" font-size="11.5" class="mono">• App Widgets</text>
+  <rect x="22" y="54" width="188" height="174" rx="10" fill="url(#colBg)" stroke="#2e0a38" stroke-width="1"/>
+  <text x="36" y="78" fill="#f59e0b" font-size="12.5" class="sans bold">📱 Mobile &amp; Native</text>
+  <line x1="36" y1="88" x2="196" y2="88" stroke="#370d43" stroke-width="1"/>
+  <text x="36" y="110" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Android SDK</text>
+  <text x="36" y="132" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Capacitor</text>
+  <text x="36" y="154" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; React Native</text>
+  <text x="36" y="176" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Expo SQLite</text>
+  <text x="36" y="198" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; App Widgets</text>
 
   <!-- Col 2: Frontend Engineering -->
-  <rect x="222" y="54" width="188" height="174" rx="10" fill="url(#colBg)" stroke="#232e3f" stroke-width="1"/>
-  <text x="236" y="78" fill="#a29bfe" font-size="12.5" class="sans bold">⚡ Frontend &amp; Web</text>
-  <line x1="236" y1="88" x2="396" y2="88" stroke="#2a364a" stroke-width="1"/>
-  <text x="236" y="110" fill="#c9d1d9" font-size="11.5" class="mono">• React 18</text>
-  <text x="236" y="132" fill="#c9d1d9" font-size="11.5" class="mono">• TypeScript</text>
-  <text x="236" y="154" fill="#c9d1d9" font-size="11.5" class="mono">• Tailwind CSS</text>
-  <text x="236" y="176" fill="#c9d1d9" font-size="11.5" class="mono">• Vite Engine</text>
-  <text x="236" y="198" fill="#c9d1d9" font-size="11.5" class="mono">• Web Audio API</text>
+  <rect x="222" y="54" width="188" height="174" rx="10" fill="url(#colBg)" stroke="#2e0a38" stroke-width="1"/>
+  <text x="236" y="78" fill="#ff0055" font-size="12.5" class="sans bold">⚡ Frontend &amp; Web</text>
+  <line x1="236" y1="88" x2="396" y2="88" stroke="#370d43" stroke-width="1"/>
+  <text x="236" y="110" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; React 18</text>
+  <text x="236" y="132" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; TypeScript</text>
+  <text x="236" y="154" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Tailwind CSS</text>
+  <text x="236" y="176" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Vite</text>
+  <text x="236" y="198" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Lucide Icons</text>
 
-  <!-- Col 3: Backend & Databases -->
-  <rect x="422" y="54" width="188" height="174" rx="10" fill="url(#colBg)" stroke="#232e3f" stroke-width="1"/>
-  <text x="436" y="78" fill="#22c55e" font-size="12.5" class="sans bold">🗄️ Backend &amp; Data</text>
-  <line x1="436" y1="88" x2="596" y2="88" stroke="#2a364a" stroke-width="1"/>
-  <text x="436" y="110" fill="#c9d1d9" font-size="11.5" class="mono">• Node.js</text>
-  <text x="436" y="132" fill="#c9d1d9" font-size="11.5" class="mono">• Express.js</text>
-  <text x="436" y="154" fill="#c9d1d9" font-size="11.5" class="mono">• PostgreSQL</text>
-  <text x="436" y="176" fill="#c9d1d9" font-size="11.5" class="mono">• Prisma ORM</text>
-  <text x="436" y="198" fill="#c9d1d9" font-size="11.5" class="mono">• SQLite Engine</text>
+  <!-- Col 3: Systems & Backend -->
+  <rect x="422" y="54" width="188" height="174" rx="10" fill="url(#colBg)" stroke="#2e0a38" stroke-width="1"/>
+  <text x="436" y="78" fill="#fde047" font-size="12.5" class="sans bold">🛡️ Systems &amp; DB</text>
+  <line x1="436" y1="88" x2="596" y2="88" stroke="#370d43" stroke-width="1"/>
+  <text x="436" y="110" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; SQLite Engine</text>
+  <text x="436" y="132" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; PostgreSQL</text>
+  <text x="436" y="154" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Prisma ORM</text>
+  <text x="436" y="176" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Node.js</text>
+  <text x="436" y="198" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Express APIs</text>
 
-  <!-- Col 4: DevOps & Tools -->
-  <rect x="622" y="54" width="194" height="174" rx="10" fill="url(#colBg)" stroke="#232e3f" stroke-width="1"/>
-  <text x="636" y="78" fill="#f093fb" font-size="12.5" class="sans bold">🛠️ DevOps &amp; Cloud</text>
-  <line x1="636" y1="88" x2="802" y2="88" stroke="#2a364a" stroke-width="1"/>
-  <text x="636" y="110" fill="#c9d1d9" font-size="11.5" class="mono">• Git &amp; GitHub</text>
-  <text x="636" y="132" fill="#c9d1d9" font-size="11.5" class="mono">• Android Studio</text>
-  <text x="636" y="154" fill="#c9d1d9" font-size="11.5" class="mono">• Python 3</text>
-  <text x="636" y="176" fill="#c9d1d9" font-size="11.5" class="mono">• Postman</text>
-  <text x="636" y="198" fill="#c9d1d9" font-size="11.5" class="mono">• Vercel CI/CD</text>
+  <!-- Col 4: DevOps & Intelligence -->
+  <rect x="622" y="54" width="194" height="174" rx="10" fill="url(#colBg)" stroke="#2e0a38" stroke-width="1"/>
+  <text x="636" y="78" fill="#00f2fe" font-size="12.5" class="sans bold">🚀 Tooling &amp; AI</text>
+  <line x1="636" y1="88" x2="802" y2="88" stroke="#370d43" stroke-width="1"/>
+  <text x="636" y="110" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Python Scripting</text>
+  <text x="636" y="132" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Git &amp; GitHub</text>
+  <text x="636" y="154" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Vercel Deploy</text>
+  <text x="636" y="176" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Android Studio</text>
+  <text x="636" y="198" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Local NLP Models</text>
 
-  <!-- Bottom Bar -->
-  <line x1="2" y1="242" x2="838" y2="242" stroke="#21262d" stroke-width="1"/>
-  <text x="32" y="263" fill="#8b949e" font-size="10.5" class="mono">STATUS: 100% PRODUCTION-GRADE TOOLING • ZERO PAYWALLS • SUB-1MS QUERY LATENCY</text>
+  <!-- Footer Info Line -->
+  <text x="24" y="254" fill="#94a3b8" font-size="11" class="mono">STATUS: ZERO TELEMETRY DEPENDENCY &#8226; DETERMINISTIC LOCAL COMPILATION</text>
 </svg>

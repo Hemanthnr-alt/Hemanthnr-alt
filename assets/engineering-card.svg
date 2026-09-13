@@ -2,36 +2,38 @@
   <defs>
     <!-- Gradients -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6c5ce7"/>
-      <stop offset="50%" stop-color="#8a2be2"/>
-      <stop offset="100%" stop-color="#00f2fe"/>
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="25%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#ff0055"/>
     </linearGradient>
     
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="60%" stop-color="#121620"/>
-      <stop offset="100%" stop-color="#161b26"/>
+      <stop offset="0%" stop-color="#06020c"/>
+      <stop offset="50%" stop-color="#100418"/>
+      <stop offset="100%" stop-color="#160621"/>
     </linearGradient>
 
     <linearGradient id="cardBg1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1a1d2e"/>
-      <stop offset="100%" stop-color="#131722"/>
+      <stop offset="0%" stop-color="#190621"/>
+      <stop offset="100%" stop-color="#110317"/>
     </linearGradient>
 
     <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#121f28"/>
-      <stop offset="100%" stop-color="#111822"/>
+      <stop offset="0%" stop-color="#1c0a06"/>
+      <stop offset="100%" stop-color="#120403"/>
     </linearGradient>
 
-    <linearGradient id="textCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#4facfe"/>
+    <linearGradient id="textGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fde047"/>
     </linearGradient>
 
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+    <linearGradient id="textCrimson" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
   </defs>
 
   <style>
@@ -45,80 +47,67 @@
   <rect x="2" y="2" width="836" height="396" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.8"/>
 
   <!-- Window Header Bar -->
-  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 42 L 2 42 Z" fill="#161b24"/>
-  <line x1="2" y1="42" x2="838" y2="42" stroke="#21262d" stroke-width="1"/>
+  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 42 L 2 42 Z" fill="#120417"/>
+  <line x1="2" y1="42" x2="838" y2="42" stroke="#280733" stroke-width="1"/>
 
-  <!-- macOS Window Controls -->
-  <circle cx="24" cy="22" r="5.5" fill="#ff5f56"/>
-  <circle cx="42" cy="22" r="5.5" fill="#ffbd2e"/>
-  <circle cx="60" cy="22" r="5.5" fill="#27c93f"/>
+  <!-- Window Controls -->
+  <circle cx="24" cy="22" r="5.5" fill="#ff0055"/>
+  <circle cx="42" cy="22" r="5.5" fill="#f59e0b"/>
+  <circle cx="60" cy="22" r="5.5" fill="#22c55e"/>
 
   <!-- Header Title -->
-  <text x="80" y="26" fill="#8b949e" font-size="12" class="mono">hemanth@lockin-core : ~/doctrine-and-systems</text>
+  <text x="80" y="26" fill="#94a3b8" font-size="12" class="mono">hemanth@lockin-core : ~/doctrine-and-systems</text>
 
   <!-- Status Pill in Header -->
-  <rect x="690" y="12" width="130" height="20" rx="10" fill="#13231b" stroke="#22c55e" stroke-width="1"/>
-  <circle cx="704" cy="22" r="3.5" fill="#22c55e"/>
-  <text x="715" y="26" fill="#22c55e" font-size="10.5" class="mono medium">SYSTEMS LIVE</text>
+  <rect x="680" y="12" width="140" height="20" rx="10" fill="#230310" stroke="#ff0055" stroke-width="1"/>
+  <circle cx="693" cy="22" r="3.5" fill="#00f2fe"/>
+  <text x="703" y="26" fill="#fde047" font-size="10" class="mono bold">PRODUCTION CORE</text>
 
-  <!-- Split Divider Line -->
-  <line x1="420" y1="56" x2="420" y2="330" stroke="#21262d" stroke-width="1.2" stroke-dasharray="4 4"/>
-
-  <!-- ==================== LEFT COLUMN: DOCTRINE ==================== -->
-  <text x="32" y="78" fill="url(#textCyan)" font-size="14" class="sans bold" letter-spacing="1">⚡ CORE ENGINEERING DOCTRINE</text>
-
-  <!-- Item 1 -->
-  <rect x="30" y="96" width="365" height="48" rx="8" fill="url(#cardBg1)" stroke="#2d3348" stroke-width="1"/>
-  <text x="44" y="116" fill="#ffffff" font-size="12.5" class="sans bold">Local-First Architecture</text>
-  <text x="44" y="133" fill="#8b949e" font-size="11" class="sans">100% on-device SQLite engine · Sub-1ms reactive queries</text>
-
-  <!-- Item 2 -->
-  <rect x="30" y="152" width="365" height="48" rx="8" fill="url(#cardBg1)" stroke="#2d3348" stroke-width="1"/>
-  <text x="44" y="172" fill="#ffffff" font-size="12.5" class="sans bold">Data Sovereignty &amp; Stealth Vault</text>
-  <text x="44" y="189" fill="#8b949e" font-size="11" class="sans">Zero telemetry · Zero cloud tracking · Client-side encryption</text>
-
-  <!-- Item 3 -->
-  <rect x="30" y="208" width="365" height="48" rx="8" fill="url(#cardBg1)" stroke="#2d3348" stroke-width="1"/>
-  <text x="44" y="228" fill="#ffffff" font-size="12.5" class="sans bold">Zero Paywalls Philosophy</text>
-  <text x="44" y="245" fill="#8b949e" font-size="11" class="sans">Uncompromising personal performance tools for everyone</text>
-
-  <!-- Item 4 -->
-  <rect x="30" y="264" width="365" height="48" rx="8" fill="url(#cardBg1)" stroke="#2d3348" stroke-width="1"/>
-  <text x="44" y="284" fill="#ffffff" font-size="12.5" class="sans bold">60fps Native Android UX</text>
-  <text x="44" y="301" fill="#8b949e" font-size="11" class="sans">Fluid gesture navigation · Glanceable live home screen widgets</text>
-
-
-  <!-- ==================== RIGHT COLUMN: DEPLOYMENTS ==================== -->
-  <text x="446" y="78" fill="#a29bfe" font-size="14" class="sans bold" letter-spacing="1">🚀 ACTIVE DEPLOYMENTS</text>
-
-  <!-- Deploy 1: Lock In -->
-  <rect x="444" y="96" width="365" height="66" rx="8" fill="url(#cardBg2)" stroke="#233544" stroke-width="1"/>
-  <text x="458" y="118" fill="#00f2fe" font-size="13" class="sans bold">Lock In (Android v1.0)</text>
-  <text x="735" y="117" fill="#22c55e" font-size="10.5" class="mono bold">SHIPPED</text>
-  <text x="458" y="136" fill="#c9d1d9" font-size="11" class="sans">8 Pillars: Agenda, 43-Nutrient Engine, Focus Audio, Stealth Vault</text>
-  <text x="458" y="152" fill="#8b949e" font-size="10.5" class="mono">React 18 · Capacitor · TypeScript · SQLite</text>
-
-  <!-- Deploy 2: LockIn Fitness -->
-  <rect x="444" y="170" width="365" height="66" rx="8" fill="url(#cardBg2)" stroke="#233544" stroke-width="1"/>
-  <text x="458" y="192" fill="#a29bfe" font-size="13" class="sans bold">LockIn Fitness (Expo / RN)</text>
-  <text x="735" y="191" fill="#22c55e" font-size="10.5" class="mono bold">SHIPPED</text>
-  <text x="458" y="210" fill="#c9d1d9" font-size="11" class="sans">30-day progressive training splits, audio rest chimes &amp; heatmaps</text>
-  <text x="458" y="226" fill="#8b949e" font-size="10.5" class="mono">React Native · Expo SQLite · Native Android</text>
-
-  <!-- Deploy 3: Web & Distribution -->
-  <rect x="444" y="244" width="365" height="68" rx="8" fill="url(#cardBg2)" stroke="#233544" stroke-width="1"/>
-  <text x="458" y="266" fill="#ffffff" font-size="13" class="sans bold">Official Distribution Hub</text>
-  <text x="752" y="265" fill="#4facfe" font-size="10.5" class="mono bold">LIVE</text>
-  <text x="458" y="284" fill="#c9d1d9" font-size="11" class="sans">Live product site, instant APK downloads, sample executive PDF</text>
-  <text x="458" y="300" fill="#8b949e" font-size="10.5" class="mono">lock-in-eta-nine.vercel.app · Vercel CI/CD</text>
-
-
-  <!-- ==================== BOTTOM STATUS BAR ==================== -->
-  <line x1="2" y1="344" x2="838" y2="344" stroke="#21262d" stroke-width="1"/>
+  <!-- Grid Layout: 2 Primary Columns -->
+  <!-- Left Box: Core Philosophy -->
+  <rect x="24" y="58" width="380" height="318" rx="10" fill="url(#cardBg1)" stroke="#320b3f" stroke-width="1"/>
   
-  <!-- Mini tags -->
-  <text x="32" y="372" fill="#8b949e" font-size="11" class="mono">ENGINEER: Hemanth Naidu</text>
-  <text x="240" y="372" fill="#8b949e" font-size="11" class="mono">LOCATION: Bengaluru, IN</text>
-  <text x="450" y="372" fill="#8b949e" font-size="11" class="mono">FOCUS: Local-First • Mobile • Systems</text>
-  <text x="740" y="372" fill="#22c55e" font-size="11" class="mono bold">OPEN TO SWE</text>
+  <text x="44" y="88" fill="url(#textGold)" font-size="14" class="sans bold" letter-spacing="0.5">01 // CORE ENGINEERING DOCTRINE</text>
+  <line x1="44" y1="98" x2="384" y2="98" stroke="#320b3f" stroke-width="1"/>
+
+  <text x="44" y="124" fill="#f8fafc" font-size="12" class="sans bold">Offline-First is Not a Feature, It is Freedom</text>
+  <text x="44" y="142" fill="#94a3b8" font-size="11" class="sans">Cloud servers fail, subscriptions expire, networks lag.</text>
+  <text x="44" y="158" fill="#94a3b8" font-size="11" class="sans">Your tools must function with zero internet dependency.</text>
+
+  <text x="44" y="190" fill="#f8fafc" font-size="12" class="sans bold">Data Sovereignty &amp; Privacy by Architecture</text>
+  <text x="44" y="208" fill="#94a3b8" font-size="11" class="sans">Zero third-party trackers. Zero telemetry pipelines.</text>
+  <text x="44" y="224" fill="#94a3b8" font-size="11" class="sans">User data lives and stays entirely inside SQLite on-device.</text>
+
+  <text x="44" y="256" fill="#f8fafc" font-size="12" class="sans bold">Instantaneous Response Times (&lt;16ms)</text>
+  <text x="44" y="274" fill="#94a3b8" font-size="11" class="sans">No network round-trips for routine CRUD operations.</text>
+  <text x="44" y="290" fill="#94a3b8" font-size="11" class="sans">60fps fluid UI execution with immediate state updates.</text>
+
+  <text x="44" y="322" fill="#f8fafc" font-size="12" class="sans bold">Single Codebase, Zero Compromise</text>
+  <text x="44" y="340" fill="#94a3b8" font-size="11" class="sans">Native Android hardware widgets and responsive web apps,</text>
+  <text x="44" y="356" fill="#94a3b8" font-size="11" class="sans">powered by React, TypeScript, and native bridge APIs.</text>
+
+  <!-- Right Box: Systems Architecture -->
+  <rect x="424" y="58" width="392" height="318" rx="10" fill="url(#cardBg2)" stroke="#3f130b" stroke-width="1"/>
+  
+  <text x="444" y="88" fill="url(#textCrimson)" font-size="14" class="sans bold" letter-spacing="0.5">02 // ARCHITECTURAL BLUEPRINT</text>
+  <line x1="444" y1="98" x2="796" y2="98" stroke="#3f130b" stroke-width="1"/>
+
+  <rect x="444" y="112" width="352" height="48" rx="6" fill="#200613" stroke="#ff0055" stroke-width="0.8"/>
+  <text x="456" y="132" fill="#ff0055" font-size="11.5" class="mono bold">PRESENTATION LAYER</text>
+  <text x="456" y="148" fill="#e2e8f0" font-size="11" class="sans">React 18 &#8226; Tailwind CSS &#8226; Vite &#8226; Lucide Icons &#8226; 60fps UI</text>
+
+  <rect x="444" y="168" width="352" height="48" rx="6" fill="#201103" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="456" y="188" fill="#f59e0b" font-size="11.5" class="mono bold">CROSS-PLATFORM BRIDGE</text>
+  <text x="456" y="204" fill="#e2e8f0" font-size="11" class="sans">Capacitor 6 &#8226; Native Android SDK &#8226; AppWidgetProvider</text>
+
+  <rect x="444" y="224" width="352" height="48" rx="6" fill="#190624" stroke="#c084fc" stroke-width="0.8"/>
+  <text x="456" y="244" fill="#c084fc" font-size="11.5" class="mono bold">DETERMINISTIC STORAGE</text>
+  <text x="456" y="260" fill="#e2e8f0" font-size="11" class="sans">Native SQLite Engine &#8226; WAL Mode &#8226; Immediate Persistence</text>
+
+  <rect x="444" y="280" width="352" height="48" rx="6" fill="#04181a" stroke="#00f2fe" stroke-width="0.8"/>
+  <text x="456" y="300" fill="#00f2fe" font-size="11.5" class="mono bold">SYSTEM PERFORMANCE</text>
+  <text x="456" y="316" fill="#e2e8f0" font-size="11" class="sans">Sub-1ms Query Execution &#8226; Zero Cloud Outage Risk &#8226; Light Footprint</text>
+
+  <!-- Architecture summary footer -->
+  <text x="448" y="356" fill="#94a3b8" font-size="10.5" class="mono">STATUS: PRODUCTION AUDITED &#8226; BENCHMARK PASSING</text>
 </svg>

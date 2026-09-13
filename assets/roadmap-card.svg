@@ -1,17 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="100%" height="100%">
   <defs>
-    <linearGradient id="roadBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6c5ce7"/>
-      <stop offset="50%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#a29bfe"/>
+    <linearGradient id="roadBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="25%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#ff0055"/>
     </linearGradient>
     <linearGradient id="roadBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#131824"/>
+      <stop offset="0%" stop-color="#07020d"/>
+      <stop offset="50%" stop-color="#110418"/>
+      <stop offset="100%" stop-color="#08020e"/>
     </linearGradient>
     <linearGradient id="roadCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#181e2b"/>
-      <stop offset="100%" stop-color="#111622"/>
+      <stop offset="0%" stop-color="#170620"/>
+      <stop offset="100%" stop-color="#0f0315"/>
     </linearGradient>
   </defs>
 
@@ -26,42 +29,42 @@
 
   <!-- Title -->
   <text x="32" y="38" fill="#ffffff" font-size="16" class="sans bold">🎯 ROADMAP &amp; ENGINEERING MILESTONES</text>
-  <text x="380" y="38" fill="#8b949e" font-size="12" class="sans">Active R&amp;D trajectory for the Lock In ecosystem</text>
+  <text x="380" y="38" fill="#cbd5e1" font-size="12" class="sans">Active R&amp;D trajectory for the Lock In ecosystem</text>
 
   <!-- 4 Milestone Cards -->
   <!-- Phase 1 -->
-  <rect x="24" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#232e3f" stroke-width="1"/>
+  <rect x="24" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#310a3d" stroke-width="1"/>
   <rect x="36" y="70" width="80" height="18" rx="9" fill="#13231b" stroke="#22c55e" stroke-width="0.8"/>
   <text x="46" y="83" fill="#22c55e" font-size="9.5" class="mono bold">COMPLETED</text>
   <text x="36" y="108" fill="#ffffff" font-size="13" class="sans bold">Lock In v1.0</text>
-  <text x="36" y="128" fill="#8b949e" font-size="11" class="sans">Shipped Android APK</text>
-  <text x="36" y="144" fill="#8b949e" font-size="11" class="sans">8 unified pillars</text>
-  <text x="36" y="160" fill="#8b949e" font-size="11" class="sans">100% offline SQLite</text>
+  <text x="36" y="128" fill="#cbd5e1" font-size="11" class="sans">Shipped Android APK</text>
+  <text x="36" y="144" fill="#cbd5e1" font-size="11" class="sans">8 unified pillars</text>
+  <text x="36" y="160" fill="#cbd5e1" font-size="11" class="sans">100% offline SQLite</text>
 
   <!-- Phase 2 -->
-  <rect x="224" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#232e3f" stroke-width="1"/>
+  <rect x="224" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#310a3d" stroke-width="1"/>
   <rect x="236" y="70" width="80" height="18" rx="9" fill="#13231b" stroke="#22c55e" stroke-width="0.8"/>
   <text x="246" y="83" fill="#22c55e" font-size="9.5" class="mono bold">COMPLETED</text>
   <text x="236" y="108" fill="#ffffff" font-size="13" class="sans bold">LockIn Fitness</text>
-  <text x="236" y="128" fill="#8b949e" font-size="11" class="sans">30-day training splits</text>
-  <text x="236" y="144" fill="#8b949e" font-size="11" class="sans">Audio rest timers</text>
-  <text x="236" y="160" fill="#8b949e" font-size="11" class="sans">Discipline heatmaps</text>
+  <text x="236" y="128" fill="#cbd5e1" font-size="11" class="sans">30-day training splits</text>
+  <text x="236" y="144" fill="#cbd5e1" font-size="11" class="sans">Audio rest timers</text>
+  <text x="236" y="160" fill="#cbd5e1" font-size="11" class="sans">Discipline heatmaps</text>
 
   <!-- Phase 3 -->
-  <rect x="424" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#232e3f" stroke-width="1"/>
-  <rect x="436" y="70" width="86" height="18" rx="9" fill="#13222a" stroke="#00f2fe" stroke-width="0.8"/>
-  <text x="445" y="83" fill="#00f2fe" font-size="9.5" class="mono bold">IN PROGRESS</text>
-  <text x="436" y="108" fill="#00f2fe" font-size="13" class="sans bold">On-Device NLP</text>
-  <text x="436" y="128" fill="#8b949e" font-size="11" class="sans">Local AI task parser</text>
-  <text x="436" y="144" fill="#8b949e" font-size="11" class="sans">Natural language meals</text>
-  <text x="436" y="160" fill="#8b949e" font-size="11" class="sans">Zero cloud telemetry</text>
+  <rect x="424" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#3f130b" stroke-width="1"/>
+  <rect x="436" y="70" width="86" height="18" rx="9" fill="#241403" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="445" y="83" fill="#fbbf24" font-size="9.5" class="mono bold">IN PROGRESS</text>
+  <text x="436" y="108" fill="#fde047" font-size="13" class="sans bold">On-Device NLP</text>
+  <text x="436" y="128" fill="#cbd5e1" font-size="11" class="sans">Local AI task parser</text>
+  <text x="436" y="144" fill="#cbd5e1" font-size="11" class="sans">Natural language meals</text>
+  <text x="436" y="160" fill="#cbd5e1" font-size="11" class="sans">Zero cloud telemetry</text>
 
   <!-- Phase 4 -->
-  <rect x="624" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#232e3f" stroke-width="1"/>
-  <rect x="636" y="70" width="70" height="18" rx="9" fill="#1e1830" stroke="#a29bfe" stroke-width="0.8"/>
-  <text x="646" y="83" fill="#a29bfe" font-size="9.5" class="mono bold">PLANNED</text>
-  <text x="636" y="108" fill="#a29bfe" font-size="13" class="sans bold">P2P Local Sync</text>
-  <text x="636" y="128" fill="#8b949e" font-size="11" class="sans">Zero-knowledge local</text>
-  <text x="636" y="144" fill="#8b949e" font-size="11" class="sans">Android to desktop</text>
-  <text x="636" y="160" fill="#8b949e" font-size="11" class="sans">Encrypted direct sync</text>
+  <rect x="624" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#310a3d" stroke-width="1"/>
+  <rect x="636" y="70" width="80" height="18" rx="9" fill="#240311" stroke="#ff0055" stroke-width="0.8"/>
+  <text x="646" y="83" fill="#ff0055" font-size="9.5" class="mono bold">UPCOMING</text>
+  <text x="636" y="108" fill="#ffffff" font-size="13" class="sans bold">P2P Encrypted Sync</text>
+  <text x="636" y="128" fill="#cbd5e1" font-size="11" class="sans">CRDT-based data sync</text>
+  <text x="636" y="144" fill="#cbd5e1" font-size="11" class="sans">LAN direct discovery</text>
+  <text x="636" y="160" fill="#cbd5e1" font-size="11" class="sans">E2E Zero Knowledge</text>
 </svg>
