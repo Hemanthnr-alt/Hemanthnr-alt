@@ -1,16 +1,16 @@
 <div align="center">
 
-<!-- ==================== TOP BANNER (KEPT AS REQUESTED) ==================== -->
+<!-- ==================== TOP BANNER (PRESERVED EXACTLY AS REQUESTED) ==================== -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,20:161b22,40:6c5ce7,70:8a2be2,100:00f2fe&height=260&section=header&text=Hemanth%20Naidu&fontSize=58&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Architecting%20Local-First%20Systems%20%E2%80%A2%20Android%20%E2%80%A2%20Full-Stack&descSize=17&descAlignY=62&descColor=00f2fecc&animation=fadeIn" width="100%"/>
 
-<!-- ==================== DYNAMIC TYPING HEADLINE ==================== -->
+<!-- ==================== DYNAMIC NEON TYPING SVG ==================== -->
 <a href="https://github.com/Hemanthnr-alt">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=800&color=00F2FE&center=true&vCenter=true&width=660&lines=🚀+Architecting+autonomous+local-first+mobile+software;📱+Creator+of+Lock+In+%26+LockIn+Fitness;⚡+100%25+offline-first+·+Zero+cloud+telemetry+·+Sub-second+UX;💎+Master+the+1%25+standard+—+building+real+products;🌱+Open+to+software+engineering+roles+%26+collaborations!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2600&pause=750&color=00F2FE&center=true&vCenter=true&width=660&lines=⚡+Architecting+autonomous+local-first+mobile+software;📱+Creator+of+Lock+In+%26+LockIn+Fitness;🛡️+100%25+offline-first+·+Zero+telemetry+·+Sub-1ms+state;💎+Master+the+1%25+standard+—+shipping+real+products;🚀+Open+to+high-impact+software+engineering+roles!" />
 </a>
 
 <br/><br/>
 
-<!-- ==================== QUICK ACTION NAVIGATION ==================== -->
+<!-- ==================== QUICK ACCESS CYBER PILLS ==================== -->
 <a href="https://30-landing.vercel.app/">
   <img src="https://img.shields.io/badge/🌐_Official_Site-161b22?style=for-the-badge&logo=googlechrome&logoColor=00F2FE&labelColor=0d1117" />
 </a>&nbsp;
@@ -33,29 +33,41 @@
 
 ---
 
-### ⚡ Engineering Identity & Focus
-
 <div align="center">
-
-> ### *"Master the 1% standard — building offline-first systems where performance, privacy, and UX are non-negotiable."*
-
-<br/>
-
-| 🎯 Core Focus | 📱 Flagship Products | 📍 Base | 🟢 Status |
-| :--- | :--- | :--- | :--- |
-| **Local-First Systems & Mobile Architecture** | **Lock In Ecosystem · LockIn Fitness** | **Bengaluru, India 🇮🇳** | **Open to SWE Roles & Collabs** |
-
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=⚡%20ENGINEERING%20HUD%20%26%20SYSTEMS%20IDENTITY%20⚡&fontSize=16&fontColor=ffffff&fontAlignY=64" width="460"/>
 </div>
 
 <br/>
 
-- ⚡ **Local-First Architecture:** Eliminating cloud bottlenecks by running 100% of execution on-device via local SQLite databases, reactive local state, and client-side compilation.
-- 📱 **Mobile Performance:** Engineering responsive 60fps Android apps using Capacitor and React Native / Expo, backed by home screen launcher widgets and offline sync.
-- 🛡️ **Privacy by Default:** Zero telemetry, zero user accounts, zero remote analytics — fortified with client-side encrypted vaults and local-only photo timelines.
+```json
+{
+  "engineer": "Hemanth Naidu",
+  "base": "Bengaluru, India 🇮🇳",
+  "doctrine": "Local-First • Sub-1ms Latency • Zero Telemetry • Zero Paywalls",
+  "active_deployments": [
+    "Lock In (Android v1.0 — 8 Unified Performance Pillars)",
+    "LockIn Fitness (Cross-Platform Workout Suite — Expo SQLite)"
+  ],
+  "technical_core": {
+    "mobile": ["Capacitor", "Android SDK", "React Native / Expo", "App Widgets"],
+    "frontend": ["React 18", "TypeScript", "Tailwind CSS", "Vite", "Web Audio API"],
+    "systems": ["SQLite Engine", "Node.js", "Express.js", "PostgreSQL", "Prisma ORM"]
+  },
+  "current_pursuits": [
+    "On-Device NLP Task Parsers",
+    "High-Availability Software Systems",
+    "Software Engineering Internships & Collaborative Builds"
+  ]
+}
+```
 
 ---
 
-### 🛠️ Technology Arsenal
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=🛠️%20TECHNOLOGY%20ARSENAL%20🛠️&fontSize=16&fontColor=ffffff&fontAlignY=64" width="420"/>
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -67,32 +79,29 @@
 
 <br/><br/>
 
-```
-[Languages]   TypeScript • JavaScript (ESNext) • Python 3 • SQL (PostgreSQL & SQLite)
-[Mobile]      Android SDK • Capacitor • React Native / Expo • SQLite Engine • App Widgets
-[Frontend]    React 18 • Tailwind CSS • Vite • Web Audio API • Client-Side PDF Generation
-[Backend]     Node.js • Express.js • PostgreSQL • Prisma ORM • RESTful APIs
-[DevOps]      Git • GitHub Actions • Android Studio • Postman • Vercel CI/CD
-```
+| Domain | Mastered Technologies |
+| :--- | :--- |
+| **Languages** | `TypeScript`, `JavaScript (ESNext)`, `Python 3`, `SQL (PostgreSQL / SQLite)`, `HTML5 / CSS3` |
+| **Mobile & Native** | `Android SDK`, `Capacitor`, `React Native / Expo`, `SQLite Engine`, `Launcher Widgets` |
+| **Frontend Engineering** | `React 18`, `Tailwind CSS`, `Vite`, `Web Audio API`, `Client-Side PDF Generation` |
+| **Backend & Persistence** | `Node.js`, `Express.js`, `PostgreSQL`, `Prisma ORM`, `RESTful Microservices` |
+| **DevOps & Tooling** | `Git`, `GitHub Actions`, `Postman`, `Android Studio`, `Vercel CI/CD` |
 
 </div>
 
 ---
 
-### 🚀 Flagship Applications
-
 <div align="center">
-  <em>High-performance, privacy-centric applications shipped to production.</em>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=📱%20FLAGSHIP%20SYSTEM%2001%20//%20LOCK%20IN%20📱&fontSize=16&fontColor=ffffff&fontAlignY=64" width="480"/>
 </div>
 
 <br/>
 
-<!-- ==================== LOCK IN SHOWCASE ==================== -->
 <div align="center">
 
 ### 📱 Lock In — Local-First Personal Performance Engine
-**Master the 1% Standard.**  
-*A complete, 100% offline personal operating system for Android uniting 8 performance pillars into a unified ecosystem.*
+> **"Master the 1% Standard."**  
+> *A 100% offline personal operating system uniting daily task scheduling, atomic habit tracking, clinical-grade 43-nutrient dietary analysis, focus timers, stealth encrypted notes vault, live home screen widgets, and executive PDF dossier generation.*
 
 <br/>
 
@@ -109,31 +118,60 @@
   <img src="https://img.shields.io/badge/🚀_Landing_Repo-00f2fe?style=for-the-badge&logo=github&logoColor=black" />
 </a>
 
+<br/><br/>
+
+<!-- MOBILE APP UI SHOWCASE GALLERY -->
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="assets/today-agenda-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
+      <sub><b>📅 Today Agenda</b></sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="assets/habits-overview-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
+      <sub><b>🔥 Atomic Habits</b></sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="assets/calories-nutrition-macros-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
+      <sub><b>🥗 43-Nutrient Engine</b></sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="assets/timer-intervals-soundscapes-light.jpeg" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);"/><br/>
+      <sub><b>⏱️ Focus & Soundscapes</b></sub>
+    </td>
+  </tr>
+</table>
+
 </div>
 
 <br/>
 
-| ⚡ Feature Pillar | 🔬 Technical Implementation |
+| ⚡ Performance Pillar | 🔬 Technical Architecture & Capabilities |
 | :--- | :--- |
-| **📅 Unified Today Agenda** | Consolidates tasks, atomic habits, water tracking, and nutrition into one frictionless daily timeline with haptic feedback. |
+| **📅 Unified Today Agenda** | Consolidates tasks, atomic habits, water tracking, and nutrition into one frictionless daily timeline with drag-and-drop routine reordering & haptic cues. |
 | **🥗 Clinical 43-Nutrient Engine** | Goes far beyond calorie counting: tracks **13 vitamins, 9 minerals, omega ratios, and fiber** against personalized RDA benchmarks using a **2,233+ offline USDA & ICMR database**. |
-| **⏱️ Focus Engine & Soundscapes** | Countdown, interval timers, and stopwatch paired with real-time procedural audio synthesis (Rainstorm, 40Hz Alpha Waves, Forest Stream). |
-| **🔐 Notes & Stealth Vault** | Google Keep-style notes with bidirectional task sync and a triple-tap hidden PIN vault for encrypted records. |
-| **📊 Executive PDF Dossiers** | Generates client-side 30-day comprehensive personal performance audit reports in light and dark themes. |
+| **⏱️ Focus Engine & Soundscapes** | Countdown, intervals, and stopwatch paired with real-time procedural audio synthesis (Rainstorm, 40Hz Alpha Waves, Forest Stream). |
+| **🔐 Notes & Stealth Vault** | Google Keep-style notes with bidirectional task sync and a triple-tap hidden PIN vault for encrypted private data. |
+| **📊 Executive PDF Dossiers** | Generates client-side 30-day comprehensive personal performance audit reports in light and dark themes with zero external server dependencies. |
 | **📱 Home Screen Widgets** | Glanceable native Android home screen widgets for live agenda tracking and one-tap habit completions. |
 
 <div align="center">
-  <code>React 18</code> • <code>Capacitor</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>SQLite</code> • <code>Web Audio API</code> • <code>Client-Side PDF</code>
+  <code>React 18</code> • <code>Capacitor</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>SQLite Engine</code> • <code>Web Audio API</code> • <code>Client-Side PDF</code>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=💪%20FLAGSHIP%20SYSTEM%2002%20//%20LOCKIN%20FITNESS%20💪&fontSize=16&fontColor=ffffff&fontAlignY=64" width="510"/>
 </div>
 
 <br/>
 
-<!-- ==================== LOCKIN FITNESS SHOWCASE ==================== -->
 <div align="center">
 
 ### 💪 LockIn Fitness — 30-Day Progressive Workout Suite
-**Transform Your Body in 30 Days — Zero Paywalls, Pure Consistency.**  
-*An offline-first Android fitness application delivering structured progressive overload training programs, rest timers, and habit streaks.*
+> **"Transform Your Body in 30 Days — Zero Paywalls, Pure Consistency."**  
+> *An offline-first Android fitness application delivering structured progressive overload training programs, rest timers, and habit streaks.*
 
 <br/>
 
@@ -148,9 +186,9 @@
 
 <br/>
 
-| ⚡ Feature Pillar | 🔬 Technical Implementation |
+| ⚡ Training Pillar | 🔬 Technical Architecture & Capabilities |
 | :--- | :--- |
-| **🏋️ 4 Progressive Training Splits** | Periodized workout programs engineered for hypertrophy, strength adaptation, and progressive overload. |
+| **🏋️ 4 Progressive Training Splits** | Science-backed periodized programs engineered for muscle hypertrophy, strength adaptation, and progressive overload. |
 | **⏱️ Hands-Free Rest Timers** | Automated interval chimes and cues for distraction-free gym execution. |
 | **📈 Discipline Heatmaps** | Rolling consistency visualizers and streak milestones to build unbreakable exercise habits. |
 | **💾 100% Offline SQLite** | Instant workout logging with zero network latency and complete on-device data ownership. |
@@ -161,11 +199,15 @@
 
 ---
 
-### 🛡️ The Local-First Manifesto
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=🛡️%20THE%20LOCAL-FIRST%20MANIFESTO%20🛡️&fontSize=16&fontColor=ffffff&fontAlignY=64" width="460"/>
+</div>
+
+<br/>
 
 <div align="center">
 
-| ⚡ Zero Cloud Latency | 🔒 Private By Default | 🛡️ Zero Paywalls | 📱 60fps Native UX |
+| ⚡ Zero Cloud Latency | 🔒 Complete Privacy | 🛡️ Zero Paywalls | 📱 60fps Native UX |
 | :---: | :---: | :---: | :---: |
 | On-device SQLite queries execute in sub-millisecond time | No accounts, no background trackers, encrypted PIN vault | 100% of capabilities are completely free & accessible | Smooth hardware-accelerated animations via Capacitor & Expo |
 
@@ -173,27 +215,35 @@
 
 ---
 
-### 📊 GitHub Activity & Analytics
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=📊%20ANALYTICS%20%26%20CODE%20CADENCE%20📊&fontSize=16&fontColor=ffffff&fontAlignY=64" width="460"/>
+</div>
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&theme=tokyonight&hide_border=true&border_radius=16&include_all_commits=true&count_private=true" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Hemanthnr-alt&show_icons=true&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=16&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00f2fe&icon_color=6c5ce7&text_color=c9d1d9" height="175"/>
 &nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&theme=tokyonight&hide_border=true&border_radius=16" height="175"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hemanthnr-alt&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=16&background=0d1117&ring=6c5ce7&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=c9d1d9" height="175"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanthnr-alt&layout=compact&theme=tokyonight&hide_border=true&border_radius=16&langs_count=8" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanthnr-alt&layout=compact&theme=tokyonight&hide_border=false&border_color=6c5ce7&border_radius=16&langs_count=8&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" height="165"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&theme=tokyo-night&hide_border=true&border_radius=16&area=true" width="96%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hemanthnr-alt&theme=tokyo-night&hide_border=false&border_radius=16&area=true&bg_color=0d1117&color=00f2fe&line=6c5ce7&point=8a2be2" width="96%"/>
 
 </div>
 
 ---
 
-### 🎯 Roadmap & Current Focus
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=🎯%20ROADMAP%20%26%20MILESTONES%20🎯&fontSize=16&fontColor=ffffff&fontAlignY=64" width="440"/>
+</div>
+
+<br/>
 
 - [x] **Lock In v1.0:** Shipped production Android APK with 8 unified performance pillars
 - [x] **LockIn Fitness:** Built 30-day progressive training plans with offline SQLite tracking
@@ -204,11 +254,15 @@
 
 ---
 
-### 🤝 Let's Build Something Exceptional
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6c5ce7,50:8a2be2,100:00f2fe&height=34&text=🤝%20LET'S%20CONNECT%20%26%20COLLABORATE%20🤝&fontSize=16&fontColor=ffffff&fontAlignY=64" width="510"/>
+</div>
+
+<br/>
 
 <div align="center">
 
-I am actively looking for **Software Engineering Internships**, **Full-Stack / Mobile Engineering roles**, and ambitious collaborations!
+I am actively open to **Software Engineering Internships**, **Full-Stack / Mobile Engineering roles**, and ambitious collaborations!
 
 <br/>
 
@@ -226,7 +280,7 @@ I am actively looking for **Software Engineering Internships**, **Full-Stack / M
 
 <br/><br/>
 
-> *"Master the 1% standard — building at the intersection of productivity, systems, and performance."*
+> *"Master the 1% standard — building at the intersection of productivity, systems & performance."*
 
 <br/>
 
