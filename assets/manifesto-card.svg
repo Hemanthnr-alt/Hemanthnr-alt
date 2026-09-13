@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 250" width="100%" height="100%">
   <defs>
     <linearGradient id="manBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="0%" stop-color="#ef4444"/>
       <stop offset="25%" stop-color="#f59e0b"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="75%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#ff0055"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
     </linearGradient>
     <linearGradient id="manBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#07020d"/>
@@ -42,7 +42,7 @@
   <!-- Article 2 -->
   <g transform="translate(296, 74)">
     <rect width="248" height="142" rx="8" fill="#170620" stroke="#310a3d" stroke-width="1"/>
-    <text x="16" y="28" fill="#ff0055" font-size="13" class="sans bold">Article II : Latency</text>
+    <text x="16" y="28" fill="#ef4444" font-size="13" class="sans bold">Article II : Latency</text>
     <text x="16" y="52" fill="#cbd5e1" font-size="11.5" class="sans">A human thought takes 100ms.</text>
     <text x="16" y="70" fill="#cbd5e1" font-size="11.5" class="sans">Your UI should respond in</text>
     <text x="16" y="88" fill="#cbd5e1" font-size="11.5" class="sans">under 16ms. No spinning</text>
@@ -53,7 +53,7 @@
   <!-- Article 3 -->
   <g transform="translate(564, 74)">
     <rect width="244" height="142" rx="8" fill="#170620" stroke="#310a3d" stroke-width="1"/>
-    <text x="16" y="28" fill="#00f2fe" font-size="13" class="sans bold">Article III : Longevity</text>
+    <text x="16" y="28" fill="#f59e0b" font-size="13" class="sans bold">Article III : Longevity</text>
     <text x="16" y="52" fill="#cbd5e1" font-size="11.5" class="sans">SQLite files built today will</text>
     <text x="16" y="70" fill="#cbd5e1" font-size="11.5" class="sans">be readable in 2050. Cloud</text>
     <text x="16" y="88" fill="#cbd5e1" font-size="11.5" class="sans">APIs will be deprecated</text>

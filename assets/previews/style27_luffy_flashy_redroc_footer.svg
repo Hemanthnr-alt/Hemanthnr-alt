@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160">
+  <defs>
+    <linearGradient id="rocFootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#030108"/>
+      <stop offset="50%" stop-color="#4c0519"/>
+      <stop offset="100%" stop-color="#030108"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" rx="16" fill="url(#rocFootGrad)"/>
+
+  <!-- Purple/Red Lightning Blade -->
+  <polygon points="100,45 600,35 1100,45 600,48" fill="#ff0055" opacity="0.6"/>
+  <line x1="100" y1="45" x2="1100" y2="45" stroke="#ffffff" stroke-width="1.5"/>
+
+  <g transform="translate(600, 42)">
+    <circle cx="0" cy="0" r="16" fill="#ff0055" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="0,-8 8,0 0,8 -8,0" fill="#fde047"/>
+  </g>
+
+  <text x="600" y="98" text-anchor="middle" fill="#ffffff" font-family="'Impact', sans-serif" font-size="18" letter-spacing="1">
+    &#8220;AS LONG AS I&#8217;M ALIVE, THERE ARE INFINITE CHANCES!&#8221;
+  </text>
+  <text x="600" y="126" text-anchor="middle" fill="#fda4af" font-family="'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="3">
+    MONKEY D. LUFFY // RED ROC CONQUEROR DOCTRINE
+  </text>
+
+  <rect x="2" y="2" width="1196" height="156" rx="15" fill="none" stroke="#ff0055" stroke-opacity="0.6" stroke-width="2"/>
+</svg>

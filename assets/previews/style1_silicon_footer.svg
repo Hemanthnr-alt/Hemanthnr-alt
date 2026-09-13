@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="100%">
+  <defs>
+    <!-- PCB Substrate -->
+    <linearGradient id="foot-pcb" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#04060a" />
+      <stop offset="50%" stop-color="#070a12" />
+      <stop offset="100%" stop-color="#04070d" />
+    </linearGradient>
+
+    <!-- Gold Accent -->
+    <linearGradient id="foot-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="30%" stop-color="#fbbf24" />
+      <stop offset="70%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <linearGradient id="foot-chip-surface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e1422" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <pattern id="foot-pcb-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.25" />
+    </pattern>
+
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="gb" />
+      <feMerge>
+        <feMergeNode in="gb" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse-gold { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.35; } }
+    .gold-pulse { animation: pulse-gold 2.4s infinite ease-in-out; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+  </style>
+
+  <!-- PCB Base -->
+  <rect width="1200" height="180" fill="url(#foot-pcb)" />
+  <rect width="1200" height="180" fill="url(#foot-pcb-grid)" />
+
+  <!-- Top Inbound Circuit Traces from Motherboard -->
+  <g stroke="#00f2fe" stroke-width="1.4" stroke-opacity="0.5" fill="none" stroke-linejoin="round">
+    <path d="M 120 0 L 120 30 L 180 60 L 280 60" />
+    <path d="M 200 0 L 200 40 L 250 60 L 280 60" />
+    <path d="M 1080 0 L 1080 30 L 1020 60 L 920 60" />
+    <path d="M 1000 0 L 1000 40 L 950 60 L 920 60" />
+  </g>
+
+  <!-- Gold Vias on Traces -->
+  <g fill="#ffd700">
+    <circle cx="180" cy="60" r="2.5" />
+    <circle cx="250" cy="60" r="2.5" />
+    <circle cx="1020" cy="60" r="2.5" />
+    <circle cx="950" cy="60" r="2.5" />
+  </g>
+
+  <!-- Central Southbridge Silicon Chip -->
+  <g transform="translate(180, 42)">
+    <!-- Package Carrier with Gold Pin Trim -->
+    <rect width="840" height="96" rx="12" fill="url(#foot-chip-surface)" stroke="url(#foot-gold)" stroke-width="2" />
+
+    <!-- Gold Pin Connectors on Top Edge -->
+    <g fill="url(#foot-gold)">
+      <rect x="60" y="-5" width="12" height="6" rx="1" />
+      <rect x="90" y="-5" width="12" height="6" rx="1" />
+      <rect x="120" y="-5" width="12" height="6" rx="1" />
+      <rect x="700" y="-5" width="12" height="6" rx="1" />
+      <rect x="730" y="-5" width="12" height="6" rx="1" />
+      <rect x="760" y="-5" width="12" height="6" rx="1" />
+    </g>
+
+    <!-- Left Hardware Notch -->
+    <circle cx="28" cy="48" r="5" fill="#ffd700" class="gold-pulse" filter="url(#gold-glow)" />
+
+    <!-- Main Doctrine Statement -->
+    <text x="52" y="44" class="mono" font-size="14" font-weight="700" fill="#f8fafc" letter-spacing="1">
+      &gt;_ &quot;Master the 1% standard &#8212; building at the intersection of productivity, systems &amp; performance.&quot;
+    </text>
+    <text x="52" y="70" class="mono" font-size="11" fill="#64748b" letter-spacing="1.5">
+      HEMANTH NAIDU // LOCAL-FIRST SOVEREIGNTY &#8226; HARDWARE-LEVEL DISCIPLINE
+    </text>
+
+    <!-- Right Live Status Stamp -->
+    <g transform="translate(680, 32)">
+      <rect width="136" height="30" rx="15" fill="#0c1e14" stroke="#10b981" stroke-width="1.2" />
+      <circle cx="18" cy="15" r="4" fill="#10b981" />
+      <text x="30" y="19" class="mono" font-size="10.5" font-weight="800" fill="#34d399">0xLOCKED_IN</text>
+    </g>
+  </g>
+
+  <!-- Bottom Hardware Decal -->
+  <text x="600" y="165" text-anchor="middle" class="mono" font-size="9.5" fill="#475569" letter-spacing="2">
+    BUS_INTERCONNECT: 256-BIT &#8226; PROTOCOL: DETERMINISTIC &#8226; BANGALORE_IN &#8226; PERSISTENT EXECUTION
+  </text>
+</svg>

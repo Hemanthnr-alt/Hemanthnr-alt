@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="redRocGlow" cx="80%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ff0055" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#020005" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rocFire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#ff0055"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#450a0a"/>
+    </linearGradient>
+    <linearGradient id="stormBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ff0055"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="#030108"/>
+  <rect width="1200" height="380" rx="16" fill="url(#redRocGlow)"/>
+
+  <!-- High-Voltage Conqueror's Lightning Storm Grid -->
+  <g opacity="0.6">
+    <path d="M 950,190 L 800,90 L 840,70 L 680,20 L 710,0" fill="none" stroke="#ff0055" stroke-width="4"/>
+    <path d="M 950,190 L 820,290 L 860,310 L 700,360 L 730,380" fill="none" stroke="#a855f7" stroke-width="4"/>
+    <path d="M 950,190 L 600,190 L 630,220 L 450,220" fill="none" stroke="#ff0055" stroke-width="3" opacity="0.5"/>
+  </g>
+
+  <!-- Red Roc Flaming Spiral Vortex & Clenched Giant Fist Aura -->
+  <g transform="translate(960, 190)">
+    <!-- Swirling Fire Ring -->
+    <circle cx="0" cy="0" r="125" fill="none" stroke="#ff0055" stroke-width="4" stroke-dasharray="12,18" opacity="0.8"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8,10" opacity="0.9"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+
+    <!-- Concentrated Red Roc Impact Shockwave -->
+    <path d="M -80,-50 Q -120,-120 0,-110 Q 120,-100 80,-30 Q 110,60 30,100 Q -60,120 -100,50 Z" fill="url(#rocFire)" opacity="0.5"/>
+
+    <!-- Straw Hat Skull with Burning Flame Eyes -->
+    <g transform="translate(0, 0)">
+      <circle cx="0" cy="0" r="36" fill="#04020a" stroke="#ffffff" stroke-width="3"/>
+      <!-- Glowing Red Roc flame eyes -->
+      <polygon points="-12,-10 -5,5 -15,10 -20,-2" fill="#ff0055"/>
+      <circle cx="-12" cy="0" r="3" fill="#ffffff"/>
+      <polygon points="12,-10 20,-2 15,10 5,5" fill="#ff0055"/>
+      <circle cx="12" cy="0" r="3" fill="#ffffff"/>
+
+      <!-- Ferocious Smile -->
+      <path d="M -16,16 Q 0,30 16,16 Z" fill="#ffffff"/>
+
+      <!-- Straw Hat with Red Ribbon -->
+      <path d="M -26,-16 C -26,-38 26,-38 26,-16 Z" fill="#f59e0b" stroke="#ffffff" stroke-width="2.5"/>
+      <path d="M -26,-16 C -26,-22 26,-22 26,-16 Z" fill="#ff0055"/>
+      <path d="M -46,-14 Q 0,-26 46,-14 Q 0,-18 -46,-14 Z" fill="#fde047"/>
+    </g>
+
+    <!-- Japanese Technique Text -->
+    <text x="0" y="150" text-anchor="middle" fill="#ff0055" font-family="'Impact', sans-serif" font-size="18" letter-spacing="4">
+      業火拳銃 // RED ROC
+    </text>
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(70, 0)">
+    <g transform="translate(0, 52)">
+      <rect x="0" y="0" width="300" height="28" rx="14" fill="#4c0519" fill-opacity="0.8" stroke="#ff0055" stroke-width="1.5"/>
+      <text x="16" y="18" fill="#fda4af" font-family="'SF Mono', monospace" font-size="10.5" font-weight="800" letter-spacing="2">
+        ONE PIECE // RED ROC // 覇王色の覇気
+      </text>
+    </g>
+
+    <text x="0" y="142" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="60" font-weight="900" letter-spacing="2">
+      CONQUEROR&#8217;S FIRE
+    </text>
+
+    <text x="0" y="185" fill="#fda4af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700">
+      Red Roc Combustion &#8212; Infusing Systems with Raw Conqueror&#8217;s Coating
+    </text>
+
+    <text x="0" y="222" fill="#f472b6" font-family="'SF Mono', monospace" font-size="13" font-weight="600" letter-spacing="1">
+      Hemanth &#8226; Software Juggernaut &#8226; Kotlin, TypeScript, Zero-Failure Delivery
+    </text>
+
+    <!-- Flashy Badges -->
+    <g transform="translate(0, 260)">
+      <rect x="0" y="0" width="165" height="44" rx="12" fill="#4c0519" fill-opacity="0.8" stroke="#ff0055" stroke-width="2"/>
+      <text x="16" y="18" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">SIGNATURE</text>
+      <text x="16" y="34" fill="#ffffff" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">GUM-GUM RED ROC</text>
+
+      <rect x="180" y="0" width="185" height="44" rx="12" fill="#3b0764" fill-opacity="0.8" stroke="#a855f7" stroke-width="2"/>
+      <text x="196" y="18" fill="#d8b4fe" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">HAKI ARMOR</text>
+      <text x="196" y="34" fill="#e9d5ff" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">ADVANCED RYUO</text>
+
+      <rect x="380" y="0" width="175" height="44" rx="12" fill="#451a03" fill-opacity="0.8" stroke="#f59e0b" stroke-width="2"/>
+      <text x="396" y="18" fill="#fde047" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">BURST SPEED</text>
+      <text x="396" y="34" fill="#ffffff" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">50,000&#176;C PLASMA</text>
+
+      <rect x="570" y="0" width="165" height="44" rx="12" fill="#4c0519" fill-opacity="0.8" stroke="#ff0055" stroke-width="2"/>
+      <text x="586" y="18" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">TARGET</text>
+      <text x="586" y="34" fill="#ff0055" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">PIRATE KING</text>
+    </g>
+  </g>
+
+  <rect x="2" y="2" width="1196" height="376" rx="15" fill="none" stroke="url(#stormBorder)" stroke-width="2.5"/>
+</svg>

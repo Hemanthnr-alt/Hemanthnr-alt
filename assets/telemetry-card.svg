@@ -3,15 +3,15 @@
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#07020d" />
       <stop offset="50%" stop-color="#110418" />
-      <stop offset="100%" stop-color="#08020e" />
+      <stop offset="100%" stop-color="#0a0308" />
     </linearGradient>
 
     <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055" stop-opacity="0.9" />
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.9" />
       <stop offset="25%" stop-color="#f59e0b" stop-opacity="0.8" />
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9" />
-      <stop offset="75%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#ff0055" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.9" />
     </linearGradient>
 
     <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -20,7 +20,7 @@
     </linearGradient>
 
     <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055" />
+      <stop offset="0%" stop-color="#ef4444" />
       <stop offset="100%" stop-color="#fb7185" />
     </linearGradient>
 
@@ -34,7 +34,7 @@
     </pattern>
 
     <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#ff0055" flood-opacity="0.15" />
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#ef4444" flood-opacity="0.15" />
     </filter>
   </defs>
 
@@ -54,14 +54,14 @@
 
   <!-- Window Header -->
   <g transform="translate(30, 26)">
-    <circle cx="6" cy="6" r="4.5" fill="#ff0055" />
+    <circle cx="6" cy="6" r="4.5" fill="#ef4444" />
     <circle cx="22" cy="6" r="4.5" fill="#f59e0b" />
     <circle cx="38" cy="6" r="4.5" fill="#22c55e" />
     <text x="56" y="10" fill="#94a3b8" font-size="11.5" class="mono">telemetry://hemanth-naidu/hardware-directives</text>
     
     <!-- Pulse Badge -->
-    <rect x="790" y="-3" width="150" height="22" rx="11" fill="#18040d" stroke="#ff0055" stroke-width="1" />
-    <circle cx="804" cy="8" r="4" fill="#00f2fe" class="live-dot" />
+    <rect x="790" y="-3" width="150" height="22" rx="11" fill="#18040d" stroke="#ef4444" stroke-width="1" />
+    <circle cx="804" cy="8" r="4" fill="#f59e0b" class="live-dot" />
     <text x="816" y="12" fill="#fde047" font-size="9.5" font-weight="bold" class="mono">CONQUEROR CORE</text>
   </g>
 

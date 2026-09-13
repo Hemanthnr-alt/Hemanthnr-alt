@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 280" width="100%" height="100%">
   <defs>
     <linearGradient id="techBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="0%" stop-color="#ef4444"/>
       <stop offset="25%" stop-color="#f59e0b"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="75%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#ff0055"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
     </linearGradient>
     
     <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -30,10 +30,10 @@
   <rect x="2" y="2" width="836" height="276" rx="16" fill="url(#techBg)" stroke="url(#techBorder)" stroke-width="1.8"/>
 
   <!-- Top Bar -->
-  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 40 L 2 40 Z" fill="#120417"/>
+  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 40 L 2 40 Z" fill="#14040e"/>
   <line x1="2" y1="40" x2="838" y2="40" stroke="#25062e" stroke-width="1"/>
 
-  <circle cx="24" cy="21" r="5" fill="#ff0055"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444"/>
   <circle cx="42" cy="21" r="5" fill="#f59e0b"/>
   <circle cx="60" cy="21" r="5" fill="#22c55e"/>
 
@@ -56,7 +56,7 @@
 
   <!-- Col 2: Frontend Engineering -->
   <rect x="222" y="54" width="188" height="174" rx="10" fill="url(#colBg)" stroke="#2e0a38" stroke-width="1"/>
-  <text x="236" y="78" fill="#ff0055" font-size="12.5" class="sans bold">⚡ Frontend &amp; Web</text>
+  <text x="236" y="78" fill="#ef4444" font-size="12.5" class="sans bold">⚡ Frontend &amp; Web</text>
   <line x1="236" y1="88" x2="396" y2="88" stroke="#370d43" stroke-width="1"/>
   <text x="236" y="110" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; React 18</text>
   <text x="236" y="132" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; TypeScript</text>
@@ -76,7 +76,7 @@
 
   <!-- Col 4: DevOps & Intelligence -->
   <rect x="622" y="54" width="194" height="174" rx="10" fill="url(#colBg)" stroke="#2e0a38" stroke-width="1"/>
-  <text x="636" y="78" fill="#00f2fe" font-size="12.5" class="sans bold">🚀 Tooling &amp; AI</text>
+  <text x="636" y="78" fill="#f59e0b" font-size="12.5" class="sans bold">🚀 Tooling &amp; AI</text>
   <line x1="636" y1="88" x2="802" y2="88" stroke="#370d43" stroke-width="1"/>
   <text x="636" y="110" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Python Scripting</text>
   <text x="636" y="132" fill="#e2e8f0" font-size="11.5" class="mono">&#8226; Git &amp; GitHub</text>

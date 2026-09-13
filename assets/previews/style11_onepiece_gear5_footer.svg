@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="foot-sea-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1226" />
+      <stop offset="50%" stop-color="#050814" />
+      <stop offset="100%" stop-color="#02040a" />
+    </linearGradient>
+    <linearGradient id="gold-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="180" fill="url(#foot-sea-bg)" />
+
+  <!-- Golden Wave Crest Trim at Top -->
+  <path d="M 0 25 C 240 50, 480 10, 720 35 C 960 55, 1100 15, 1200 30" fill="none" stroke="url(#gold-border)" stroke-width="2.5" filter="url(#gold-glow)" />
+
+  <!-- Center Grand Line Pirate King Doctrine Box -->
+  <g transform="translate(100, 45)">
+    <rect width="1000" height="80" rx="16" fill="#0d1424" stroke="url(#gold-border)" stroke-width="2" />
+    
+    <!-- Mini Jolly Roger / Anchor Icon Left -->
+    <text x="36" y="48" font-size="28">&#9875;</text>
+
+    <!-- Doctrine Quote -->
+    <text x="80" y="38" font-family="'Noto Sans JP', 'Impact', sans-serif" font-size="16" font-weight="900" fill="#ffffff" letter-spacing="1">
+      &quot;MASTER THE 1% STANDARD &#8212; I&apos;M GONNA BECOME THE KING OF SOFTWARE ARCHITECTS!&quot;
+    </text>
+    <text x="80" y="62" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#fde047" letter-spacing="2">
+      HEMANTH NAIDU // THOUSAND SUNNY EXPEDITION &#8226; 100% LOCAL-FIRST SOVEREIGNTY
+    </text>
+
+    <!-- Right Straw Hat Seal -->
+    <g transform="translate(910, 16)">
+      <rect width="70" height="48" rx="8" fill="#1e1b4b" stroke="#f59e0b" stroke-width="1.2" />
+      <text x="35" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="800" fill="#38bdf8">&#3647; 3.2B</text>
+      <text x="35" y="38" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="800" fill="#fde047">LOCK IN</text>
+    </g>
+  </g>
+
+  <!-- Bottom Log Pose Telemetry -->
+  <text x="600" y="156" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" letter-spacing="2.5">
+    LOG POSE LOCKED ON: RAFTEL // ZERO-TELEMETRY COMPASS // SOVEREIGN CODE ONLY
+  </text>
+</svg>

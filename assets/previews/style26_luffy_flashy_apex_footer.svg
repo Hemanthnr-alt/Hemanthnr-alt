@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160">
+  <defs>
+    <linearGradient id="flashFootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05050e"/>
+      <stop offset="25%" stop-color="#450a0a"/>
+      <stop offset="50%" stop-color="#78350f"/>
+      <stop offset="75%" stop-color="#450a0a"/>
+      <stop offset="100%" stop-color="#05050e"/>
+    </linearGradient>
+    <linearGradient id="footLightning" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" rx="16" fill="url(#flashFootGrad)"/>
+
+  <!-- Conqueror's Lightning Crackle Across Horizon -->
+  <path d="M 50,45 L 300,45 L 340,30 L 370,55 L 420,38 L 460,45 L 740,45 L 780,32 L 810,58 L 860,35 L 900,45 L 1150,45" fill="none" stroke="url(#footLightning)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 50,45 L 300,45 L 340,30 L 370,55 L 420,38 L 460,45 L 740,45 L 780,32 L 810,58 L 860,35 L 900,45 L 1150,45" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Wave Surge Silhouette -->
+  <path d="M 0,160 Q 300,100 600,135 T 1200,100 L 1200,160 Z" fill="#ea580c" opacity="0.3"/>
+  <path d="M 0,160 Q 400,120 800,145 T 1200,130 L 1200,160 Z" fill="#fde047" opacity="0.15"/>
+
+  <!-- Center Thousand Sunny / Straw Hat Solar Crest -->
+  <g transform="translate(600, 42)">
+    <circle cx="0" cy="0" r="18" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#ef4444"/>
+    <circle cx="0" cy="0" r="5" fill="#ffffff"/>
+  </g>
+
+  <!-- Flashy Quote -->
+  <text x="600" y="98" text-anchor="middle" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="18" letter-spacing="1">
+    &#8220;I&#8217;M GONNA BECOME THE KING OF THE PIRATES! SHISHISHI!&#8221;
+  </text>
+  <text x="600" y="126" text-anchor="middle" fill="#fde047" font-family="'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="3">
+    MONKEY D. LUFFY // SUN GOD NIKA // ABSOLUTE LIBERATION &amp; ZERO DRIFT
+  </text>
+
+  <rect x="2" y="2" width="1196" height="156" rx="15" fill="none" stroke="#ef4444" stroke-opacity="0.6" stroke-width="2"/>
+</svg>

@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="100%">
+  <defs>
+    <!-- PCB Substrate Background -->
+    <linearGradient id="pcb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060a" />
+      <stop offset="40%" stop-color="#070a12" />
+      <stop offset="100%" stop-color="#04070d" />
+    </linearGradient>
+
+    <!-- Silicon Die Brushed Metal Surface -->
+    <linearGradient id="silicon-surface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d131f" />
+      <stop offset="50%" stop-color="#121a2b" />
+      <stop offset="100%" stop-color="#0a0f1a" />
+    </linearGradient>
+
+    <!-- Gold Accent Gradients -->
+    <linearGradient id="gold-metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="30%" stop-color="#fef08a" />
+      <stop offset="70%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <!-- Cyan Trace Glow Gradient -->
+    <linearGradient id="cyan-glow-trace" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <!-- Emerald Trace Glow -->
+    <linearGradient id="emerald-trace" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <!-- Laser Etch Typography Gradient -->
+    <linearGradient id="etch-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#f8fafc" />
+      <stop offset="80%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+
+    <!-- Chip Core Ambient Glow -->
+    <radialGradient id="die-ambient" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#6c5ce7" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="circuit-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="intense-gold-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="gb" />
+      <feMerge>
+        <feMergeNode in="gb" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="chip-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#000000" flood-opacity="0.95" />
+      <feDropShadow dx="0" dy="0" stdDeviation="30" flood-color="#00f2fe" flood-opacity="0.2" />
+    </filter>
+
+    <!-- Micro PCB Grid Texture -->
+    <pattern id="pcb-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3" />
+      <circle cx="30" cy="0" r="0.7" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse-trace {
+      0%, 100% { stroke-opacity: 0.9; }
+      50% { stroke-opacity: 0.35; }
+    }
+    @keyframes bus-flow {
+      0% { stroke-dashoffset: 60; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes core-glow {
+      0%, 100% { opacity: 0.9; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.98); }
+    }
+    .pulsing-trace { animation: pulse-trace 2.5s infinite ease-in-out; }
+    .bus-moving { animation: bus-flow 2s linear infinite; stroke-dasharray: 8 6; }
+    .core-pulse { animation: core-glow 3s infinite ease-in-out; transform-origin: 600px 220px; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+    .display { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Base PCB Canvas -->
+  <rect width="1200" height="440" fill="url(#pcb-bg)" />
+  <rect width="1200" height="440" fill="url(#pcb-grid)" />
+
+  <!-- Ambient Light Center Bloom -->
+  <circle cx="600" cy="220" r="380" fill="url(#die-ambient)" class="core-pulse" />
+
+  <!-- ==================== PCB RADIANT CIRCUIT BUS TRACES ==================== -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Top-Left Bus Group -->
+    <g stroke="url(#cyan-glow-trace)" stroke-width="1.6" filter="url(#circuit-glow)" class="pulsing-trace">
+      <path d="M 0 70 L 160 70 L 220 130 L 320 130" />
+      <path d="M 0 110 L 140 110 L 200 170 L 320 170" />
+      <path d="M 0 150 L 120 150 L 180 210 L 320 210" />
+      <path d="M 100 0 L 100 80 L 180 160 L 180 250 L 320 250" />
+      <path d="M 180 0 L 180 90 L 240 150 L 240 280 L 320 280" />
+    </g>
+
+    <!-- Bottom-Left Bus Group -->
+    <g stroke="url(#emerald-trace)" stroke-width="1.6" filter="url(#circuit-glow)" class="pulsing-trace">
+      <path d="M 0 370 L 160 370 L 220 310 L 320 310" />
+      <path d="M 0 330 L 140 330 L 200 270 L 250 270" />
+      <path d="M 100 440 L 100 360 L 170 290 L 320 290" />
+      <path d="M 220 440 L 220 350 L 270 300 L 320 300" />
+    </g>
+
+    <!-- Top-Right Bus Group -->
+    <g stroke="url(#cyan-glow-trace)" stroke-width="1.6" filter="url(#circuit-glow)" class="pulsing-trace">
+      <path d="M 1200 70 L 1040 70 L 980 130 L 880 130" />
+      <path d="M 1200 110 L 1060 110 L 1000 170 L 880 170" />
+      <path d="M 1200 150 L 1080 150 L 1020 210 L 880 210" />
+      <path d="M 1100 0 L 1100 80 L 1020 160 L 1020 250 L 880 250" />
+      <path d="M 1020 0 L 1020 90 L 960 150 L 960 280 L 880 280" />
+    </g>
+
+    <!-- Bottom-Right Bus Group -->
+    <g stroke="url(#emerald-trace)" stroke-width="1.6" filter="url(#circuit-glow)" class="pulsing-trace">
+      <path d="M 1200 370 L 1040 370 L 980 310 L 880 310" />
+      <path d="M 1200 330 L 1060 330 L 1000 270 L 950 270" />
+      <path d="M 1100 440 L 1100 360 L 1030 290 L 880 290" />
+      <path d="M 980 440 L 980 350 L 930 300 L 880 300" />
+    </g>
+
+    <!-- Moving Signal Pulses (Data Flowing into Chip) -->
+    <g stroke="#00f2fe" stroke-width="2" class="bus-moving">
+      <path d="M 0 110 L 140 110 L 200 170 L 320 170" />
+      <path d="M 1200 110 L 1060 110 L 1000 170 L 880 170" />
+      <path d="M 100 0 L 100 80 L 180 160 L 180 250 L 320 250" />
+      <path d="M 1100 0 L 1100 80 L 1020 160 L 1020 250 L 880 250" />
+    </g>
+  </g>
+
+  <!-- Copper & Gold Vias (Circuit Contact Pads) -->
+  <g fill="#ffd700">
+    <circle cx="160" cy="70" r="2.5" />
+    <circle cx="140" cy="110" r="2.5" />
+    <circle cx="120" cy="150" r="2.5" />
+    <circle cx="100" cy="80" r="2.5" />
+    <circle cx="180" cy="90" r="2.5" />
+    <circle cx="160" cy="370" r="2.5" />
+    <circle cx="100" cy="360" r="2.5" />
+    
+    <circle cx="1040" cy="70" r="2.5" />
+    <circle cx="1060" cy="110" r="2.5" />
+    <circle cx="1080" cy="150" r="2.5" />
+    <circle cx="1100" cy="80" r="2.5" />
+    <circle cx="1020" cy="90" r="2.5" />
+    <circle cx="1040" cy="370" r="2.5" />
+    <circle cx="1100" cy="360" r="2.5" />
+  </g>
+
+  <!-- ==================== TOP TELEMETRY HUD STRIP ==================== -->
+  <g transform="translate(40, 24)">
+    <!-- Top-Left Architecture Specs -->
+    <text x="0" y="14" class="mono" font-size="11" fill="#00f2fe" letter-spacing="1.5">
+      // PROCESSOR_ID: 0xHEMANTH &#8226; ARCH: LOCAL_FIRST_V3
+    </text>
+    
+    <!-- Top-Right Silicon Status -->
+    <text x="1120" y="14" text-anchor="end" class="mono" font-size="11" fill="#10b981" letter-spacing="1.5">
+      &#9679; TELEMETRY: 0% &#8226; AIR-GAPPED DIE &#8226; 100% OPERATIONAL
+    </text>
+  </g>
+
+  <!-- ==================== CENTRAL SILICON PROCESSOR DIE ==================== -->
+  <g transform="translate(320, 60)" filter="url(#chip-shadow)">
+    <!-- Outer Ceramic Package Carrier -->
+    <rect width="560" height="320" rx="16" fill="#070b14" stroke="url(#gold-metal)" stroke-width="2.5" />
+
+    <!-- Gold Pin Connectors on Left & Right Edges -->
+    <g fill="url(#gold-metal)">
+      <!-- Left Pins (8 pins) -->
+      <rect x="-8" y="40" width="8" height="12" rx="2" />
+      <rect x="-8" y="70" width="8" height="12" rx="2" />
+      <rect x="-8" y="100" width="8" height="12" rx="2" />
+      <rect x="-8" y="130" width="8" height="12" rx="2" />
+      <rect x="-8" y="160" width="8" height="12" rx="2" />
+      <rect x="-8" y="190" width="8" height="12" rx="2" />
+      <rect x="-8" y="220" width="8" height="12" rx="2" />
+      <rect x="-8" y="250" width="8" height="12" rx="2" />
+      <!-- Right Pins (8 pins) -->
+      <rect x="560" y="40" width="8" height="12" rx="2" />
+      <rect x="560" y="70" width="8" height="12" rx="2" />
+      <rect x="560" y="100" width="8" height="12" rx="2" />
+      <rect x="560" y="130" width="8" height="12" rx="2" />
+      <rect x="560" y="160" width="8" height="12" rx="2" />
+      <rect x="560" y="190" width="8" height="12" rx="2" />
+      <rect x="560" y="220" width="8" height="12" rx="2" />
+      <rect x="560" y="250" width="8" height="12" rx="2" />
+    </g>
+
+    <!-- Inner Silicon Heat Spreader -->
+    <rect x="16" y="16" width="528" height="288" rx="12" fill="url(#silicon-surface)" stroke="#1e293b" stroke-width="1.2" />
+
+    <!-- Corner Alignment Notches (Hardware Markings) -->
+    <circle cx="34" cy="34" r="5" fill="#ffd700" filter="url(#intense-gold-glow)" />
+    <text x="46" y="38" class="mono" font-size="9" font-weight="700" fill="#64748b">PIN_01 // 3.4GHz</text>
+    <text x="516" y="38" text-anchor="end" class="mono" font-size="9" font-weight="700" fill="#34d399">TSMC_3nm</text>
+
+    <!-- Chip Header Status Pill -->
+    <g transform="translate(144, 48)">
+      <rect width="240" height="24" rx="12" fill="#080d18" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="16" cy="12" r="3.5" fill="#00f2fe" />
+      <text x="28" y="16" class="mono" font-size="10" font-weight="700" fill="#e2e8f0" letter-spacing="1">
+        SILICON DIE: <tspan fill="#00f2fe">ONLINE</tspan> &#8226; <tspan fill="#34d399">LOCKED IN</tspan>
+      </text>
+    </g>
+
+    <!-- Main Laser-Etched Name -->
+    <text x="264" y="130" text-anchor="middle" class="display" font-size="46" font-weight="900" fill="url(#etch-text)" letter-spacing="4">
+      HEMANTH NAIDU
+    </text>
+
+    <!-- Subtitle / Architecture Doctrine -->
+    <text x="264" y="162" text-anchor="middle" class="display" font-size="14.5" font-weight="600" fill="#94a3b8" letter-spacing="1">
+      Architecting <tspan fill="#00f2fe" font-weight="800">Local-First Systems</tspan> &#8226; <tspan fill="#3ddc84" font-weight="800">Android Specialist</tspan> &#8226; <tspan fill="#c084fc" font-weight="800">Full-Stack</tspan>
+    </text>
+
+    <!-- 4 Silicon Compute Engine Cores (The 4 Quadrants on the Die) -->
+    <g transform="translate(24, 186)">
+      <!-- Core 1: Sovereign DB -->
+      <g transform="translate(0, 0)">
+        <rect width="118" height="66" rx="8" fill="#090e1a" stroke="#00f2fe" stroke-opacity="0.3" stroke-width="1" />
+        <text x="10" y="20" class="mono" font-size="9" font-weight="800" fill="#00f2fe">SQLITE_CORE</text>
+        <text x="10" y="38" class="sans" font-size="12" font-weight="800" fill="#f8fafc">IndexedDB</text>
+        <text x="10" y="54" class="mono" font-size="8.5" fill="#38bdf8">&lt;0.8ms READ</text>
+      </g>
+
+      <!-- Core 2: Android Runtime -->
+      <g transform="translate(126, 0)">
+        <rect width="118" height="66" rx="8" fill="#090e1a" stroke="#3ddc84" stroke-opacity="0.3" stroke-width="1" />
+        <text x="10" y="20" class="mono" font-size="9" font-weight="800" fill="#3ddc84">ANDROID_CORE</text>
+        <text x="10" y="38" class="sans" font-size="12" font-weight="800" fill="#f8fafc">Foreground Svcs</text>
+        <text x="10" y="54" class="mono" font-size="8.5" fill="#4ade80">60 FPS VSYNC</text>
+      </g>
+
+      <!-- Core 3: Security Vault -->
+      <g transform="translate(252, 0)">
+        <rect width="118" height="66" rx="8" fill="#090e1a" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1" />
+        <text x="10" y="20" class="mono" font-size="9" font-weight="800" fill="#c084fc">CRYPTO_VAULT</text>
+        <text x="10" y="38" class="sans" font-size="12" font-weight="800" fill="#f8fafc">Stealth PIN</text>
+        <text x="10" y="54" class="mono" font-size="8.5" fill="#c084fc">AIR-GAPPED</text>
+      </g>
+
+      <!-- Core 4: Audio Engine -->
+      <g transform="translate(378, 0)">
+        <rect width="118" height="66" rx="8" fill="#090e1a" stroke="#f472b6" stroke-opacity="0.3" stroke-width="1" />
+        <text x="10" y="20" class="mono" font-size="9" font-weight="800" fill="#f472b6">AUDIO_SYNTH</text>
+        <text x="10" y="38" class="sans" font-size="12" font-weight="800" fill="#f8fafc">40Hz Alpha</text>
+        <text x="10" y="54" class="mono" font-size="8.5" fill="#f472b6">0MB BUFFER</text>
+      </g>
+    </g>
+
+    <!-- Bottom Die Micro-Code Strip -->
+    <text x="264" y="280" text-anchor="middle" class="mono" font-size="9.5" fill="#475569" letter-spacing="1.5">
+      DIE_SPEC: 1024-BGA &#8226; VOLTAGE: 1.1V &#8226; BUS_WIDTH: 256-BIT &#8226; ZERO-CLOUD EMBEDDED
+    </text>
+  </g>
+
+  <!-- Bottom Laser Bus Rail -->
+  <line x1="40" y1="416" x2="1160" y2="416" stroke="url(#gold-metal)" stroke-width="1.5" stroke-opacity="0.6" />
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="synth-foot-bg" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0b0314" />
+      <stop offset="60%" stop-color="#240738" />
+      <stop offset="100%" stop-color="#590947" />
+    </linearGradient>
+    <filter id="synth-foot-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="160" fill="url(#synth-foot-bg)" />
+  <!-- Inverted Outrun Grid Line -->
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="#00f2fe" stroke-width="2" filter="url(#synth-foot-glow)" />
+  <g stroke="#ff007f" stroke-width="1" stroke-opacity="0.4">
+    <line x1="600" y1="20" x2="100" y2="0" /><line x1="600" y1="20" x2="350" y2="0" />
+    <line x1="600" y1="20" x2="850" y2="0" /><line x1="600" y1="20" x2="1100" y2="0" />
+  </g>
+  <!-- Center Retro Quote Box -->
+  <g transform="translate(180, 50)">
+    <rect width="840" height="54" rx="14" fill="#0d0417" stroke="#ff007f" stroke-width="1.4" filter="url(#synth-foot-glow)" />
+    <text x="420" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#f8fafc" letter-spacing="1">
+      &gt;_ &quot;Master the 1% standard &#8212; building at the intersection of productivity, systems &amp; performance.&quot;
+    </text>
+  </g>
+  <text x="600" y="136" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00f2fe" letter-spacing="2">
+    HEMANTH NAIDU &#8226; LOCAL-FIRST OUTRUN PROTOCOL &#8226; STATUS: LOCKED IN
+  </text>
+</svg>

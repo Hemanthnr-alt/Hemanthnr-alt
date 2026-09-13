@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="getsugaBurst" cx="80%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ff0033" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#88001a" stop-opacity="0.15"/>
+      <stop offset="90%" stop-color="#050203" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bladeSlash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#ff0033"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="ichigoBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0033"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ff0033"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pure Void Pitch-Black Reiatsu Canvas -->
+  <rect width="1200" height="380" rx="16" fill="#070204"/>
+  <rect width="1200" height="380" rx="16" fill="url(#getsugaBurst)"/>
+
+  <!-- Black Getsuga Slash Arc Waves -->
+  <g opacity="0.45">
+    <path d="M 500,380 Q 800,200 1150,40 L 1180,45 Q 810,220 520,380 Z" fill="#ff0033"/>
+    <path d="M 600,380 Q 850,220 1200,80 L 1200,90 Q 860,230 615,380 Z" fill="#000000" stroke="#ff0033" stroke-width="1"/>
+    <polygon points="120,380 1200,0 1200,20 150,380" fill="#ffffff" opacity="0.1"/>
+  </g>
+
+  <!-- Ichigo Hollow Mask Motif (Right) -->
+  <g transform="translate(980, 180)" opacity="0.85">
+    <!-- Bone White Mask Shape -->
+    <path d="M 0,-110 C 60,-110 85,-40 85,20 C 85,75 50,110 0,115 C -50,110 -85,75 -85,20 C -85,-40 -60,-110 0,-110 Z" fill="#f8fafc" stroke="#000" stroke-width="3"/>
+    <!-- Iconic Blood Red Hollow Mask Stripes (Left side of mask) -->
+    <path d="M -75,-20 Q -40,-35 0,-30 L 0,-15 Q -40,-20 -78,-5 Z" fill="#ff0033"/>
+    <path d="M -80,10 Q -40,0 0,5 L 0,20 Q -40,15 -82,25 Z" fill="#ff0033"/>
+    <path d="M -70,40 Q -35,35 0,40 L 0,52 Q -35,48 -65,55 Z" fill="#ff0033"/>
+    <!-- Hollow Eyes -->
+    <ellipse cx="-28" cy="-8" rx="14" ry="7" fill="#000" stroke="#ff0033" stroke-width="1.5"/>
+    <ellipse cx="28" cy="-8" rx="14" ry="7" fill="#000" stroke="#ff0033" stroke-width="1.5"/>
+    <!-- Teeth Grid -->
+    <g stroke="#000" stroke-width="1.5">
+      <line x1="-30" y1="75" x2="30" y2="75"/>
+      <line x1="-20" y1="65" x2="-20" y2="85"/>
+      <line x1="-10" y1="65" x2="-10" y2="85"/>
+      <line x1="0" y1="65" x2="0" y2="85"/>
+      <line x1="10" y1="65" x2="10" y2="85"/>
+      <line x1="20" y1="65" x2="20" y2="85"/>
+    </g>
+    <!-- Tensa Zangetsu Manji Tsuba (Cross Guard) -->
+    <g transform="translate(0, -135) scale(0.6)">
+      <path d="M -15,-30 L -15,-10 L -30,-10 L -30,5 L -10,5 L -10,25 L 5,25 L 5,10 L 25,10 L 25,-5 L 10,-5 L 10,-25 L 25,-25 L 25,-30 Z" fill="#ff0033"/>
+    </g>
+  </g>
+
+  <!-- Typography & Headers -->
+  <text x="70" y="80" fill="#ff0033" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" letter-spacing="4">BLEACH // 卍解 &#8226; 天鎖斬月 // KUROSAKI ICHIGO</text>
+  <text x="70" y="145" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="54" font-weight="900" letter-spacing="2">BANKAI: TENSA ZANGETSU</text>
+  <text x="70" y="185" fill="#fecdd3" font-family="'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600">Black Getsuga Tensho &#8212; Hyper-Velocity Execution &amp; Unbreakable Resolve</text>
+
+  <!-- Subtitle -->
+  <text x="70" y="222" fill="#fda4af" font-family="'SF Mono', monospace" font-size="13" font-weight="500">
+    Hemanth &#8226; Substitute Soul Reaper &#8226; High-Scale Architecture &amp; System Hardening
+  </text>
+
+  <!-- Metric Badges -->
+  <g transform="translate(70, 260)">
+    <rect x="0" y="0" width="165" height="42" rx="10" fill="#4c0519" fill-opacity="0.8" stroke="#ff0033" stroke-width="1.5"/>
+    <text x="16" y="17" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700">REIAPSU RELEASE</text>
+    <text x="16" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">BANKAI UNLEASHED</text>
+
+    <rect x="180" y="0" width="175" height="42" rx="10" fill="#4c0519" fill-opacity="0.8" stroke="#ff0033" stroke-width="1.5"/>
+    <text x="196" y="17" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700">SPECIAL TECHNIQUE</text>
+    <text x="196" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">KUROI GETSUGA</text>
+
+    <rect x="370" y="0" width="165" height="42" rx="10" fill="#4c0519" fill-opacity="0.8" stroke="#ff0033" stroke-width="1.5"/>
+    <text x="386" y="17" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700">INNER HOLLOW</text>
+    <text x="386" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">MASK FUSION 100%</text>
+
+    <rect x="550" y="0" width="165" height="42" rx="10" fill="#4c0519" fill-opacity="0.8" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="566" y="17" fill="#ffffff" font-family="'SF Mono', monospace" font-size="9" font-weight="700">SPEED TIER</text>
+    <text x="566" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">BLINDING FLASH</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#ichigoBorder)" stroke-width="2"/>
+</svg>

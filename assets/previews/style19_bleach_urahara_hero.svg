@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="sakuraGlow" cx="80%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#be123c" stop-opacity="0.12"/>
+      <stop offset="90%" stop-color="#080205" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="uraharaBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="#080205"/>
+  <rect width="1200" height="380" rx="16" fill="url(#sakuraGlow)"/>
+
+  <!-- Senbonzakura Countless Blade Petals Swirling in Vortex -->
+  <g opacity="0.7">
+    <!-- Thousands of razor blade petals -->
+    <path d="M 880,120 Q 890,110 900,120 Q 890,135 880,120 Z" fill="#fda4af"/>
+    <path d="M 940,90 Q 950,80 960,90 Q 950,105 940,90 Z" fill="#f43f5e"/>
+    <path d="M 1000,70 Q 1010,60 1020,70 Q 1010,85 1000,70 Z" fill="#fb7185"/>
+    <path d="M 1060,110 Q 1070,100 1080,110 Q 1070,125 1060,110 Z" fill="#fda4af"/>
+    <path d="M 1120,160 Q 1130,150 1140,160 Q 1130,175 1120,160 Z" fill="#f43f5e"/>
+    
+    <path d="M 850,220 Q 860,210 870,220 Q 860,235 850,220 Z" fill="#fb7185"/>
+    <path d="M 910,260 Q 920,250 930,260 Q 920,275 910,260 Z" fill="#fda4af"/>
+    <path d="M 980,240 Q 990,230 1000,240 Q 990,255 980,240 Z" fill="#f43f5e"/>
+    <path d="M 1050,270 Q 1060,260 1070,270 Q 1060,285 1050,270 Z" fill="#fb7185"/>
+    <path d="M 1110,220 Q 1120,210 1130,220 Q 1120,235 1110,220 Z" fill="#fda4af"/>
+  </g>
+
+  <!-- Urahara Hat Pattern & Benihime Crimson Ribbon Motif -->
+  <g transform="translate(980, 175)" opacity="0.85">
+    <!-- Green/White Striped Bucket Hat Outline -->
+    <ellipse cx="0" cy="20" rx="65" ry="18" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
+    <path d="M -45,18 L -35,-40 L 35,-40 L 45,18 Z" fill="#042f2e" stroke="#10b981" stroke-width="2"/>
+    <!-- White vertical hat stripes -->
+    <line x1="-18" y1="-40" x2="-22" y2="18" stroke="#ecfdf5" stroke-width="4"/>
+    <line x1="0" y1="-40" x2="0" y2="20" stroke="#ecfdf5" stroke-width="4"/>
+    <line x1="18" y1="-40" x2="22" y2="18" stroke="#ecfdf5" stroke-width="4"/>
+    <!-- Benihime Crimson Energy Loop -->
+    <circle cx="0" cy="-10" r="80" fill="none" stroke="#f43f5e" stroke-width="2" stroke-dasharray="6,8"/>
+    <circle cx="0" cy="-10" r="80" fill="none" stroke="#f43f5e" stroke-width="8" opacity="0.2"/>
+  </g>
+
+  <!-- Headers -->
+  <text x="70" y="80" fill="#fb7185" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" letter-spacing="4">BLEACH // 啼け、紅姫 &#8226; 千本桜景厳 // SHINIGAMI RESEARCH</text>
+  <text x="70" y="145" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="54" font-weight="900" letter-spacing="2">BENIHIME &amp; SENBONZAKURA</text>
+  <text x="70" y="185" fill="#fecdd3" font-family="'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600">The Scientist of Soul Society &#8212; 1000 Blade Petals &amp; Master Strategist</text>
+
+  <!-- Subtitle -->
+  <text x="70" y="222" fill="#fda4af" font-family="'SF Mono', monospace" font-size="13" font-weight="500">
+    Hemanth &#8226; 12th Division Research &amp; Development &#8226; Kotlin, TypeScript, Deep Engineering
+  </text>
+
+  <!-- Metric Badges -->
+  <g transform="translate(70, 260)">
+    <rect x="0" y="0" width="165" height="42" rx="10" fill="#4c0519" fill-opacity="0.8" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="16" y="17" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700">BENIHIME AWAKEN</text>
+    <text x="16" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">CRIMSON PRINCESS</text>
+
+    <rect x="180" y="0" width="175" height="42" rx="10" fill="#4c0519" fill-opacity="0.8" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="196" y="17" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700">SENBONZAKURA</text>
+    <text x="196" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">100M BLADE PETALS</text>
+
+    <rect x="370" y="0" width="165" height="42" rx="10" fill="#4c0519" fill-opacity="0.8" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="386" y="17" fill="#fda4af" font-family="'SF Mono', monospace" font-size="9" font-weight="700">INTEL DIVISION</text>
+    <text x="386" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">R&amp;D BUREAU 12</text>
+
+    <rect x="550" y="0" width="165" height="42" rx="10" fill="#042f2e" fill-opacity="0.8" stroke="#10b981" stroke-width="1.5"/>
+    <text x="566" y="17" fill="#6ee7b7" font-family="'SF Mono', monospace" font-size="9" font-weight="700">SHOP OWNER</text>
+    <text x="566" y="32" fill="#10b981" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">URAHARA SHOTEN</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#uraharaBorder)" stroke-width="2"/>
+</svg>

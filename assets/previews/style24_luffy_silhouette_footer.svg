@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160">
+  <defs>
+    <linearGradient id="dawnFootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" rx="16" fill="url(#dawnFootGrad)"/>
+
+  <!-- Dawn Horizon Line -->
+  <line x1="80" y1="40" x2="1120" y2="40" stroke="#f97316" stroke-opacity="0.4" stroke-width="1"/>
+  
+  <!-- Tiny Going Merry / Thousand Sunny Silhouette at Horizon -->
+  <g transform="translate(600, 36)" opacity="0.9">
+    <path d="M -12,4 L 12,4 L 8,10 L -8,10 Z" fill="#f59e0b"/>
+    <line x1="0" y1="4" x2="0" y2="-8" stroke="#f59e0b" stroke-width="1.5"/>
+    <polygon points="0,-8 6,-4 0,0" fill="#ef4444"/>
+  </g>
+
+  <text x="600" y="94" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="500">
+    &#8220;If you don&#8217;t take risks, you can&#8217;t create a future. Set sail into uncharted code.&#8221;
+  </text>
+  <text x="600" y="122" text-anchor="middle" fill="#64748b" font-family="'SF Mono', monospace" font-size="10.5" font-weight="600" letter-spacing="2.5">
+    MONKEY D. LUFFY &#8226; THE GRAND LINE JOURNEY
+  </text>
+
+  <rect x="1" y="1" width="1198" height="158" rx="15" fill="none" stroke="#1e293b" stroke-opacity="0.6" stroke-width="1"/>
+</svg>

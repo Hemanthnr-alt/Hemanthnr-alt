@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" height="100%">
+  <rect width="1200" height="140" fill="#0a0314" />
+  <line x1="0" y1="15" x2="1200" y2="15" stroke="#f43f5e" stroke-width="1.5" />
+  <g transform="translate(180, 35)">
+    <rect width="840" height="60" rx="10" fill="#240620" stroke="#f43f5e" stroke-width="1.4" />
+    <text x="420" y="36" text-anchor="middle" font-family="'Hiragino Mincho ProN', 'Yu Mincho', serif" font-size="15" font-weight="900" fill="#ffffff" letter-spacing="1">
+      &quot;MASTER THE 1% STANDARD &#8212; BUILD WITH THE SPIRIT OF A SAMURAI&quot;
+    </text>
+  </g>
+  <text x="600" y="122" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#fda4af" letter-spacing="2.5">
+    HEMANTH NAIDU // WANO KUNI KERNEL &#8226; AIR-GAPPED CODEBASE &#8226; 100% SOVEREIGN
+  </text>
+</svg>

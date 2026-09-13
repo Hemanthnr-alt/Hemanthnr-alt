@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="100%" height="100%">
+  <rect width="1200" height="130" fill="#02080a" />
+  <line x1="60" y1="10" x2="1140" y2="10" stroke="#00f2fe" stroke-width="1.5" stroke-opacity="0.5" />
+  <g transform="translate(180, 30)" class="mono">
+    <rect width="840" height="54" rx="4" fill="#041a20" stroke="#00f2fe" stroke-width="1.2" />
+    <text x="420" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#00f2fe" letter-spacing="1">
+      NAV_DIRECTIVE: &quot;Master the 1% standard &#8212; building at the intersection of productivity, systems &amp; performance.&quot;
+    </text>
+  </g>
+  <text x="600" y="112" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" letter-spacing="2">
+    AIRCRAFT: 0xHEMANTH &#8226; AIR-GAPPED RADAR &#8226; TOUCHDOWN CONFIRMED
+  </text>
+</svg>

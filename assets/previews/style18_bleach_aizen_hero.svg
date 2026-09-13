@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="aizenReiatsu" cx="80%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#6b21a8" stop-opacity="0.15"/>
+      <stop offset="90%" stop-color="#07020f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="aizenBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="#07020f"/>
+  <rect width="1200" height="380" rx="16" fill="url(#aizenReiatsu)"/>
+
+  <!-- Shattered Mirror Illusion Shards (Kyoka Suigetsu) -->
+  <g opacity="0.35" stroke="#e9d5ff" stroke-width="1">
+    <polygon points="900,40 1020,80 970,160" fill="#a855f7" fill-opacity="0.3"/>
+    <polygon points="1040,70 1150,50 1100,130" fill="#c084fc" fill-opacity="0.2"/>
+    <polygon points="980,170 1080,140 1050,240" fill="#7e22ce" fill-opacity="0.4"/>
+    <polygon points="880,170 960,180 910,260" fill="#c084fc" fill-opacity="0.25"/>
+    <polygon points="1070,250 1180,210 1120,320" fill="#a855f7" fill-opacity="0.3"/>
+    <polygon points="920,280 1030,260 990,360" fill="#581c87" fill-opacity="0.35"/>
+  </g>
+
+  <!-- Hueco Mundo Crescent Moon & Hogyoku Core -->
+  <g transform="translate(1010, 180)">
+    <!-- Crescent Moon -->
+    <path d="M 0,-60 A 60,60 0 1,0 60,0 A 45,45 0 1,1 0,-60 Z" fill="#f3e8ff" opacity="0.8"/>
+    <!-- Glowing Hogyoku Diamond -->
+    <polygon points="0,-18 18,0 0,18 -18,0" fill="#c084fc" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+  </g>
+
+  <!-- Headers -->
+  <text x="70" y="80" fill="#c084fc" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" letter-spacing="4">BLEACH // 砕けろ、鏡花水月 // AIZEN SOSUKE</text>
+  <text x="70" y="145" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="54" font-weight="900" letter-spacing="2">&#8220;I WILL STAND AT THE TOP&#8221;</text>
+  <text x="70" y="185" fill="#e9d5ff" font-family="'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600">Kyoka Suigetsu &#8212; Architecting Inevitable Systems Beyond Comprehension</text>
+
+  <!-- Subtitle -->
+  <text x="70" y="222" fill="#d8b4fe" font-family="'SF Mono', monospace" font-size="13" font-weight="500">
+    Hemanth &#8226; Mastermind Architect &#8226; Flawless Systems, Zero Vulnerabilities
+  </text>
+
+  <!-- Metric Badges -->
+  <g transform="translate(70, 260)">
+    <rect x="0" y="0" width="165" height="42" rx="10" fill="#3b0764" fill-opacity="0.8" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="16" y="17" fill="#d8b4fe" font-family="'SF Mono', monospace" font-size="9" font-weight="700">SHIKAI RELEASE</text>
+    <text x="16" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">KYOKA SUIGETSU</text>
+
+    <rect x="180" y="0" width="175" height="42" rx="10" fill="#3b0764" fill-opacity="0.8" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="196" y="17" fill="#d8b4fe" font-family="'SF Mono', monospace" font-size="9" font-weight="700">EVOLUTION ENGINE</text>
+    <text x="196" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">HOGYOKU MERGED</text>
+
+    <rect x="370" y="0" width="165" height="42" rx="10" fill="#3b0764" fill-opacity="0.8" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="386" y="17" fill="#d8b4fe" font-family="'SF Mono', monospace" font-size="9" font-weight="700">CONTROL PLANE</text>
+    <text x="386" y="32" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">LAS NOCHES ROOT</text>
+
+    <rect x="550" y="0" width="165" height="42" rx="10" fill="#3b0764" fill-opacity="0.8" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="566" y="17" fill="#f3e8ff" font-family="'SF Mono', monospace" font-size="9" font-weight="700">REIATSU LEVEL</text>
+    <text x="566" y="32" fill="#c084fc" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="800">TRANSCENDENT</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#aizenBorder)" stroke-width="2"/>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="iriGlow" cx="78%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#e0e7ff" stop-opacity="0.4"/>
+      <stop offset="30%" stop-color="#c084fc" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#060814" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="iriCloud" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#c4b5fd"/>
+      <stop offset="70%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#fbcfe8"/>
+    </linearGradient>
+    <linearGradient id="iriBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="33%" stop-color="#c084fc"/>
+      <stop offset="66%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="#060814"/>
+  <rect width="1200" height="380" rx="16" fill="url(#iriGlow)"/>
+
+  <!-- Celestial Constellation Stars -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="780" cy="60" r="2"/>
+    <circle cx="850" cy="110" r="2.5"/>
+    <circle cx="720" cy="140" r="1.5"/>
+    <circle cx="1120" cy="70" r="2"/>
+    <circle cx="1080" cy="320" r="2"/>
+    <circle cx="750" cy="300" r="2.5"/>
+    <!-- Star Cross -->
+    <g transform="translate(820, 80) scale(0.6)">
+      <polygon points="0,-15 3,-3 15,0 3,3 0,15 -3,3 -15,0 -3,-3" fill="#fef08a"/>
+    </g>
+    <g transform="translate(1100, 290) scale(0.6)">
+      <polygon points="0,-15 3,-3 15,0 3,3 0,15 -3,3 -15,0 -3,-3" fill="#38bdf8"/>
+    </g>
+  </g>
+
+  <!-- Iridescent Swirling Cloud Vortex (Sakuga Aesthetic) -->
+  <g transform="translate(960, 190)">
+    <!-- Iridescent Disc -->
+    <circle cx="0" cy="0" r="115" fill="#1e1b4b" fill-opacity="0.5" stroke="url(#iriCloud)" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="135" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="6,8" opacity="0.6"/>
+
+    <!-- Fluffy Joyboy Clouds -->
+    <path d="M -90,-20 C -120,-80 0,-130 70,-80 C 130,-40 120,60 50,90 C -20,120 -90,80 -100,30 Z" fill="none" stroke="url(#iriCloud)" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+    
+    <!-- Laughing Gear 5 Silhouette Motif -->
+    <g transform="translate(0, -10)">
+      <!-- Straw Hat -->
+      <path d="M -24,-14 C -24,-38 24,-38 24,-14 Z" fill="#facc15" stroke="#ffffff" stroke-width="2"/>
+      <path d="M -24,-14 C -24,-20 24,-20 24,-14 Z" fill="#f43f5e"/>
+      <path d="M -48,-12 Q 0,-26 48,-12 Q 0,-18 -48,-12 Z" fill="#fef08a" stroke="#ffffff" stroke-width="1.5"/>
+
+      <!-- Whimsical Joyboy Spiral Eyes -->
+      <circle cx="-12" cy="14" r="9" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+      <circle cx="-12" cy="14" r="4" fill="#38bdf8"/>
+      <circle cx="12" cy="14" r="9" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+      <circle cx="12" cy="14" r="4" fill="#38bdf8"/>
+
+      <!-- Big Joyboy Laugh Grin -->
+      <path d="M -20,32 Q 0,55 20,32 Z" fill="#ffffff" stroke="#1e1b4b" stroke-width="2"/>
+    </g>
+
+    <!-- Japanese Subtitle -->
+    <text x="0" y="145" text-anchor="middle" fill="#c084fc" font-family="'Impact', sans-serif" font-size="16" letter-spacing="4">
+      ジョイボーイの帰還 // JOYBOY HAS RETURNED
+    </text>
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(70, 0)">
+    <g transform="translate(0, 52)">
+      <rect x="0" y="0" width="320" height="28" rx="14" fill="#2e1065" fill-opacity="0.8" stroke="#c084fc" stroke-width="1.5"/>
+      <text x="16" y="18" fill="#e9d5ff" font-family="'SF Mono', monospace" font-size="10.5" font-weight="800" letter-spacing="2">
+        ONE PIECE // JOYBOY // IRIDESCENT SAKUGA
+      </text>
+    </g>
+
+    <text x="0" y="142" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="62" font-weight="900" letter-spacing="2">
+      JOYBOY LIBERATION
+    </text>
+
+    <text x="0" y="185" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700">
+      The Most Ridiculous Power &#8212; Joy, Wonder &amp; Limitless Architecture
+    </text>
+
+    <text x="0" y="222" fill="#7dd3fc" font-family="'SF Mono', monospace" font-size="13" font-weight="600" letter-spacing="1">
+      Hemanth &#8226; Visionary Creator &#8226; Modern Ecosystems, Pure Imagination
+    </text>
+
+    <!-- Iridescent Badges -->
+    <g transform="translate(0, 260)">
+      <rect x="0" y="0" width="165" height="44" rx="12" fill="#1e1b4b" fill-opacity="0.8" stroke="#818cf8" stroke-width="2"/>
+      <text x="16" y="18" fill="#c7d2fe" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">AWAKENING</text>
+      <text x="16" y="34" fill="#ffffff" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">JOYBOY ONLINE</text>
+
+      <rect x="180" y="0" width="185" height="44" rx="12" fill="#3b0764" fill-opacity="0.8" stroke="#c084fc" stroke-width="2"/>
+      <text x="196" y="18" fill="#e9d5ff" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">TRANSFORMATION</text>
+      <text x="196" y="34" fill="#fbcfe8" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">HITO HITO: NIKA</text>
+
+      <rect x="380" y="0" width="175" height="44" rx="12" fill="#082f49" fill-opacity="0.8" stroke="#38bdf8" stroke-width="2"/>
+      <text x="396" y="18" fill="#bae6fd" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">IMAGINATION</text>
+      <text x="396" y="34" fill="#ffffff" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">LIMITLESS FLOW</text>
+
+      <rect x="570" y="0" width="165" height="44" rx="12" fill="#1e1b4b" fill-opacity="0.8" stroke="#f43f5e" stroke-width="2"/>
+      <text x="586" y="18" fill="#fecdd3" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">STATUS</text>
+      <text x="586" y="34" fill="#f43f5e" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">PURE FREEDOM</text>
+    </g>
+  </g>
+
+  <rect x="2" y="2" width="1196" height="376" rx="15" fill="none" stroke="url(#iriBorder)" stroke-width="2.5"/>
+</svg>

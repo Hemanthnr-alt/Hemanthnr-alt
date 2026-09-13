@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Deep Cosmic Void Canvas -->
+    <linearGradient id="cosmic-void" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#010204" />
+      <stop offset="50%" stop-color="#04060c" />
+      <stop offset="100%" stop-color="#090618" />
+    </linearGradient>
+
+    <!-- Eclipse Corona Glows -->
+    <radialGradient id="eclipse-core" cx="50%" cy="100%" r="65%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.85" />
+      <stop offset="15%" stop-color="#7000ff" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="top-aurora" cx="50%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#7000ff" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#7000ff" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Celestial Ring Gradient -->
+    <linearGradient id="ring-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#7000ff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Typography Gradient -->
+    <linearGradient id="titanium-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="35%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#e2e8f0" />
+      <stop offset="90%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+
+    <!-- Intense Lens Flare Filter -->
+    <filter id="lens-flare" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="b1" />
+      <feGaussianBlur stdDeviation="4" result="b2" />
+      <feGaussianBlur stdDeviation="1.5" result="b3" />
+      <feMerge>
+        <feMergeNode in="b1" />
+        <feMergeNode in="b2" />
+        <feMergeNode in="b3" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="text-depth" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.95" />
+      <feDropShadow dx="0" dy="0" stdDeviation="28" flood-color="#00f2fe" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse-ring {
+      0%, 100% { opacity: 0.95; transform: scaleY(1); }
+      50% { opacity: 0.7; transform: scaleY(0.97); }
+    }
+    @keyframes star-twinkle {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 0.15; }
+    }
+    @keyframes beacon-glow {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.75); }
+    }
+    .corona { animation: pulse-ring 4s infinite ease-in-out; transform-origin: 600px 420px; }
+    .star-1 { animation: star-twinkle 2.4s infinite ease-in-out; }
+    .star-2 { animation: star-twinkle 3.5s infinite ease-in-out; }
+    .beacon { animation: beacon-glow 1.8s infinite ease-in-out; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+    .display { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif; }
+  </style>
+
+  <!-- Deep Cosmic Canvas -->
+  <rect width="1200" height="420" fill="url(#cosmic-void)" />
+  <rect width="1200" height="420" fill="url(#top-aurora)" />
+
+  <!-- Constellation Starfield -->
+  <g fill="#00f2fe">
+    <circle cx="90" cy="70" r="1.5" class="star-1" />
+    <circle cx="160" cy="160" r="1.2" class="star-2" />
+    <circle cx="280" cy="90" r="2.0" class="star-1" />
+    <circle cx="380" cy="180" r="1.0" class="star-2" />
+    <circle cx="820" cy="110" r="1.3" class="star-1" />
+    <circle cx="940" cy="75" r="1.8" class="star-2" />
+    <circle cx="1060" cy="150" r="1.5" class="star-1" />
+    <circle cx="1130" cy="80" r="2.2" class="star-2" />
+    <circle cx="210" cy="270" r="1.4" class="star-1" />
+    <circle cx="1010" cy="260" r="1.6" class="star-2" />
+    <circle cx="70" cy="230" r="1.0" class="star-1" />
+    <circle cx="1150" cy="210" r="1.5" class="star-2" />
+  </g>
+
+  <!-- Giant Celestial Horizon Corona Bloom -->
+  <ellipse cx="600" cy="420" rx="550" ry="240" fill="url(#eclipse-core)" class="corona" />
+
+  <!-- The Eclipse Horizon Arc (Laser Ring) -->
+  <path d="M 50 420 C 250 280, 950 280, 1150 420" fill="none" stroke="url(#ring-glow)" stroke-width="3" filter="url(#lens-flare)" />
+  <path d="M 200 420 C 380 320, 820 320, 1000 420" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.9" filter="url(#lens-flare)" />
+
+  <!-- Top Minimalist HUD Bar -->
+  <g transform="translate(60, 36)">
+    <!-- Left Coordinate Telemetry -->
+    <text x="0" y="0" class="mono" font-size="11" fill="#00f2fe" fill-opacity="0.8" letter-spacing="2">
+      // ORBIT: 0xHEMANTH &#8226; LOCAL_FIRST_CORE
+    </text>
+
+    <!-- Center Floating Pill -->
+    <g transform="translate(420, -14)">
+      <rect width="240" height="26" rx="13" fill="#070a12" fill-opacity="0.8" stroke="#00f2fe" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="16" cy="13" r="4" fill="#00f2fe" class="beacon" />
+      <text x="30" y="17" class="mono" font-size="10.5" font-weight="700" fill="#e2e8f0" letter-spacing="1.5">
+        SYSTEM STATUS: <tspan fill="#00f2fe">LOCKED IN</tspan>
+      </text>
+    </g>
+
+    <!-- Right Telemetry Readout -->
+    <text x="1080" y="0" text-anchor="end" class="mono" font-size="11" fill="#10b981" fill-opacity="0.85" letter-spacing="2">
+      &#9679; AIR-GAPPED &#8226; ZERO TELEMETRY
+    </text>
+  </g>
+
+  <!-- Subtle Horizon Center Ray -->
+  <line x1="600" y1="200" x2="600" y2="340" stroke="#00f2fe" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="3 3" />
+
+  <!-- Main Hero Title -->
+  <g filter="url(#text-depth)">
+    <text x="600" y="180" text-anchor="middle" class="display" font-size="86" font-weight="900" fill="url(#titanium-text)" letter-spacing="7">
+      HEMANTH NAIDU
+    </text>
+  </g>
+
+  <!-- Subtitle with Glowing Color Tokens -->
+  <g filter="url(#text-depth)">
+    <text x="600" y="232" text-anchor="middle" class="display" font-size="21" font-weight="500" fill="#94a3b8" letter-spacing="1.5">
+      Architecting <tspan fill="#00f2fe" font-weight="800">Local-First Systems</tspan> &#8226; <tspan fill="#3ddc84" font-weight="800">Android Specialist</tspan> &#8226; <tspan fill="#c084fc" font-weight="800">Full-Stack Engineer</tspan>
+    </text>
+  </g>
+
+  <!-- Minimalist Floating Frosted Horizon Capsules -->
+  <g transform="translate(170, 275)">
+    <!-- Pill 1: 0ms Latency -->
+    <g transform="translate(0, 0)">
+      <rect width="200" height="34" rx="17" fill="#060910" fill-opacity="0.85" stroke="#00f2fe" stroke-opacity="0.45" stroke-width="1.2" />
+      <text x="100" y="22" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#00f2fe" letter-spacing="1">&#9889; 0ms ZERO-LATENCY</text>
+    </g>
+
+    <!-- Pill 2: Sovereign Storage -->
+    <g transform="translate(220, 0)">
+      <rect width="210" height="34" rx="17" fill="#060910" fill-opacity="0.85" stroke="#818cf8" stroke-opacity="0.5" stroke-width="1.2" />
+      <text x="105" y="22" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#c7d2fe" letter-spacing="1">&#128737; CLIENT SOVEREIGN</text>
+    </g>
+
+    <!-- Pill 3: Android Native -->
+    <g transform="translate(450, 0)">
+      <rect width="200" height="34" rx="17" fill="#060910" fill-opacity="0.85" stroke="#3ddc84" stroke-opacity="0.45" stroke-width="1.2" />
+      <text x="100" y="22" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#4ade80" letter-spacing="1">&#128241; ANDROID NATIVE</text>
+    </g>
+
+    <!-- Pill 4: Production Shipped -->
+    <g transform="translate(670, 0)">
+      <rect width="190" height="34" rx="17" fill="#060910" fill-opacity="0.85" stroke="#ec4899" stroke-opacity="0.45" stroke-width="1.2" />
+      <text x="95" y="22" text-anchor="middle" class="mono" font-size="11.5" font-weight="700" fill="#f472b6" letter-spacing="1">&#128293; PROD SHIPPED</text>
+    </g>
+  </g>
+</svg>

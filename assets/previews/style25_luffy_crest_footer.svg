@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160">
+  <defs>
+    <linearGradient id="crestFootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#08090d"/>
+      <stop offset="50%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#08090d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" rx="16" fill="url(#crestFootGrad)"/>
+
+  <!-- Minimal Hairline Divider with Center Smile Monogram -->
+  <line x1="100" y1="40" x2="1100" y2="40" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+  
+  <g transform="translate(600, 40)">
+    <circle cx="0" cy="0" r="12" fill="#08090d" stroke="#ef4444" stroke-width="1.5"/>
+    <path d="M -6,1 Q 0,8 6,1" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+    <circle cx="-3" cy="-3" r="1" fill="#f8fafc"/>
+    <circle cx="3" cy="-3" r="1" fill="#f8fafc"/>
+  </g>
+
+  <text x="600" y="94" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="500">
+    &#8220;No matter how hard or impossible it is, never lose sight of your goal. Smile and push forward.&#8221;
+  </text>
+  <text x="600" y="122" text-anchor="middle" fill="#a1a1aa" font-family="'SF Mono', monospace" font-size="10.5" font-weight="600" letter-spacing="2.5">
+    MONKEY D. LUFFY &#8226; THE SMILE THAT CONQUERS THE SEAS
+  </text>
+
+  <rect x="1" y="1" width="1198" height="158" rx="15" fill="none" stroke="#27272a" stroke-opacity="0.6" stroke-width="1"/>
+</svg>

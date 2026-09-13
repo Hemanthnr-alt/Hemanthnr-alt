@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <!-- Multi-layered Solar Nika Core -->
+    <radialGradient id="nikaSunCore" cx="80%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="15%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#f59e0b" stop-opacity="0.5"/>
+      <stop offset="65%" stop-color="#dc2626" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#05050f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="solarDisc" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="85%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </radialGradient>
+    <linearGradient id="hakiBolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#ef4444"/>
+      <stop offset="80%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="cloudFlame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+    <linearGradient id="flashyBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="25%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Deep Void Cosmic Canvas -->
+  <rect width="1200" height="380" rx="16" fill="#05050e"/>
+  <rect width="1200" height="380" rx="16" fill="url(#nikaSunCore)"/>
+
+  <!-- Golden Sun Rays radiating from right -->
+  <g opacity="0.3">
+    <polygon points="980,180 0,0 0,30" fill="#fde047"/>
+    <polygon points="980,180 0,90 0,130" fill="#f59e0b"/>
+    <polygon points="980,180 0,220 0,260" fill="#fde047"/>
+    <polygon points="980,180 0,340 0,380" fill="#f59e0b"/>
+    <polygon points="980,180 300,380 360,380" fill="#fde047"/>
+    <polygon points="980,180 600,380 660,380" fill="#ea580c"/>
+  </g>
+
+  <!-- Conqueror's Haki Violent Lightning Crackles (Red & Black Bolts) -->
+  <g opacity="0.85">
+    <!-- Lightning Bolt 1 -->
+    <path d="M 980,180 L 880,140 L 910,130 L 820,80 L 840,75 L 740,20 L 710,35 L 630,0" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 980,180 L 880,140 L 910,130 L 820,80 L 840,75 L 740,20 L 710,35 L 630,0" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Lightning Bolt 2 -->
+    <path d="M 980,180 L 890,220 L 920,235 L 830,280 L 850,295 L 750,330 L 730,320 L 650,380" fill="none" stroke="#ef4444" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M 980,180 L 890,220 L 920,235 L 830,280 L 850,295 L 750,330 L 730,320 L 650,380" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Lightning Bolt 3 (Striking toward center text) -->
+    <path d="M 920,160 L 800,160 L 820,175 L 690,170 L 710,185 L 580,180" fill="none" stroke="#dc2626" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Swirling White Gear 5 Cloud Ribbons & Solar Orb -->
+  <g transform="translate(980, 180)">
+    <!-- Giant Glowing Solar Disc (Nika Moon/Sun) -->
+    <circle cx="0" cy="0" r="110" fill="url(#solarDisc)" filter="url(#goldGlow)"/>
+    <circle cx="0" cy="0" r="115" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#fde047" stroke-width="1.5" stroke-dasharray="6,8" opacity="0.6"/>
+    <circle cx="0" cy="0" r="150" fill="none" stroke="#ef4444" stroke-width="1" stroke-dasharray="4,10" opacity="0.4"/>
+
+    <!-- Dynamic Flowing Gear 5 Steam Clouds (Whirling Flame Ribbon) -->
+    <path d="M -120,-40 C -150,-120 40,-160 110,-100 C 180,-40 160,80 80,120 C 0,160 -100,120 -130,40 C -150,-20 -90,0 -80,-30 Z" fill="none" stroke="url(#cloudFlame)" stroke-width="9" stroke-linecap="round" opacity="0.95"/>
+    <path d="M -120,-40 C -150,-120 40,-160 110,-100 C 180,-40 160,80 80,120 C 0,160 -100,120 -130,40 C -150,-20 -90,0 -80,-30 Z" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Inner Cloud Coils -->
+    <path d="M -70,20 C -90,-40 10,-80 60,-40 C 90,-10 60,60 0,50 C -40,40 -50,60 -70,20 Z" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="3"/>
+
+    <!-- The Flashy Straw Hat Jolly Roger with Glowing Eyes -->
+    <g transform="translate(0, 0)">
+      <!-- Crossed Bones with Golden Core -->
+      <line x1="-75" y1="-75" x2="75" y2="75" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+      <line x1="-75" y1="75" x2="75" y2="-75" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="-75" cy="-75" r="7" fill="#fde047" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="75" cy="75" r="7" fill="#fde047" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="-75" cy="75" r="7" fill="#fde047" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="75" cy="-75" r="7" fill="#fde047" stroke="#ffffff" stroke-width="2"/>
+
+      <!-- Skull -->
+      <circle cx="0" cy="5" r="38" fill="#090514" stroke="#ffffff" stroke-width="3.5"/>
+      <!-- Glowing Red Conqueror Haki Eye Sparks -->
+      <ellipse cx="-13" cy="5" rx="7" ry="9" fill="#ef4444"/>
+      <ellipse cx="-13" cy="5" rx="3" ry="4" fill="#ffffff"/>
+      <ellipse cx="13" cy="5" rx="7" ry="9" fill="#ef4444"/>
+      <ellipse cx="13" cy="5" rx="3" ry="4" fill="#ffffff"/>
+      
+      <!-- Big Iconic Grin -->
+      <path d="M -18,22 Q 0,40 18,22 Z" fill="#ffffff" stroke="#000" stroke-width="2"/>
+      <line x1="-9" y1="23" x2="-9" y2="34" stroke="#000" stroke-width="1.5"/>
+      <line x1="0" y1="24" x2="0" y2="36" stroke="#000" stroke-width="1.5"/>
+      <line x1="9" y1="23" x2="9" y2="34" stroke="#000" stroke-width="1.5"/>
+
+      <!-- Golden Straw Hat -->
+      <path d="M -30,-14 C -30,-44 30,-44 30,-14 Z" fill="#f59e0b" stroke="#ffffff" stroke-width="3"/>
+      <path d="M -30,-14 C -30,-22 30,-22 30,-14 Z" fill="#ef4444"/>
+      <path d="M -56,-12 Q 0,-28 56,-12 Q 0,-18 -56,-12 Z" fill="#fde047" stroke="#ffffff" stroke-width="2"/>
+    </g>
+
+    <!-- Japanese Kanji Banner -->
+    <text x="0" y="145" text-anchor="middle" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="16" letter-spacing="4" filter="url(#goldGlow)">
+      太陽の神ニカ &#8226; 解放の戦士
+    </text>
+  </g>
+
+  <!-- Left Content: High Impact Flashy Typography -->
+  <g transform="translate(70, 0)">
+    <!-- Top Pill Tag -->
+    <g transform="translate(0, 52)">
+      <rect x="0" y="0" width="310" height="28" rx="14" fill="#7f1d1d" fill-opacity="0.8" stroke="#ef4444" stroke-width="1.5"/>
+      <circle cx="14" cy="14" r="4" fill="#fde047"/>
+      <text x="26" y="18" fill="#fef08a" font-family="'SF Mono', monospace" font-size="10.5" font-weight="800" letter-spacing="2">
+        ONE PIECE // SUN GOD NIKA // GEAR 5
+      </text>
+    </g>
+
+    <!-- Main Title with Glowing Red/Gold Aesthetic -->
+    <text x="0" y="142" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="62" font-weight="900" letter-spacing="2">
+      SUN GOD NIKA
+    </text>
+    <text x="3" y="142" fill="none" stroke="#f59e0b" stroke-width="2" font-family="'Impact', 'Arial Black', sans-serif" font-size="62" font-weight="900" letter-spacing="2" opacity="0.6">
+      SUN GOD NIKA
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="185" fill="#fde047" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" letter-spacing="0.5">
+      Warrior of Liberation &#8212; Ridiculous Power, Boundless Software Architecture
+    </text>
+
+    <!-- Developer Identity -->
+    <text x="0" y="222" fill="#fca5a5" font-family="'SF Mono', monospace" font-size="13" font-weight="600" letter-spacing="1">
+      Hemanth &#8226; Full-Stack Pirate King &#8226; Kotlin, TypeScript, High-Performance Systems
+    </text>
+
+    <!-- Super Flashy Neon Glass Telemetry Pills -->
+    <g transform="translate(0, 260)">
+      <!-- Pill 1: God Mode -->
+      <rect x="0" y="0" width="165" height="44" rx="12" fill="#450a0a" fill-opacity="0.8" stroke="#ef4444" stroke-width="2"/>
+      <text x="16" y="18" fill="#fca5a5" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">GOD FORM</text>
+      <text x="16" y="34" fill="#ffffff" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">GEAR FIFTH</text>
+
+      <!-- Pill 2: Advanced Conquerors -->
+      <rect x="180" y="0" width="185" height="44" rx="12" fill="#450a0a" fill-opacity="0.8" stroke="#ef4444" stroke-width="2"/>
+      <text x="196" y="18" fill="#fca5a5" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">HAKI INFUSION</text>
+      <text x="196" y="34" fill="#fde047" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">ADV CONQUEROR</text>
+
+      <!-- Pill 3: Drums of Liberation -->
+      <rect x="380" y="0" width="175" height="44" rx="12" fill="#451a03" fill-opacity="0.8" stroke="#f59e0b" stroke-width="2"/>
+      <text x="396" y="18" fill="#fde047" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">HEARTBEAT</text>
+      <text x="396" y="34" fill="#ffffff" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">DOOM DUT DA DA</text>
+
+      <!-- Pill 4: Freedom Status -->
+      <rect x="570" y="0" width="165" height="44" rx="12" fill="#022c22" fill-opacity="0.8" stroke="#10b981" stroke-width="2"/>
+      <text x="586" y="18" fill="#6ee7b7" font-family="'SF Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.5">FREEDOM TIER</text>
+      <text x="586" y="34" fill="#34d399" font-family="'Impact', sans-serif" font-size="15" letter-spacing="1">PEAK FREEDOM</text>
+    </g>
+  </g>
+
+  <!-- Multi-Color Prismatic Border Frame -->
+  <rect x="2" y="2" width="1196" height="376" rx="15" fill="none" stroke="url(#flashyBorder)" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="skyDawn" cx="75%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#050811" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="luffyBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="#050811"/>
+  <rect width="1200" height="380" rx="16" fill="url(#skyDawn)"/>
+
+  <!-- Minimal Nautical Latitude Hairlines -->
+  <g opacity="0.08" stroke="#38bdf8" stroke-width="0.75">
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <circle cx="950" cy="190" r="140" fill="none" stroke-dasharray="2,6"/>
+  </g>
+
+  <!-- Minimalist Vector Silhouette of Luffy Looking Towards Dawn (Right) -->
+  <g transform="translate(950, 200)">
+    <!-- Calm Horizon Sea Line -->
+    <line x1="-160" y1="60" x2="160" y2="60" stroke="#f59e0b" stroke-width="1.2" opacity="0.5"/>
+
+    <!-- Luffy Back Silhouette (Clean Dark Vector) -->
+    <!-- Shoulders & Vest -->
+    <path d="M -45,60 C -45,25 -25,10 -15,0 C -5,-5 5,-5 15,0 C 25,10 45,25 45,60 Z" fill="#0b1220" stroke="#ef4444" stroke-width="1.5"/>
+    <!-- Red Vest Fill Highlight -->
+    <path d="M -30,60 C -30,35 -15,20 0,15 C 15,20 30,35 30,60 Z" fill="#7f1d1d" opacity="0.4"/>
+    
+    <!-- Neck -->
+    <rect x="-8" y="-12" width="16" height="15" fill="#0b1220"/>
+    
+    <!-- Head Base -->
+    <circle cx="0" cy="-22" r="15" fill="#0b1220"/>
+
+    <!-- Iconic Straw Hat Worn on Head (Clean Geometric Accent) -->
+    <g transform="translate(0, -28)">
+      <!-- Hat Crown -->
+      <path d="M -18,-4 C -18,-20 18,-20 18,-4 Z" fill="#050811" stroke="#f59e0b" stroke-width="2"/>
+      <!-- Red Band -->
+      <path d="M -18,-4 C -18,-9 18,-9 18,-4 Z" fill="#ef4444"/>
+      <!-- Wide Straw Brim -->
+      <path d="M -36,-2 Q 0,-12 36,-2 Q 0,-6 -36,-2 Z" fill="#f59e0b"/>
+      <!-- Hanging String Loops -->
+      <path d="M -14,0 Q -18,25 0,35 Q 18,25 14,0" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+
+    <!-- Rising Sun Crescent behind Head -->
+    <circle cx="0" cy="-30" r="55" fill="none" stroke="#f97316" stroke-width="1" stroke-dasharray="3,6" opacity="0.5"/>
+
+    <!-- Subtle Label -->
+    <text x="0" y="90" text-anchor="middle" fill="#f59e0b" font-family="'SF Mono', monospace" font-size="9" letter-spacing="3" opacity="0.8">
+      SET SAIL &#8226; 出航
+    </text>
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(80, 0)">
+    <text x="0" y="78" fill="#f59e0b" font-family="'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="4" opacity="0.9">
+      STRAW HAT CAPTAIN // ルフィ // ADVENTURE CALLING
+    </text>
+
+    <text x="0" y="142" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="50" font-weight="800" letter-spacing="-0.5">
+      Hemanth
+    </text>
+
+    <text x="0" y="180" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="400">
+      Engineering with Unshakable Conviction &amp; Pure Craftsmanship
+    </text>
+
+    <text x="0" y="214" fill="#cbd5e1" font-family="'SF Mono', monospace" font-size="12" font-weight="500" letter-spacing="1">
+      TypeScript &#8226; Kotlin &#8226; Mobile Core &#8226; Autonomous Architecture
+    </text>
+
+    <!-- Minimalist Badges -->
+    <g transform="translate(0, 252)">
+      <rect x="0" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">CREW ROLE</text>
+      <text x="14" y="29" fill="#f59e0b" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">CAPTAIN</text>
+
+      <rect x="157" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+      <text x="171" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">HEADING</text>
+      <text x="171" y="29" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">ALL SEAS</text>
+
+      <rect x="314" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+      <text x="328" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">CONVICTION</text>
+      <text x="328" y="29" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">UNWAVERING</text>
+
+      <rect x="471" y="0" width="155" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="485" y="15" fill="#ef4444" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">HORIZON</text>
+      <text x="485" y="29" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">THE UNKNOWN</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#luffyBorder)" stroke-width="1.2"/>
+</svg>

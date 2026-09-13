@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="100%">
+  <defs>
+    <!-- Grand Line Night Storm Canvas -->
+    <linearGradient id="grand-line-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="40%" stop-color="#0a1226" />
+      <stop offset="75%" stop-color="#161538" />
+      <stop offset="100%" stop-color="#0b1021" />
+    </linearGradient>
+
+    <!-- Sun God Nika Solar Aura -->
+    <radialGradient id="nika-sun" cx="50%" cy="38%" r="48%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="25%" stop-color="#fef08a" stop-opacity="0.65" />
+      <stop offset="55%" stop-color="#ff0055" stop-opacity="0.3" />
+      <stop offset="85%" stop-color="#7000ff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Conqueror's Haki Lightning Gradients -->
+    <linearGradient id="haki-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="30%" stop-color="#ff0055" />
+      <stop offset="70%" stop-color="#990022" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+
+    <linearGradient id="straw-hat-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="40%" stop-color="#fef08a" />
+      <stop offset="75%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <!-- Pirate Gold Typography Gradient -->
+    <linearGradient id="pirate-king-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#fffbeb" />
+      <stop offset="50%" stop-color="#fde047" />
+      <stop offset="80%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+
+    <!-- Wave Multi-Tone Gradients -->
+    <linearGradient id="ocean-wave-deep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#0f2b5c" />
+      <stop offset="100%" stop-color="#041633" />
+    </linearGradient>
+    <linearGradient id="ocean-wave-front" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="40%" stop-color="#0369a1" />
+      <stop offset="75%" stop-color="#075985" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="haki-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="h1" />
+      <feGaussianBlur stdDeviation="2.5" result="h2" />
+      <feMerge>
+        <feMergeNode in="h1" />
+        <feMergeNode in="h2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="nika-cloud-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="c1" />
+      <feMerge>
+        <feMergeNode in="c1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="title-pirate-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.95" />
+      <feDropShadow dx="0" dy="0" stdDeviation="22" flood-color="#f59e0b" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes drum-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.95; }
+      50% { transform: scale(1.05); opacity: 0.75; }
+    }
+    @keyframes lightning-flash {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 0.2; }
+      75% { opacity: 1; }
+    }
+    @keyframes cloud-float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-6px) rotate(1deg); }
+    }
+    .drums-of-liberation { animation: drum-pulse 2s infinite ease-in-out; transform-origin: 600px 160px; }
+    .haki-spark { animation: lightning-flash 1.8s infinite ease-in-out; }
+    .nika-clouds { animation: cloud-float 4s infinite ease-in-out; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .display { font-family: -apple-system, BlinkMacSystemFont, 'Impact', 'Arial Black', sans-serif; }
+    .kanji { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif; }
+  </style>
+
+  <!-- Sky Canvas -->
+  <rect width="1200" height="440" fill="url(#grand-line-sky)" />
+
+  <!-- Full Moon / Sun God Nika Solar Eclipse -->
+  <circle cx="600" cy="160" r="140" fill="url(#nika-sun)" class="drums-of-liberation" />
+  <circle cx="600" cy="160" r="110" fill="#ffffff" fill-opacity="0.15" />
+
+  <!-- Conqueror's Haki Lightning Streaks (Red & Black Crackles) -->
+  <g class="haki-spark" stroke="url(#haki-red)" stroke-linecap="round" fill="none" filter="url(#haki-glow)">
+    <!-- Left Haki Crackle -->
+    <path d="M 280 90 L 320 130 L 290 150 L 340 180 L 310 220 L 380 250" stroke-width="3" />
+    <path d="M 320 130 L 370 120" stroke-width="1.8" />
+    <path d="M 180 180 L 240 190 L 220 230 L 270 240" stroke-width="2" />
+
+    <!-- Right Haki Crackle -->
+    <path d="M 920 90 L 880 130 L 910 150 L 860 180 L 890 220 L 820 250" stroke-width="3" />
+    <path d="M 880 130 L 830 120" stroke-width="1.8" />
+    <path d="M 1020 180 L 960 190 L 980 230 L 930 240" stroke-width="2" />
+  </g>
+
+  <!-- Gear 5 Ethereal White Cloud Ribbons -->
+  <g class="nika-clouds" fill="#ffffff" fill-opacity="0.85" filter="url(#nika-cloud-glow)">
+    <!-- Cloud Left -->
+    <path d="M 360 120 C 380 90, 440 90, 460 120 C 480 100, 520 110, 530 130 C 510 140, 480 140, 450 135 C 420 145, 380 140, 360 120 Z" />
+    <!-- Cloud Right -->
+    <path d="M 840 120 C 820 90, 760 90, 740 120 C 720 100, 680 110, 670 130 C 690 140, 720 140, 750 135 C 780 145, 820 140, 840 120 Z" />
+  </g>
+
+  <!-- Top Marine / Grand Line Coordinates Strip -->
+  <g transform="translate(60, 34)">
+    <text x="0" y="10" class="kanji" font-size="12" font-weight="900" fill="#f59e0b" letter-spacing="3">
+      新世界 // グランドライン &#8226; NEW WORLD // GRAND LINE ROUTE
+    </text>
+    <text x="1080" y="10" text-anchor="end" class="mono" font-size="11" font-weight="800" fill="#00f2fe" letter-spacing="1.5">
+      BOUNTY: &#3647; 3,200,000,000 &#8226; DEAD OR ALIVE
+    </text>
+  </g>
+
+  <!-- Central Straw Hat Insignia (Above Name) -->
+  <g transform="translate(600, 72)">
+    <!-- Straw Hat Brim -->
+    <ellipse cx="0" cy="18" rx="42" ry="12" fill="url(#straw-hat-gold)" stroke="#78350f" stroke-width="1.5" />
+    <!-- Straw Hat Crown -->
+    <ellipse cx="0" cy="10" rx="22" ry="16" fill="url(#straw-hat-gold)" stroke="#78350f" stroke-width="1.5" />
+    <!-- Red Hat Ribbon -->
+    <path d="M -22 13 C -10 17, 10 17, 22 13 L 22 10 C 10 14, -10 14, -22 10 Z" fill="#dc2626" />
+  </g>
+
+  <!-- Japanese Anime Kanji Super-Title -->
+  <text x="600" y="132" text-anchor="middle" class="kanji" font-size="16" font-weight="900" fill="#fde047" letter-spacing="8">
+    海賊王への道 &#8226; 自由の戦士 // GEAR 5 NIKA
+  </text>
+
+  <!-- Main Hero Title -->
+  <g filter="url(#title-pirate-shadow)">
+    <text x="600" y="196" text-anchor="middle" class="display" font-size="86" font-weight="900" fill="url(#pirate-king-gold)" letter-spacing="6">
+      HEMANTH NAIDU
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g filter="url(#title-pirate-shadow)">
+    <text x="600" y="240" text-anchor="middle" class="display" font-size="21" font-weight="700" fill="#f8fafc" letter-spacing="2">
+      KING OF LOCAL-FIRST SYSTEMS &#8226; <tspan fill="#fde047">ANDROID SPECIALIST</tspan> &#8226; <tspan fill="#00f2fe">FULL-STACK</tspan>
+    </text>
+  </g>
+
+  <!-- 4 Grand Line / Devil Fruit Badges -->
+  <g transform="translate(140, 276)">
+    <!-- Badge 1: Nika Fruit / Latency -->
+    <g>
+      <rect width="210" height="36" rx="18" fill="#120822" stroke="#fde047" stroke-width="1.5" />
+      <text x="105" y="23" text-anchor="middle" class="mono" font-size="11.5" font-weight="800" fill="#fde047">&#9889; HITO HITO: 0ms</text>
+    </g>
+    <!-- Badge 2: Conqueror's Haki / Sovereignty -->
+    <g transform="translate(230, 0)">
+      <rect width="220" height="36" rx="18" fill="#120822" stroke="#ff0055" stroke-width="1.5" />
+      <text x="110" y="23" text-anchor="middle" class="mono" font-size="11.5" font-weight="800" fill="#ff0055">&#128737; CONQUEROR&apos;S HAKI</text>
+    </g>
+    <!-- Badge 3: Ryuo / Android -->
+    <g transform="translate(470, 0)">
+      <rect width="210" height="36" rx="18" fill="#120822" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="105" y="23" text-anchor="middle" class="mono" font-size="11.5" font-weight="800" fill="#38bdf8">&#128241; ADVANCED RYUO</text>
+    </g>
+    <!-- Badge 4: Gear 5 Production -->
+    <g transform="translate(700, 0)">
+      <rect width="220" height="36" rx="18" fill="#120822" stroke="#34d399" stroke-width="1.5" />
+      <text x="110" y="23" text-anchor="middle" class="mono" font-size="11.5" font-weight="800" fill="#34d399">&#128293; GEAR 5 SHIPPED</text>
+    </g>
+  </g>
+
+  <!-- Grand Line Ocean Waves (Bottom Surge) -->
+  <path d="M 0 375 C 160 340, 320 410, 480 365 C 640 320, 800 395, 960 350 C 1080 325, 1150 360, 1200 345 L 1200 440 L 0 440 Z" fill="url(#ocean-wave-deep)" />
+  <path d="M 0 395 C 200 360, 420 420, 650 375 C 840 340, 1040 405, 1200 370 L 1200 440 L 0 440 Z" fill="url(#ocean-wave-front)" />
+
+  <!-- Wave Foam Golden Spray Line -->
+  <path d="M 0 395 C 200 360, 420 420, 650 375 C 840 340, 1040 405, 1200 370" fill="none" stroke="#fde047" stroke-width="2" stroke-opacity="0.8" />
+</svg>

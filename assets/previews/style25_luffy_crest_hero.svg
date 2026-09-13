@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="crestGlow" cx="78%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#08090d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crestBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="#08090d"/>
+  <rect width="1200" height="380" rx="16" fill="url(#crestGlow)"/>
+
+  <!-- Minimal Concentric Orbit Rings -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="0.75">
+    <circle cx="950" cy="190" r="160" fill="none"/>
+    <circle cx="950" cy="190" r="120" fill="none"/>
+    <circle cx="950" cy="190" r="80" fill="none"/>
+    <line x1="790" y1="190" x2="1110" y2="190"/>
+    <line x1="950" y1="30" x2="950" y2="350"/>
+  </g>
+
+  <!-- Modern Geometric Luffy Smiling Jolly Roger (Minimal Monogram) -->
+  <g transform="translate(950, 190)">
+    <!-- Outer 1px Gold Orbit Ring with Degree Marks -->
+    <circle cx="0" cy="0" r="115" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4,8" opacity="0.6"/>
+
+    <!-- Crossed Bones (Clean Diagonal Minimal Hairlines) -->
+    <line x1="-65" y1="-65" x2="65" y2="65" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="-65" y1="65" x2="65" y2="-65" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="-65" cy="-65" r="3.5" fill="#f8fafc"/>
+    <circle cx="65" cy="65" r="3.5" fill="#f8fafc"/>
+    <circle cx="-65" cy="65" r="3.5" fill="#f8fafc"/>
+    <circle cx="65" cy="-65" r="3.5" fill="#f8fafc"/>
+
+    <!-- Clean Skull Silhouette -->
+    <circle cx="0" cy="4" r="30" fill="#08090d" stroke="#f8fafc" stroke-width="2"/>
+    <ellipse cx="-10" cy="4" rx="5" ry="6" fill="#f8fafc"/>
+    <ellipse cx="10" cy="4" rx="5" ry="6" fill="#f8fafc"/>
+    <!-- Iconic Wide Luffy Smile -->
+    <path d="M -16,18 Q 0,32 16,18 Z" fill="#08090d" stroke="#f8fafc" stroke-width="2"/>
+    <path d="M -16,18 Q 0,22 16,18" stroke="#f8fafc" stroke-width="1.5"/>
+    <line x1="-8" y1="19" x2="-8" y2="28" stroke="#f8fafc" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="0" y2="30" stroke="#f8fafc" stroke-width="1.5"/>
+    <line x1="8" y1="19" x2="8" y2="28" stroke="#f8fafc" stroke-width="1.5"/>
+
+    <!-- Geometric Straw Hat -->
+    <path d="M -24,-14 C -24,-36 24,-36 24,-14 Z" fill="#08090d" stroke="#f59e0b" stroke-width="2.5"/>
+    <path d="M -24,-14 C -24,-20 24,-20 24,-14 Z" fill="#ef4444"/>
+    <path d="M -48,-12 Q 0,-24 48,-12 Q 0,-16 -48,-12 Z" fill="#f59e0b"/>
+
+    <text x="0" y="85" text-anchor="middle" fill="#ef4444" font-family="'SF Mono', monospace" font-size="9" letter-spacing="3" opacity="0.9">
+      D &#8226; INHERITED WILL
+    </text>
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(80, 0)">
+    <text x="0" y="78" fill="#ef4444" font-family="'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="4" opacity="0.9">
+      THE WILL OF D // モンキー・D・ルフィ
+    </text>
+
+    <text x="0" y="142" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="50" font-weight="800" letter-spacing="-0.5">
+      Hemanth
+    </text>
+
+    <text x="0" y="180" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="400">
+      Software Architecture Driven by Vision, Tenacity &amp; Smile
+    </text>
+
+    <text x="0" y="214" fill="#cbd5e1" font-family="'SF Mono', monospace" font-size="12" font-weight="500" letter-spacing="1">
+      TypeScript &#8226; Kotlin &#8226; Multi-Platform &#8226; Relentless Execution
+    </text>
+
+    <!-- Minimalist Badges -->
+    <g transform="translate(0, 252)">
+      <rect x="0" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">INITIAL</text>
+      <text x="14" y="29" fill="#ef4444" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">WILL OF D</text>
+
+      <rect x="157" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="171" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">DETERMINATION</text>
+      <text x="171" y="29" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">100% TO KING</text>
+
+      <rect x="314" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="328" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">SPIRIT</text>
+      <text x="328" y="29" fill="#f59e0b" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">NEVER FOLD</text>
+
+      <rect x="471" y="0" width="155" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="485" y="15" fill="#f59e0b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">RELIABILITY</text>
+      <text x="485" y="29" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">ALWAYS SHIPPED</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#crestBorder)" stroke-width="1.2"/>
+</svg>

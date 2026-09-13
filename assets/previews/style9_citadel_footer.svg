@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" height="100%">
+  <rect width="1200" height="140" fill="#070913" />
+  <g transform="translate(200, 30)">
+    <rect width="800" height="60" rx="12" fill="#0e172e" stroke="#6366f1" stroke-width="1.4" />
+    <text x="400" y="36" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13.5" font-weight="700" fill="#f8fafc">
+      &gt;_ &quot;Master the 1% standard &#8212; building at the intersection of productivity, systems &amp; performance.&quot;
+    </text>
+  </g>
+  <text x="600" y="118" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" letter-spacing="2">
+    HEMANTH NAIDU &#8226; CITADEL PLATFORM ONLINE &#8226; SESSION ACTIVE
+  </text>
+</svg>

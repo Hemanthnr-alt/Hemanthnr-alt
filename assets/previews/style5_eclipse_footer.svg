@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="100%">
+  <defs>
+    <!-- Cosmic Background -->
+    <linearGradient id="foot-cosmic" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#010204" />
+      <stop offset="60%" stop-color="#04060c" />
+      <stop offset="100%" stop-color="#090618" />
+    </linearGradient>
+
+    <!-- Inverted Eclipse Corona -->
+    <radialGradient id="foot-eclipse-core" cx="50%" cy="0%" r="65%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="20%" stop-color="#7000ff" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.2" />
+      <stop offset="80%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="foot-ring-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#7000ff" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="foot-lens" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="b1" />
+      <feGaussianBlur stdDeviation="2" result="b2" />
+      <feMerge>
+        <feMergeNode in="b1" />
+        <feMergeNode in="b2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes foot-twinkle { 0%, 100% { opacity: 0.85; } 50% { opacity: 0.2; } }
+    @keyframes pulse-arc { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.7; } }
+    .twinkle { animation: foot-twinkle 2.8s infinite ease-in-out; }
+    .arc { animation: pulse-arc 4s infinite ease-in-out; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+  </style>
+
+  <!-- Deep Canvas -->
+  <rect width="1200" height="180" fill="url(#foot-cosmic)" />
+
+  <!-- Inverted Corona Bloom at Top -->
+  <ellipse cx="600" cy="0" rx="550" ry="120" fill="url(#foot-eclipse-core)" class="arc" />
+
+  <!-- Inverted Lens Flare Arc at Top -->
+  <path d="M 50 0 C 250 110, 950 110, 1150 0" fill="none" stroke="url(#foot-ring-glow)" stroke-width="3" filter="url(#foot-lens)" />
+  <path d="M 200 0 C 380 80, 820 80, 1000 0" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.9" filter="url(#foot-lens)" />
+
+  <!-- Twinkling Deep Stars -->
+  <circle cx="150" cy="110" r="1.5" fill="#00f2fe" class="twinkle" />
+  <circle cx="320" cy="140" r="1.2" fill="#c084fc" class="twinkle" />
+  <circle cx="880" cy="120" r="1.6" fill="#00f2fe" class="twinkle" />
+  <circle cx="1060" cy="100" r="1.4" fill="#38bdf8" class="twinkle" />
+
+  <!-- Center Doctrine Monolith Box -->
+  <g transform="translate(160, 75)">
+    <rect width="880" height="48" rx="14" fill="#060912" fill-opacity="0.9" stroke="#1e293b" stroke-width="1.4" />
+    
+    <!-- Glowing Beacon -->
+    <circle cx="28" cy="24" r="4.5" fill="#00f2fe" class="twinkle" />
+    
+    <!-- Doctrine Content -->
+    <text x="48" y="29" class="mono" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="1">
+      &gt;_ &quot;Master the 1% standard &#8212; building at the intersection of productivity, systems &amp; performance.&quot;
+    </text>
+
+    <!-- Right Locked In Chip -->
+    <g transform="translate(735, 10)">
+      <rect width="130" height="28" rx="14" fill="#0c1e14" stroke="#10b981" stroke-width="1" />
+      <circle cx="16" cy="14" r="4" fill="#10b981" />
+      <text x="28" y="18" class="mono" font-size="10.5" font-weight="800" fill="#34d399">0xLOCKED_IN</text>
+    </g>
+  </g>
+
+  <!-- Bottom Coordinates Decal -->
+  <text x="600" y="152" text-anchor="middle" class="mono" font-size="9.5" fill="#475569" letter-spacing="2.5">
+    HEMANTH NAIDU &#8226; LOCAL-FIRST ARCHITECTURE &#8226; 0% TELEMETRY &#8226; PERMANENTLY SOVEREIGN
+  </text>
+</svg>

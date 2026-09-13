@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ==================== BESPOKE GEAR 5 CONQUEROR HERO BANNER ==================== -->
-<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-banner.svg" width="100%" alt="Hemanth Naidu Gear 5 Conqueror Hero Banner"/>
+<!-- ==================== BESPOKE LUNAR HYBRID OVERDRIVE HERO BANNER ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-banner.svg" width="100%" alt="Hemanth Naidu Lunar Hybrid Overdrive Hero Banner"/>
 
 <br/>
 
@@ -12,11 +12,11 @@
 
 <!-- ==================== QUICK ACTION NAVIGATION ==================== -->
 <p align="center">
-  <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Official_Site-18040d?style=for-the-badge&logo=googlechrome&logoColor=f59e0b&labelColor=08020e" /></a>
-  <a href="https://lock-in-eta-nine.vercel.app/lock-in.apk"><img src="https://img.shields.io/badge/Download_Lock_In_APK-18040d?style=for-the-badge&logo=android&logoColor=22c55e&labelColor=08020e" /></a>
-  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn-18040d?style=for-the-badge&logo=linkedin&logoColor=00f2fe&labelColor=08020e" /></a>
-  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email-18040d?style=for-the-badge&logo=gmail&logoColor=ff0055&labelColor=08020e" /></a>
-  <a href="https://github.com/Hemanthnr-alt"><img src="https://komarev.com/ghpvc/?username=Hemanthnr-alt&style=for-the-badge&color=ff0055&label=VISITORS" /></a>
+  <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Official_Site-14050e?style=for-the-badge&logo=googlechrome&logoColor=f59e0b&labelColor=0a0308" /></a>
+  <a href="https://lock-in-eta-nine.vercel.app/lock-in.apk"><img src="https://img.shields.io/badge/Download_Lock_In_APK-14050e?style=for-the-badge&logo=android&logoColor=22c55e&labelColor=0a0308" /></a>
+  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn-14050e?style=for-the-badge&logo=linkedin&logoColor=f59e0b&labelColor=0a0308" /></a>
+  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email-14050e?style=for-the-badge&logo=gmail&logoColor=ef4444&labelColor=0a0308" /></a>
+  <a href="https://github.com/Hemanthnr-alt"><img src="https://komarev.com/ghpvc/?username=Hemanthnr-alt&style=for-the-badge&color=ef4444&label=VISITORS" /></a>
 </p>
 
 </div>
@@ -186,15 +186,15 @@
 <br/><br/>
 
 <p align="center">
-  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email_Direct-18040d?style=for-the-badge&logo=gmail&logoColor=ff0055&labelColor=08020e"/></a>
-  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn_Network-18040d?style=for-the-badge&logo=linkedin&logoColor=00f2fe&labelColor=08020e"/></a>
-  <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Production_Live-18040d?style=for-the-badge&logo=googlechrome&logoColor=f59e0b&labelColor=08020e"/></a>
-  <a href="https://github.com/Hemanthnr-alt"><img src="https://img.shields.io/badge/GitHub_Hub-18040d?style=for-the-badge&logo=github&logoColor=ff0055&labelColor=08020e"/></a>
+  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email_Direct-14050e?style=for-the-badge&logo=gmail&logoColor=ef4444&labelColor=0a0308"/></a>
+  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn_Network-14050e?style=for-the-badge&logo=linkedin&logoColor=f59e0b&labelColor=0a0308"/></a>
+  <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Production_Live-14050e?style=for-the-badge&logo=googlechrome&logoColor=f59e0b&labelColor=0a0308"/></a>
+  <a href="https://github.com/Hemanthnr-alt"><img src="https://img.shields.io/badge/GitHub_Hub-14050e?style=for-the-badge&logo=github&logoColor=ef4444&labelColor=0a0308"/></a>
 </p>
 
 <br/>
 
-<!-- BESPOKE GEAR 5 CONQUEROR FOOTER WAVE -->
-<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/footer-wave.svg" width="100%" alt="Hemanth Naidu Gear 5 Conqueror Footer Wave" />
+<!-- ==================== BESPOKE LUNAR HYBRID OVERDRIVE FOOTER WAVE ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/footer-wave.svg" width="100%" alt="Hemanth Naidu Lunar Hybrid Overdrive Footer Wave" />
 
 </div>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="minGoldGlow" cx="75%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#d97706" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="hatRibbon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Obsidian Minimalist Background -->
+  <rect width="1200" height="380" rx="16" fill="#090a0f"/>
+  <rect width="1200" height="380" rx="16" fill="url(#minGoldGlow)"/>
+
+  <!-- Subtle Nautical Cartography Grid (Delicate Hairlines) -->
+  <g opacity="0.07" stroke="#f8fafc" stroke-width="0.75">
+    <line x1="0" y1="95" x2="1200" y2="95"/>
+    <line x1="0" y1="190" x2="1200" y2="190"/>
+    <line x1="0" y1="285" x2="1200" y2="285"/>
+    <line x1="300" y1="0" x2="300" y2="380"/>
+    <line x1="600" y1="0" x2="600" y2="380"/>
+    <line x1="900" y1="0" x2="900" y2="380"/>
+    <!-- Compass Astrolabe ring -->
+    <circle cx="950" cy="190" r="130" fill="none" stroke="#f59e0b" stroke-width="0.75" stroke-dasharray="2,6"/>
+    <circle cx="950" cy="190" r="160" fill="none" stroke="#f59e0b" stroke-width="0.5" stroke-dasharray="1,8"/>
+  </g>
+
+  <!-- Minimalist Geometric Straw Hat Jolly Roger (Clean Line Art) -->
+  <g transform="translate(950, 190)">
+    <!-- Crossed Bones (Clean Hairlines) -->
+    <line x1="-75" y1="-75" x2="75" y2="75" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="-75" y1="75" x2="75" y2="-75" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <!-- Bone End Knobs -->
+    <circle cx="-75" cy="-75" r="4" fill="#090a0f" stroke="#f8fafc" stroke-width="2"/>
+    <circle cx="75" cy="75" r="4" fill="#090a0f" stroke="#f8fafc" stroke-width="2"/>
+    <circle cx="-75" cy="75" r="4" fill="#090a0f" stroke="#f8fafc" stroke-width="2"/>
+    <circle cx="75" cy="-75" r="4" fill="#090a0f" stroke="#f8fafc" stroke-width="2"/>
+
+    <!-- Minimal Skull Head Base -->
+    <circle cx="0" cy="6" r="34" fill="#090a0f" stroke="#f8fafc" stroke-width="2.5"/>
+    <!-- Eye Sockets (Sleek Ovals) -->
+    <ellipse cx="-12" cy="6" rx="6.5" ry="8" fill="#f8fafc"/>
+    <ellipse cx="12" cy="6" rx="6.5" ry="8" fill="#f8fafc"/>
+    <!-- Nose Hole -->
+    <polygon points="0,17 -3,22 3,22" fill="#f8fafc"/>
+    <!-- Teeth (Minimal Lines) -->
+    <path d="M -12,31 L -12,38 M -4,31 L -4,38 M 4,31 L 4,38 M 12,31 L 12,38" stroke="#f8fafc" stroke-width="2"/>
+
+    <!-- The Minimal Straw Hat (Clean Gold Crown & Brim) -->
+    <!-- Crown -->
+    <path d="M -28,-14 C -28,-40 28,-40 28,-14 Z" fill="#090a0f" stroke="#f59e0b" stroke-width="3"/>
+    <!-- Red Ribbon -->
+    <path d="M -28,-14 C -28,-22 28,-22 28,-14 Z" fill="url(#hatRibbon)"/>
+    <!-- Curved Brim -->
+    <path d="M -54,-12 Q 0,-26 54,-12 Q 0,-18 -54,-12 Z" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5"/>
+
+    <!-- Subtle Grand Line Coordinates Ring Marker -->
+    <text x="0" y="110" text-anchor="middle" fill="#f59e0b" font-family="'SF Mono', monospace" font-size="9" letter-spacing="3" opacity="0.8">
+      00&#176; 00&#39; 00&quot;N &#8226; GRAND LINE
+    </text>
+  </g>
+
+  <!-- Typography: Spaced, Editorial, Linear-Grade Luxury -->
+  <g transform="translate(80, 0)">
+    <!-- Small Meta Tag -->
+    <text x="0" y="78" fill="#f59e0b" font-family="'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="4" opacity="0.9">
+      STRAW HAT ARCHITECTURE // 麦わらの一味
+    </text>
+
+    <!-- Main Name Title -->
+    <text x="0" y="142" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="50" font-weight="800" letter-spacing="-0.5">
+      Hemanth
+    </text>
+
+    <!-- Refined Subtitle -->
+    <text x="0" y="180" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="16" font-weight="400" letter-spacing="0.2">
+      Full-Stack Systems Architect &#8212; Navigating the Grand Line of Code
+    </text>
+
+    <!-- Core Tech Stack Minimal String -->
+    <text x="0" y="214" fill="#cbd5e1" font-family="'SF Mono', monospace" font-size="12" font-weight="500" letter-spacing="1">
+      Kotlin &#8226; TypeScript &#8226; SQLite &#8226; High-Performance Runtimes
+    </text>
+
+    <!-- Minimalist Frosted Glass Pills -->
+    <g transform="translate(0, 252)">
+      <!-- Pill 1: Vessel -->
+      <rect x="0" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">VESSEL</text>
+      <text x="14" y="29" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">LOCK IN APP</text>
+
+      <!-- Pill 2: Log Pose -->
+      <rect x="157" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="171" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">LOG POSE</text>
+      <text x="171" y="29" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">TRUE NORTH</text>
+
+      <!-- Pill 3: Execution -->
+      <rect x="314" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="328" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">WILL</text>
+      <text x="328" y="29" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">INHERITED</text>
+
+      <!-- Pill 4: Latitude -->
+      <rect x="471" y="0" width="155" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="485" y="15" fill="#f59e0b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">SEA SECTOR</text>
+      <text x="485" y="29" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">NEW WORLD</text>
+    </g>
+  </g>
+
+  <!-- Specular 1px Border Frame -->
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#goldBorder)" stroke-width="1.2"/>
+</svg>

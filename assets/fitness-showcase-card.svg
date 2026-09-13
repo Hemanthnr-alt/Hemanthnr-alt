@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 330" width="100%" height="100%">
   <defs>
     <linearGradient id="fitBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="0%" stop-color="#ef4444"/>
       <stop offset="25%" stop-color="#f59e0b"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="75%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#ff0055"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
     </linearGradient>
     <linearGradient id="fitBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#07020d"/>
@@ -28,18 +28,18 @@
   <rect x="2" y="2" width="836" height="326" rx="16" fill="url(#fitBg)" stroke="url(#fitBorder)" stroke-width="1.8"/>
 
   <!-- Top Bar -->
-  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 42 L 2 42 Z" fill="#120417"/>
+  <path d="M 2 18 C 2 9.16 9.16 2 18 2 L 822 2 C 830.84 2 838 9.16 838 18 L 838 42 L 2 42 Z" fill="#14040e"/>
   <line x1="2" y1="42" x2="838" y2="42" stroke="#25062e" stroke-width="1"/>
 
-  <circle cx="24" cy="22" r="5.5" fill="#ff0055"/>
+  <circle cx="24" cy="22" r="5.5" fill="#ef4444"/>
   <circle cx="42" cy="22" r="5.5" fill="#f59e0b"/>
   <circle cx="60" cy="22" r="5.5" fill="#22c55e"/>
 
   <text x="80" y="26" fill="#94a3b8" font-size="12" class="mono">production://lockin-fitness-expo-sqlite</text>
   
-  <rect x="696" y="12" width="124" height="20" rx="10" fill="#240311" stroke="#ff0055" stroke-width="1"/>
-  <circle cx="709" cy="22" r="3.5" fill="#ff0055"/>
-  <text x="719" y="26" fill="#ff0055" font-size="10" class="mono bold">100% OFFLINE</text>
+  <rect x="696" y="12" width="124" height="20" rx="10" fill="#240311" stroke="#ef4444" stroke-width="1"/>
+  <circle cx="709" cy="22" r="3.5" fill="#ef4444"/>
+  <text x="719" y="26" fill="#ef4444" font-size="10" class="mono bold">100% OFFLINE</text>
 
   <!-- Header Content -->
   <text x="32" y="74" fill="#ffffff" font-size="20" class="sans bold">💪 LockIn Fitness — Progressive Workout Engine</text>
@@ -53,12 +53,12 @@
 
   <!-- Pillar 2 -->
   <rect x="435" y="114" width="375" height="62" rx="8" fill="url(#fitItemBg)" stroke="#310a3d" stroke-width="1"/>
-  <text x="449" y="138" fill="#ff0055" font-size="13" class="sans bold">⏱️ Hands-Free Rest &amp; Audio Timers</text>
+  <text x="449" y="138" fill="#ef4444" font-size="13" class="sans bold">⏱️ Hands-Free Rest &amp; Audio Timers</text>
   <text x="449" y="158" fill="#cbd5e1" font-size="11" class="sans">Automated interval chimes and cues for distraction-free workouts</text>
 
   <!-- Pillar 3 -->
   <rect x="30" y="188" width="375" height="62" rx="8" fill="url(#fitItemBg)" stroke="#310a3d" stroke-width="1"/>
-  <text x="44" y="212" fill="#00f2fe" font-size="13" class="sans bold">📈 Discipline &amp; Streak Heatmaps</text>
+  <text x="44" y="212" fill="#f59e0b" font-size="13" class="sans bold">📈 Discipline &amp; Streak Heatmaps</text>
   <text x="44" y="232" fill="#cbd5e1" font-size="11" class="sans">Rolling compliance tracking &amp; milestones to lock in daily consistency</text>
 
   <!-- Pillar 4 -->

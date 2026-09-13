@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <radialGradient id="logGlow" cx="80%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="logBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="#020617"/>
+  <rect width="1200" height="380" rx="16" fill="url(#logGlow)"/>
+
+  <!-- Minimal Nautical Chart Lines -->
+  <g opacity="0.1" stroke="#38bdf8" stroke-width="0.75">
+    <circle cx="950" cy="190" r="140" fill="none"/>
+    <circle cx="950" cy="190" r="90" fill="none"/>
+    <line x1="810" y1="190" x2="1090" y2="190"/>
+    <line x1="950" y1="50" x2="950" y2="330"/>
+    <!-- Diagonal degree ticks -->
+    <line x1="850" y1="90" x2="1050" y2="290" stroke-dasharray="2,4"/>
+    <line x1="850" y1="290" x2="1050" y2="90" stroke-dasharray="2,4"/>
+  </g>
+
+  <!-- Minimal Glass Sphere: 3-Needle New World Log Pose -->
+  <g transform="translate(950, 190)">
+    <!-- Glass outer bezel -->
+    <circle cx="0" cy="0" r="105" fill="#0b1329" fill-opacity="0.6" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#f59e0b" stroke-width="0.75" stroke-dasharray="3,6"/>
+    
+    <!-- 3 Minimalist Suspended Needles (New World Log Pose) -->
+    <!-- Left Needle -->
+    <g transform="translate(-40, 0) rotate(-25)">
+      <polygon points="0,-35 4,0 0,5 -4,0" fill="#38bdf8"/>
+      <polygon points="0,35 4,0 0,-5 -4,0" fill="#64748b"/>
+      <circle cx="0" cy="0" r="2.5" fill="#ffffff"/>
+    </g>
+    <!-- Center Needle (True North / Locked On) -->
+    <g transform="translate(0, -10) rotate(5)">
+      <polygon points="0,-48 5,0 0,6 -5,0" fill="#f59e0b"/>
+      <polygon points="0,48 5,0 0,-6 -5,0" fill="#64748b"/>
+      <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
+    </g>
+    <!-- Right Needle -->
+    <g transform="translate(40, 0) rotate(35)">
+      <polygon points="0,-35 4,0 0,5 -4,0" fill="#38bdf8"/>
+      <polygon points="0,35 4,0 0,-5 -4,0" fill="#64748b"/>
+      <circle cx="0" cy="0" r="2.5" fill="#ffffff"/>
+    </g>
+
+    <!-- Minimal Label under Log Pose -->
+    <text x="0" y="70" text-anchor="middle" fill="#94a3b8" font-family="'SF Mono', monospace" font-size="9" letter-spacing="2">
+      NEW WORLD LOG POSE
+    </text>
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(80, 0)">
+    <text x="0" y="78" fill="#38bdf8" font-family="'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="4" opacity="0.9">
+      NAVIGATION PROTOCOL // ログポース
+    </text>
+
+    <text x="0" y="142" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="50" font-weight="800" letter-spacing="-0.5">
+      Hemanth
+    </text>
+
+    <text x="0" y="180" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="400">
+      Precision Engineering for Modern Web &amp; Android Ecosystems
+    </text>
+
+    <text x="0" y="214" fill="#cbd5e1" font-family="'SF Mono', monospace" font-size="12" font-weight="500" letter-spacing="1">
+      TypeScript &#8226; Kotlin &#8226; Clean Architecture &#8226; Reactive Pipelines
+    </text>
+
+    <!-- Minimalist telemetry pills -->
+    <g transform="translate(0, 252)">
+      <rect x="0" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">LOCK ON</text>
+      <text x="14" y="29" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">NEXT ISLAND</text>
+
+      <rect x="157" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+      <text x="171" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">MAGNETIC DRIFT</text>
+      <text x="171" y="29" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">0.00&#176; LOCKED</text>
+
+      <rect x="314" y="0" width="145" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+      <text x="328" y="15" fill="#64748b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">FLEET</text>
+      <text x="328" y="29" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">AUTONOMOUS</text>
+
+      <rect x="471" y="0" width="155" height="38" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="485" y="15" fill="#f59e0b" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="1.5">COORDINATES</text>
+      <text x="485" y="29" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">GRAND LINE NW</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#logBorder)" stroke-width="1.2"/>
+</svg>

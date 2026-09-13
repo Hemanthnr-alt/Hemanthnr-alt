@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160">
+  <defs>
+    <linearGradient id="logFootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" rx="16" fill="url(#logFootGrad)"/>
+
+  <!-- Subtle Horizon Hairline -->
+  <line x1="80" y1="40" x2="1120" y2="40" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="8,8"/>
+
+  <!-- Center Log Pose Compass Needle Icon -->
+  <g transform="translate(600, 40)">
+    <polygon points="0,-16 4,0 0,4 -4,0" fill="#f59e0b"/>
+    <polygon points="0,16 4,0 0,-4 -4,0" fill="#38bdf8"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+  </g>
+
+  <text x="600" y="94" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="500">
+    &#8220;No matter how stormy the sea gets, follow the needle that points toward your true conviction.&#8221;
+  </text>
+  <text x="600" y="122" text-anchor="middle" fill="#64748b" font-family="'SF Mono', monospace" font-size="10.5" font-weight="600" letter-spacing="2.5">
+    NEW WORLD LOG POSE ARCHITECTURE &#8226; DETERMINISTIC SHIPPING
+  </text>
+
+  <rect x="1" y="1" width="1198" height="158" rx="15" fill="none" stroke="#1e293b" stroke-opacity="0.6" stroke-width="1"/>
+</svg>

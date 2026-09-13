@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wano-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0314" />
+      <stop offset="50%" stop-color="#1f092b" />
+      <stop offset="100%" stop-color="#450a36" />
+    </linearGradient>
+
+    <!-- Japanese Seigaiha Wave Pattern -->
+    <pattern id="seigaiha" width="60" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 0 30 A 30 30 0 0 1 60 30 A 24 24 0 0 0 12 30 A 18 18 0 0 1 48 30 A 12 12 0 0 0 24 30 A 6 6 0 0 1 36 30" fill="none" stroke="#f472b6" stroke-width="0.8" stroke-opacity="0.15" />
+    </pattern>
+
+    <radialGradient id="wano-moon" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fff1f2" stop-opacity="0.95" />
+      <stop offset="30%" stop-color="#fecdd3" stop-opacity="0.5" />
+      <stop offset="60%" stop-color="#e11d48" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="sakura-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes petal-fall {
+      0% { transform: translateY(0px) rotate(0deg); opacity: 0.8; }
+      50% { opacity: 1; }
+      100% { transform: translateY(30px) rotate(35deg); opacity: 0.6; }
+    }
+    .sakura { animation: petal-fall 3s infinite ease-in-out; }
+    .kanji { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif; }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+
+  <!-- Wano Night Sky -->
+  <rect width="1200" height="420" fill="url(#wano-sky)" />
+  <rect width="1200" height="420" fill="url(#seigaiha)" />
+
+  <!-- Giant Blood Red Wano Full Moon -->
+  <circle cx="600" cy="170" r="130" fill="url(#wano-moon)" />
+
+  <!-- Floating Sakura Petals -->
+  <g fill="#f43f5e" class="sakura" filter="url(#sakura-glow)">
+    <ellipse cx="180" cy="80" rx="10" ry="5" transform="rotate(25 180 80)" />
+    <ellipse cx="260" cy="190" rx="8" ry="4" transform="rotate(-15 260 190)" />
+    <ellipse cx="400" cy="110" rx="11" ry="6" transform="rotate(40 400 110)" />
+    <ellipse cx="820" cy="90" rx="9" ry="5" transform="rotate(-30 820 90)" />
+    <ellipse cx="980" cy="160" rx="12" ry="6" transform="rotate(20 980 160)" />
+    <ellipse cx="1060" cy="100" rx="8" ry="4" transform="rotate(-45 1060 100)" />
+    <ellipse cx="320" cy="280" rx="10" ry="5" transform="rotate(15 320 280)" />
+    <ellipse cx="890" cy="270" rx="11" ry="5" transform="rotate(-20 890 270)" />
+  </g>
+
+  <!-- Top Wano Arc Metadata -->
+  <g transform="translate(60, 32)">
+    <text x="0" y="10" class="kanji" font-size="14" font-weight="900" fill="#fda4af" letter-spacing="4">
+      ワノ国編 // 第三幕 &#8226; WANO KUNI // ACT III
+    </text>
+    <text x="1080" y="10" text-anchor="end" class="mono" font-size="11" font-weight="800" fill="#f43f5e" letter-spacing="2">
+      RYUO: ADVANCED &#8226; AIR-GAPPED BLADE
+    </text>
+  </g>
+
+  <!-- Japanese Traditional Calligraphy Super-Title -->
+  <text x="600" y="125" text-anchor="middle" class="kanji" font-size="20" font-weight="900" fill="#fecdd3" letter-spacing="14">
+    大名 // 剣豪の道
+  </text>
+
+  <!-- Main Hero Title (Traditional Gold / Sakura White) -->
+  <text x="600" y="200" text-anchor="middle" class="kanji" font-size="82" font-weight="900" fill="#ffffff" letter-spacing="6" filter="url(#sakura-glow)">
+    HEMANTH NAIDU
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="244" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#fda4af" letter-spacing="2">
+    LOCAL-FIRST ARCHITECT &#8226; <tspan fill="#ffffff">ENMA SWORD</tspan> &#8226; <tspan fill="#f43f5e">CONQUEROR&apos;S COATING</tspan>
+  </text>
+
+  <!-- 4 Wano Crest Badges -->
+  <g transform="translate(190, 280)">
+    <rect width="180" height="34" rx="6" fill="#1c0517" stroke="#f43f5e" stroke-width="1.4" />
+    <text x="90" y="22" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#fda4af">&#9889; 0ms RYUO</text>
+
+    <g transform="translate(205, 0)">
+      <rect width="190" height="34" rx="6" fill="#1c0517" stroke="#f43f5e" stroke-width="1.4" />
+      <text x="95" y="22" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#fda4af">&#128737; SOVEREIGN DIE</text>
+    </g>
+
+    <g transform="translate(420, 0)">
+      <rect width="185" height="34" rx="6" fill="#1c0517" stroke="#f43f5e" stroke-width="1.4" />
+      <text x="92" y="22" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#fda4af">&#128241; ANDROID SAMURAI</text>
+    </g>
+
+    <g transform="translate(630, 0)">
+      <rect width="185" height="34" rx="6" fill="#1c0517" stroke="#f43f5e" stroke-width="1.4" />
+      <text x="92" y="22" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#fda4af">&#128293; SHIPPED v1.0</text>
+    </g>
+  </g>
+
+  <!-- Traditional Golden Wave at Bottom -->
+  <path d="M 0 370 C 200 330, 400 420, 600 360 C 800 310, 1000 410, 1200 350 L 1200 420 L 0 420 Z" fill="#2a0624" />
+  <path d="M 0 385 C 220 345, 420 425, 620 375 C 820 325, 1020 415, 1200 370 L 1200 420 L 0 420 Z" fill="#4c0836" />
+  <line x1="0" y1="385" x2="1200" y2="385" stroke="#f43f5e" stroke-width="1.5" />
+</svg>

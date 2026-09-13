@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <filter id="brutal-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="6" dy="6" stdDeviation="0" flood-color="#000000" flood-opacity="1" />
+    </filter>
+    <filter id="sticker-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="4" dy="4" stdDeviation="0" flood-color="#000000" flood-opacity="1" />
+    </filter>
+  </defs>
+
+  <style>
+    .sans-black { font-family: 'Arial Black', Impact, -apple-system, sans-serif; font-weight: 900; }
+    .mono-bold { font-family: 'JetBrains Mono', monospace; font-weight: 800; }
+  </style>
+
+  <!-- Vibrant Background (Deep Charcoal with Neo Grid) -->
+  <rect width="1200" height="420" fill="#0f1117" />
+
+  <!-- Dot Grid Pattern -->
+  <g fill="#2d3748" opacity="0.6">
+    <circle cx="40" cy="40" r="2" /><circle cx="80" cy="40" r="2" /><circle cx="120" cy="40" r="2" />
+    <circle cx="160" cy="40" r="2" /><circle cx="200" cy="40" r="2" /><circle cx="240" cy="40" r="2" />
+    <circle cx="960" cy="40" r="2" /><circle cx="1000" cy="40" r="2" /><circle cx="1040" cy="40" r="2" />
+    <circle cx="1080" cy="40" r="2" /><circle cx="1120" cy="40" r="2" /><circle cx="1160" cy="40" r="2" />
+  </g>
+
+  <!-- Big Graphic Yellow Starburst -->
+  <g transform="translate(1080, 80) rotate(15)" filter="url(#sticker-shadow)">
+    <polygon points="0,-35 10,-10 35,0 10,10 0,35 -10,10 -35,0 -10,-10" fill="#ccff00" stroke="#000000" stroke-width="3" />
+    <text x="0" y="4" text-anchor="middle" class="sans-black" font-size="9" fill="#000000">100%</text>
+  </g>
+
+  <!-- Central Main Brutalist Card -->
+  <g transform="translate(80, 50)" filter="url(#brutal-shadow)">
+    <rect width="1040" height="300" rx="16" fill="#ffffff" stroke="#000000" stroke-width="4" />
+
+    <!-- Top Window Titlebar -->
+    <rect width="1040" height="46" rx="12" fill="#ccff00" stroke="#000000" stroke-width="4" />
+    <circle cx="24" cy="23" r="7" fill="#ff4d4d" stroke="#000000" stroke-width="2.5" />
+    <circle cx="46" cy="23" r="7" fill="#ffcc00" stroke="#000000" stroke-width="2.5" />
+    <circle cx="68" cy="23" r="7" fill="#00cc66" stroke="#000000" stroke-width="2.5" />
+    <text x="520" y="29" text-anchor="middle" class="mono-bold" font-size="13" fill="#000000" letter-spacing="1">
+      ★ ARCHITECT.EXE // LOCAL-FIRST SOVEREIGNTY ★
+    </text>
+
+    <!-- Main Bold Name -->
+    <text x="520" y="140" text-anchor="middle" class="sans-black" font-size="78" fill="#000000" letter-spacing="2">
+      HEMANTH NAIDU
+    </text>
+
+    <!-- Subtitle Pill -->
+    <g transform="translate(220, 160)" filter="url(#sticker-shadow)">
+      <rect width="600" height="38" rx="8" fill="#a78bfa" stroke="#000000" stroke-width="3" />
+      <text x="300" y="25" text-anchor="middle" class="mono-bold" font-size="15" fill="#ffffff" letter-spacing="0.5">
+        LOCAL-FIRST SYSTEMS &#8226; ANDROID &#8226; FULL-STACK
+      </text>
+    </g>
+
+    <!-- 4 Graphic Sticker Badges -->
+    <g transform="translate(60, 225)">
+      <!-- Sticker 1 -->
+      <g filter="url(#sticker-shadow)">
+        <rect width="200" height="42" rx="10" fill="#38bdf8" stroke="#000000" stroke-width="3" />
+        <text x="100" y="27" text-anchor="middle" class="sans-black" font-size="14" fill="#000000">⚡ 0ms LATENCY</text>
+      </g>
+      <!-- Sticker 2 -->
+      <g transform="translate(230, 0)" filter="url(#sticker-shadow)">
+        <rect width="220" height="42" rx="10" fill="#4ade80" stroke="#000000" stroke-width="3" />
+        <text x="110" y="27" text-anchor="middle" class="sans-black" font-size="14" fill="#000000">🛡️ ZERO-TELEMETRY</text>
+      </g>
+      <!-- Sticker 3 -->
+      <g transform="translate(480, 0)" filter="url(#sticker-shadow)">
+        <rect width="210" height="42" rx="10" fill="#f472b6" stroke="#000000" stroke-width="3" />
+        <text x="105" y="27" text-anchor="middle" class="sans-black" font-size="14" fill="#000000">📱 ANDROID NATIVE</text>
+      </g>
+      <!-- Sticker 4 -->
+      <g transform="translate(720, 0)" filter="url(#sticker-shadow)">
+        <rect width="200" height="42" rx="10" fill="#fbbf24" stroke="#000000" stroke-width="3" />
+        <text x="100" y="27" text-anchor="middle" class="sans-black" font-size="14" fill="#000000">🔥 PROD SHIPPED</text>
+      </g>
+    </g>
+  </g>
+</svg>

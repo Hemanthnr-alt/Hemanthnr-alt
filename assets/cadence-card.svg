@@ -3,15 +3,15 @@
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#07020d" />
       <stop offset="50%" stop-color="#110418" />
-      <stop offset="100%" stop-color="#08020e" />
+      <stop offset="100%" stop-color="#0a0308" />
     </linearGradient>
 
     <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055" stop-opacity="0.9" />
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.9" />
       <stop offset="25%" stop-color="#f59e0b" stop-opacity="0.8" />
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9" />
-      <stop offset="75%" stop-color="#00f2fe" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#ff0055" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.9" />
     </linearGradient>
 
     <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -20,13 +20,13 @@
     </linearGradient>
 
     <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055" />
+      <stop offset="0%" stop-color="#ef4444" />
       <stop offset="100%" stop-color="#fb7185" />
     </linearGradient>
 
     <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="100%" stop-color="#38bdf8" />
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#f59e0b" />
     </linearGradient>
 
     <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -39,7 +39,7 @@
     </pattern>
 
     <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#ff0055" flood-opacity="0.15" />
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#ef4444" flood-opacity="0.15" />
     </filter>
   </defs>
 
@@ -59,13 +59,13 @@
 
   <!-- Top Window Bar -->
   <g transform="translate(30, 26)">
-    <circle cx="6" cy="6" r="4.5" fill="#ff0055" />
+    <circle cx="6" cy="6" r="4.5" fill="#ef4444" />
     <circle cx="22" cy="6" r="4.5" fill="#f59e0b" />
     <circle cx="38" cy="6" r="4.5" fill="#22c55e" />
     <text x="56" y="10" fill="#94a3b8" font-size="11.5" class="mono">cadence://github.com/Hemanthnr-alt/production-velocity</text>
     
-    <rect x="760" y="-3" width="180" height="22" rx="11" fill="#20040f" stroke="#ff0055" stroke-width="1" />
-    <circle cx="774" cy="8" r="4" fill="#00f2fe" class="beacon" />
+    <rect x="760" y="-3" width="180" height="22" rx="11" fill="#20040f" stroke="#ef4444" stroke-width="1" />
+    <circle cx="774" cy="8" r="4" fill="#f59e0b" class="beacon" />
     <text x="786" y="12" fill="#fde047" font-size="9.5" font-weight="bold" class="mono">ACTIVE DISPATCH LIVE</text>
   </g>
 
@@ -121,13 +121,13 @@
     <circle cx="6" cy="6" r="5" fill="#f59e0b" />
     <text x="18" y="10" fill="#ffffff">TypeScript &amp; React (46%)</text>
 
-    <circle cx="270" cy="6" r="5" fill="#ff0055" />
+    <circle cx="270" cy="6" r="5" fill="#ef4444" />
     <text x="282" y="10" fill="#ffffff">Android &amp; Native Bridge (24%)</text>
 
     <circle cx="560" cy="6" r="5" fill="#22c55e" />
     <text x="572" y="10" fill="#ffffff">SQLite &amp; Prisma (18%)</text>
 
-    <circle cx="790" cy="6" r="5" fill="#00f2fe" />
+    <circle cx="790" cy="6" r="5" fill="#f59e0b" />
     <text x="802" y="10" fill="#ffffff">Tailwind &amp; Web (12%)</text>
   </g>
 </svg>

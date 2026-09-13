@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#000000" />
+      <rect x="2" y="2" width="2" height="2" fill="#000000" />
+      <rect x="2" width="2" height="2" fill="#1c1c1c" />
+      <rect y="2" width="2" height="2" fill="#1c1c1c" />
+    </pattern>
+  </defs>
+
+  <style>
+    .pixel { font-family: 'Courier New', 'VT323', monospace; font-weight: bold; }
+  </style>
+
+  <!-- Background Desktop Dither -->
+  <rect width="1200" height="400" fill="url(#dither)" />
+
+  <!-- Vintage Window Window 1: Profile App -->
+  <g transform="translate(100, 30)">
+    <!-- Window Drop Shadow -->
+    <rect x="8" y="8" width="1000" height="320" fill="#000000" />
+    <!-- Window Body -->
+    <rect width="1000" height="320" fill="#c0c0c0" stroke="#000000" stroke-width="2" />
+
+    <!-- Classic Titlebar Striped Pattern -->
+    <rect x="4" y="4" width="992" height="26" fill="#000080" />
+    <!-- Window Title -->
+    <text x="500" y="22" text-anchor="middle" class="pixel" font-size="14" fill="#ffffff">
+      Lock-In System Profile (Hemanth Naidu) - 100% Offline Edition
+    </text>
+    <!-- Close Box Button -->
+    <rect x="8" y="8" width="18" height="18" fill="#c0c0c0" stroke="#000000" stroke-width="1.5" />
+    <text x="17" y="21" text-anchor="middle" class="pixel" font-size="12" fill="#000000">&#9632;</text>
+
+    <!-- Content Area (White Box) -->
+    <rect x="16" y="38" width="968" height="264" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+
+    <!-- Large Pixelated Typography -->
+    <text x="500" y="110" text-anchor="middle" class="pixel" font-size="52" fill="#000000" letter-spacing="4">
+      HEMANTH NAIDU
+    </text>
+    <text x="500" y="145" text-anchor="middle" class="pixel" font-size="16" fill="#000080" letter-spacing="1">
+      &gt; ARCHITECTING LOCAL-FIRST SYSTEMS // ANDROID // FULL-STACK
+    </text>
+
+    <!-- Dialog Box Separator -->
+    <line x1="50" y1="170" x2="950" y2="170" stroke="#808080" stroke-width="1" />
+
+    <!-- Classic 3D Bevel Push Buttons -->
+    <g transform="translate(120, 200)">
+      <!-- Button 1 -->
+      <g>
+        <rect width="160" height="38" fill="#c0c0c0" stroke="#000000" stroke-width="2" />
+        <line x1="2" y1="2" x2="158" y2="2" stroke="#ffffff" stroke-width="2" />
+        <line x1="2" y1="2" x2="2" y2="36" stroke="#ffffff" stroke-width="2" />
+        <text x="80" y="24" text-anchor="middle" class="pixel" font-size="13" fill="#000000">[ 0ms Latency ]</text>
+      </g>
+      <!-- Button 2 -->
+      <g transform="translate(190, 0)">
+        <rect width="180" height="38" fill="#c0c0c0" stroke="#000000" stroke-width="2" />
+        <line x1="2" y1="2" x2="178" y2="2" stroke="#ffffff" stroke-width="2" />
+        <line x1="2" y1="2" x2="2" y2="36" stroke="#ffffff" stroke-width="2" />
+        <text x="90" y="24" text-anchor="middle" class="pixel" font-size="13" fill="#000000">[ 100% Offline DB ]</text>
+      </g>
+      <!-- Button 3 -->
+      <g transform="translate(390, 0)">
+        <rect width="180" height="38" fill="#c0c0c0" stroke="#000000" stroke-width="2" />
+        <line x1="2" y1="2" x2="178" y2="2" stroke="#ffffff" stroke-width="2" />
+        <line x1="2" y1="2" x2="2" y2="36" stroke="#ffffff" stroke-width="2" />
+        <text x="90" y="24" text-anchor="middle" class="pixel" font-size="13" fill="#000000">[ Android Native ]</text>
+      </g>
+      <!-- Button 4 -->
+      <g transform="translate(590, 0)">
+        <rect width="160" height="38" fill="#c0c0c0" stroke="#000000" stroke-width="2" />
+        <line x1="2" y1="2" x2="158" y2="2" stroke="#ffffff" stroke-width="2" />
+        <line x1="2" y1="2" x2="2" y2="36" stroke="#ffffff" stroke-width="2" />
+        <text x="80" y="24" text-anchor="middle" class="pixel" font-size="13" fill="#000000">[ Production OK ]</text>
+      </g>
+    </g>
+
+    <text x="500" y="280" text-anchor="middle" class="pixel" font-size="12" fill="#555555">
+      Memory: 640K OK &#8226; Telemetry: 0% &#8226; Status: READY TO EXECUTE
+    </text>
+  </g>
+</svg>

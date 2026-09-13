@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="100%">
+  <defs>
+    <!-- Parchment Texture Gradients -->
+    <linearGradient id="wanted-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4b886" />
+      <stop offset="50%" stop-color="#c8a770" />
+      <stop offset="100%" stop-color="#ba945b" />
+    </linearGradient>
+
+    <!-- Outer Dark Border -->
+    <linearGradient id="parchment-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6e4e2e" />
+      <stop offset="100%" stop-color="#4a3219" />
+    </linearGradient>
+
+    <!-- Red Marine Stamp -->
+    <filter id="stamp-rough">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+
+  <style>
+    .wanted-font { font-family: 'Times New Roman', Georgia, serif; font-weight: 900; }
+    .mono-bold { font-family: 'JetBrains Mono', 'Courier New', monospace; font-weight: 900; }
+  </style>
+
+  <!-- Outer Dark Background -->
+  <rect width="1200" height="440" fill="#0d0e12" />
+
+  <!-- Main Wanted Parchment Frame -->
+  <g transform="translate(60, 20)">
+    <rect width="1080" height="400" rx="8" fill="url(#wanted-bg)" stroke="url(#parchment-border)" stroke-width="8" />
+    <rect x="14" y="14" width="1052" height="372" rx="4" fill="none" stroke="#5c3f1e" stroke-width="2.5" />
+
+    <!-- Famous "W A N T E D" Heading -->
+    <text x="540" y="80" text-anchor="middle" class="wanted-font" font-size="64" fill="#38210d" letter-spacing="24">
+      W A N T E D
+    </text>
+
+    <!-- Photo Inset Frame / Developer Portrait Box -->
+    <g transform="translate(180, 100)">
+      <rect width="720" height="150" fill="#18151f" stroke="#5c3f1e" stroke-width="3" />
+      
+      <!-- Inside Dark Inner Frame -->
+      <text x="360" y="65" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="44" font-weight="900" fill="#fde047" letter-spacing="4">
+        HEMANTH NAIDU
+      </text>
+      <text x="360" y="95" text-anchor="middle" class="mono-bold" font-size="14" fill="#38bdf8" letter-spacing="2">
+        &lt;&lt; LOCAL-FIRST SYSTEMS ARCHITECT &#8226; ANDROID CORE &gt;&gt;
+      </text>
+
+      <!-- 4 Core Tags in Inset -->
+      <g transform="translate(80, 112)">
+        <rect width="120" height="24" rx="4" fill="#2e1065" stroke="#a855f7" stroke-width="1" />
+        <text x="60" y="16" text-anchor="middle" class="mono-bold" font-size="10" fill="#f8fafc">0ms LATENCY</text>
+
+        <g transform="translate(140, 0)">
+          <rect width="130" height="24" rx="4" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+          <text x="65" y="16" text-anchor="middle" class="mono-bold" font-size="10" fill="#f8fafc">SOVEREIGN DB</text>
+        </g>
+
+        <g transform="translate(290, 0)">
+          <rect width="130" height="24" rx="4" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1" />
+          <text x="65" y="16" text-anchor="middle" class="mono-bold" font-size="10" fill="#f8fafc">ANDROID NATIVE</text>
+        </g>
+
+        <g transform="translate(440, 0)">
+          <rect width="120" height="24" rx="4" fill="#831843" stroke="#f472b6" stroke-width="1" />
+          <text x="60" y="16" text-anchor="middle" class="mono-bold" font-size="10" fill="#f8fafc">LOCK IN v1.0</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- "DEAD OR ALIVE" Banner Text -->
+    <text x="540" y="295" text-anchor="middle" class="wanted-font" font-size="34" fill="#38210d" letter-spacing="12">
+      DEAD OR ALIVE
+    </text>
+
+    <!-- Bounty Berry Symbol & Amount -->
+    <g transform="translate(280, 350)">
+      <text x="0" y="0" class="mono-bold" font-size="44" fill="#38210d">&#3647;</text>
+      <text x="50" y="0" class="wanted-font" font-size="48" fill="#38210d" letter-spacing="4">
+        3,200,000,000 -
+      </text>
+    </g>
+
+    <!-- Official Marine HQ Stamp (Red Wax Stamp on Right) -->
+    <g transform="translate(860, 270) rotate(-12)" filter="url(#stamp-rough)">
+      <rect width="120" height="65" rx="6" fill="none" stroke="#b91c1c" stroke-width="3" stroke-opacity="0.85" />
+      <text x="60" y="28" text-anchor="middle" class="mono-bold" font-size="11" fill="#b91c1c">MARINE HQ</text>
+      <text x="60" y="48" text-anchor="middle" class="mono-bold" font-size="13" font-weight="900" fill="#b91c1c">SOVEREIGN</text>
+    </g>
+
+    <!-- Bottom Marine Footer Disclaimer -->
+    <text x="540" y="380" text-anchor="middle" class="mono-bold" font-size="8.5" fill="#5c3f1e" letter-spacing="1">
+      KONO SAKUHIN WA FICTION DETHUNODE JITSUZAISURU JINBUTSU DANTAI TO WA ISSAI KANKEI ARIMASEN
+    </text>
+  </g>
+</svg>

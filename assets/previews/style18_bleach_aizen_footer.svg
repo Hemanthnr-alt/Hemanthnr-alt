@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160">
+  <defs>
+    <linearGradient id="aizenFootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#07020f"/>
+      <stop offset="50%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#07020f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" rx="16" fill="url(#aizenFootGrad)"/>
+  
+  <!-- Mirror Shard Pattern -->
+  <polygon points="300,160 450,110 600,140 750,105 900,160" fill="#a855f7" opacity="0.2"/>
+
+  <!-- Center Hogyoku Symbol -->
+  <g transform="translate(600, 48)">
+    <polygon points="0,-12 12,0 0,12 -12,0" fill="#c084fc" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+  </g>
+
+  <text x="600" y="98" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">
+    &#8220;No one has stood on top of the world... but from now on, I will stand in the heavens.&#8221;
+  </text>
+  <text x="600" y="125" text-anchor="middle" fill="#d8b4fe" font-family="'SF Mono', monospace" font-size="11" font-weight="600" letter-spacing="2">
+    SOSUKE AIZEN // ABSOLUTE DOMINANCE IN ARCHITECTURE
+  </text>
+
+  <rect x="1" y="1" width="1198" height="158" rx="15" fill="none" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1.5"/>
+</svg>
