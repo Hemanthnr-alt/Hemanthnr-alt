@@ -37,7 +37,7 @@
 
 <div align="center">
 
-<img src="assets/engineering-card.svg" width="100%" alt="Hemanth Naidu Engineering Identity & Core Doctrine" />
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/engineering-card.svg" width="100%" alt="Hemanth Naidu Engineering Identity & Core Doctrine" />
 
 <br/><br/>
 
