@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ==================== BESPOKE HAOSHOKU SCARLET SKY-SPLITTER HERO BANNER ==================== -->
-<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-banner.svg" width="100%" alt="Hemanth Naidu Haoshoku Scarlet Sky-Splitter Hero Banner"/>
+<!-- ==================== BESPOKE GEAR 5 NIKA CRIMSON ECLIPSE HERO BANNER ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-banner.svg" width="100%" alt="Hemanth Naidu Gear 5 Nika Crimson Eclipse Hero Banner"/>
 
 <br/>
 
@@ -194,7 +194,7 @@
 
 <br/>
 
-<!-- ==================== BESPOKE HAOSHOKU SCARLET SKY-SPLITTER FOOTER WAVE ==================== -->
-<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/footer-wave.svg" width="100%" alt="Hemanth Naidu Haoshoku Scarlet Sky-Splitter Footer Wave" />
+<!-- ==================== BESPOKE GEAR 5 NIKA CRIMSON ECLIPSE FOOTER WAVE ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/footer-wave.svg" width="100%" alt="Hemanth Naidu Gear 5 Nika Crimson Eclipse Footer Wave" />
 
 </div>
