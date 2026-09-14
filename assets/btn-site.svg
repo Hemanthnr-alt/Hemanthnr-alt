@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185 40" width="185" height="40">
+  <defs>
+    <linearGradient id="btnBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3c50"/>
+      <stop offset="50%" stop-color="#f0233c"/>
+      <stop offset="100%" stop-color="#ff6579"/>
+    </linearGradient>
+    <linearGradient id="btnBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#190d1e"/>
+      <stop offset="100%" stop-color="#0c0610"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .bold { font-weight: 700; }
+  </style>
+
+  <!-- Button Box -->
+  <rect x="1" y="1" width="183" height="38" rx="10" fill="url(#btnBg)" stroke="url(#btnBorder)" stroke-width="1.2"/>
+  <!-- Top Accent Indicator -->
+  <line x1="14" y1="1" x2="45" y2="1" stroke="#ff3c50" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Icon Area -->
+  <g transform="translate(12, 10)">
+    <circle cx="10" cy="10" r="8" fill="none" stroke="#ff3c50" stroke-width="1.5"/>
+<ellipse cx="10" cy="10" rx="3.5" ry="8" fill="none" stroke="#ff3c50" stroke-width="1.2"/>
+<line x1="2" y1="10" x2="18" y2="10" stroke="#ff3c50" stroke-width="1.2"/>
+  </g>
+
+  <!-- Text -->
+  <text x="42" y="18" fill="#ffffff" font-size="10.5" class="sans bold" letter-spacing="0.3">OFFICIAL SITE</text>
+  <text x="42" y="30" fill="#ff99a8" font-size="8.5" class="mono">lock-in-eta-nine</text>
+</svg>
