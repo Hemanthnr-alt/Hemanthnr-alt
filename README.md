@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ==================== BESPOKE LUNAR HYBRID OVERDRIVE HERO BANNER ==================== -->
-<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-banner.svg" width="100%" alt="Hemanth Naidu Lunar Hybrid Overdrive Hero Banner"/>
+<!-- ==================== BESPOKE HAOSHOKU SCARLET SKY-SPLITTER HERO BANNER ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/hero-banner.svg" width="100%" alt="Hemanth Naidu Haoshoku Scarlet Sky-Splitter Hero Banner"/>
 
 <br/>
 
@@ -194,7 +194,7 @@
 
 <br/>
 
-<!-- ==================== BESPOKE LUNAR HYBRID OVERDRIVE FOOTER WAVE ==================== -->
-<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/footer-wave.svg" width="100%" alt="Hemanth Naidu Lunar Hybrid Overdrive Footer Wave" />
+<!-- ==================== BESPOKE HAOSHOKU SCARLET SKY-SPLITTER FOOTER WAVE ==================== -->
+<img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/footer-wave.svg" width="100%" alt="Hemanth Naidu Haoshoku Scarlet Sky-Splitter Footer Wave" />
 
 </div>
