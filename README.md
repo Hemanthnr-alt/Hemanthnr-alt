@@ -12,15 +12,15 @@
 
 <!-- ==================== QUICK ACTION NAVIGATION ==================== -->
 <p align="center">
-  <a href="https://lock-in-eta-nine.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-site.svg" height="40" alt="Lock In Official Portal" /></a>
+  <a href="https://lock-in-eta-nine.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-site.svg" height="38" alt="Lock In Official Portal" /></a>
   &nbsp;
-  <a href="https://lock-in-eta-nine.vercel.app/lock-in.apk" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-apk.svg" height="40" alt="Download Lock In Android APK" /></a>
+  <a href="https://lock-in-eta-nine.vercel.app/lock-in.apk" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-apk.svg" height="38" alt="Download Lock In Android APK" /></a>
   &nbsp;
-  <a href="https://linkedin.com/in/hemanthnaidu" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-linkedin.svg" height="40" alt="Hemanth Naidu LinkedIn Network" /></a>
+  <a href="https://linkedin.com/in/hemanthnaidu" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-linkedin.svg" height="38" alt="Hemanth Naidu LinkedIn Network" /></a>
   &nbsp;
-  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-email.svg" height="40" alt="Direct Email Dispatch" /></a>
+  <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-email.svg" height="38" alt="Direct Email Dispatch" /></a>
   &nbsp;
-  <a href="https://github.com/Hemanthnr-alt"><img src="https://komarev.com/ghpvc/?username=Hemanthnr-alt&style=for-the-badge&color=ff3c50&labelColor=0a050d&label=VISITORS" height="40" alt="Live Profile Visitors" /></a>
+  <a href="https://github.com/Hemanthnr-alt"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-visitors.svg" height="38" alt="Live Profile Telemetry Visitors" /></a>
 </p>
 
 </div>
