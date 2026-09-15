@@ -16,7 +16,7 @@
   &nbsp;
   <a href="https://lock-in-eta-nine.vercel.app/lock-in.apk" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-apk.svg" height="38" alt="Download Lock In Android APK" /></a>
   &nbsp;
-  <a href="https://linkedin.com/in/hemanthnaidu" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-linkedin.svg" height="38" alt="Hemanth Naidu LinkedIn Network" /></a>
+  <a href="https://www.linkedin.com/in/hemanth-n-r/" target="_blank"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-linkedin.svg" height="38" alt="Hemanth Naidu LinkedIn Network" /></a>
   &nbsp;
   <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://raw.githubusercontent.com/Hemanthnr-alt/Hemanthnr-alt/main/assets/btn-email.svg" height="38" alt="Direct Email Dispatch" /></a>
   &nbsp;
@@ -191,7 +191,7 @@
 
 <p align="center">
   <a href="mailto:hemanthnaidunr@gmail.com"><img src="https://img.shields.io/badge/Email_Direct-140816?style=for-the-badge&logo=gmail&logoColor=ff3c50&labelColor=0a050d"/></a>
-  <a href="https://linkedin.com/in/hemanthnaidu"><img src="https://img.shields.io/badge/LinkedIn_Network-140816?style=for-the-badge&logo=linkedin&logoColor=ff3c50&labelColor=0a050d"/></a>
+  <a href="https://www.linkedin.com/in/hemanth-n-r/"><img src="https://img.shields.io/badge/LinkedIn_Network-140816?style=for-the-badge&logo=linkedin&logoColor=ff3c50&labelColor=0a050d"/></a>
   <a href="https://lock-in-eta-nine.vercel.app/"><img src="https://img.shields.io/badge/Production_Live-140816?style=for-the-badge&logo=googlechrome&logoColor=ff3c50&labelColor=0a050d"/></a>
   <a href="https://github.com/Hemanthnr-alt"><img src="https://img.shields.io/badge/GitHub_Hub-140816?style=for-the-badge&logo=github&logoColor=ff3c50&labelColor=0a050d"/></a>
 </p>
