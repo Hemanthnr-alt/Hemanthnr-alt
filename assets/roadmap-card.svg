@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="100%" height="100%">
   <defs>
     <linearGradient id="roadBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ef4444"/>
-      <stop offset="25%" stop-color="#f59e0b"/>
+      <stop offset="0%" stop-color="#f0233c"/>
+      <stop offset="25%" stop-color="#ff3c50"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="75%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#ef4444"/>
+      <stop offset="75%" stop-color="#ff3c50"/>
+      <stop offset="100%" stop-color="#f0233c"/>
     </linearGradient>
     <linearGradient id="roadBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#07020d"/>
@@ -52,17 +52,17 @@
 
   <!-- Phase 3 -->
   <rect x="424" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#3f130b" stroke-width="1"/>
-  <rect x="436" y="70" width="86" height="18" rx="9" fill="#241403" stroke="#f59e0b" stroke-width="0.8"/>
-  <text x="445" y="83" fill="#fbbf24" font-size="9.5" class="mono bold">IN PROGRESS</text>
-  <text x="436" y="108" fill="#fde047" font-size="13" class="sans bold">On-Device NLP</text>
+  <rect x="436" y="70" width="86" height="18" rx="9" fill="#250716" stroke="#ff3c50" stroke-width="0.8"/>
+  <text x="445" y="83" fill="#ff6579" font-size="9.5" class="mono bold">IN PROGRESS</text>
+  <text x="436" y="108" fill="#ff8093" font-size="13" class="sans bold">On-Device NLP</text>
   <text x="436" y="128" fill="#cbd5e1" font-size="11" class="sans">Local AI task parser</text>
   <text x="436" y="144" fill="#cbd5e1" font-size="11" class="sans">Natural language meals</text>
   <text x="436" y="160" fill="#cbd5e1" font-size="11" class="sans">Zero cloud telemetry</text>
 
   <!-- Phase 4 -->
   <rect x="624" y="58" width="186" height="136" rx="10" fill="url(#roadCard)" stroke="#310a3d" stroke-width="1"/>
-  <rect x="636" y="70" width="80" height="18" rx="9" fill="#240311" stroke="#ef4444" stroke-width="0.8"/>
-  <text x="646" y="83" fill="#ef4444" font-size="9.5" class="mono bold">UPCOMING</text>
+  <rect x="636" y="70" width="80" height="18" rx="9" fill="#240311" stroke="#f0233c" stroke-width="0.8"/>
+  <text x="646" y="83" fill="#f0233c" font-size="9.5" class="mono bold">UPCOMING</text>
   <text x="636" y="108" fill="#ffffff" font-size="13" class="sans bold">P2P Encrypted Sync</text>
   <text x="636" y="128" fill="#cbd5e1" font-size="11" class="sans">CRDT-based data sync</text>
   <text x="636" y="144" fill="#cbd5e1" font-size="11" class="sans">LAN direct discovery</text>

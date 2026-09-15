@@ -7,28 +7,28 @@
     </linearGradient>
 
     <linearGradient id="connectBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.9" />
-      <stop offset="25%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#f0233c" stop-opacity="0.9" />
+      <stop offset="25%" stop-color="#ff3c50" stop-opacity="0.8" />
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9" />
-      <stop offset="75%" stop-color="#f59e0b" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#ff3c50" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f0233c" stop-opacity="0.9" />
     </linearGradient>
 
     <radialGradient id="glowRed" cx="20%" cy="30%" r="50%">
-      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#ef4444" stop-opacity="0" />
+      <stop offset="0%" stop-color="#f0233c" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#f0233c" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="glowGold" cx="80%" cy="40%" r="50%">
-      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.20" />
-      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+      <stop offset="0%" stop-color="#ff3c50" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#ff3c50" stop-opacity="0" />
     </radialGradient>
 
     <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#ef4444" flood-opacity="0.15" />
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#f0233c" flood-opacity="0.15" />
     </filter>
 
     <pattern id="connectGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.04" />
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ff3c50" stroke-width="0.5" stroke-opacity="0.04" />
     </pattern>
   </defs>
 
@@ -52,14 +52,14 @@
 
   <!-- Top Bar -->
   <g transform="translate(30, 26)">
-    <circle cx="6" cy="6" r="4.5" fill="#ef4444" />
+    <circle cx="6" cy="6" r="4.5" fill="#f0233c" />
     <circle cx="22" cy="6" r="4.5" fill="#f59e0b" />
     <circle cx="38" cy="6" r="4.5" fill="#22c55e" />
     <text x="56" y="10" fill="#94a3b8" font-size="11.5" class="mono">relay://hemanth-naidu/communications-terminal</text>
     
-    <rect x="760" y="-3" width="180" height="22" rx="11" fill="#241403" stroke="#f59e0b" stroke-width="1" />
-    <circle cx="774" cy="8" r="4" fill="#fbbf24" class="live-beacon" />
-    <text x="786" y="12" fill="#fbbf24" font-size="9.5" font-weight="bold" class="mono">RELAY DISPATCH OPEN</text>
+    <rect x="760" y="-3" width="180" height="22" rx="11" fill="#250716" stroke="#ff3c50" stroke-width="1" />
+    <circle cx="774" cy="8" r="4" fill="#ff6579" class="live-beacon" />
+    <text x="786" y="12" fill="#ff6579" font-size="9.5" font-weight="bold" class="mono">RELAY DISPATCH OPEN</text>
   </g>
 
   <!-- Title -->
@@ -70,30 +70,30 @@
   <!-- Channel 1: Email Direct -->
   <g transform="translate(30, 120)">
     <rect width="298" height="136" rx="12" fill="#18040d" stroke="#3d0a21" stroke-width="1" />
-    <text x="20" y="28" fill="#ef4444" font-size="12" font-weight="700" class="sans">DIRECT PROTOCOL</text>
+    <text x="20" y="28" fill="#f0233c" font-size="12" font-weight="700" class="sans">DIRECT PROTOCOL</text>
     <text x="20" y="56" fill="#ffffff" font-size="15" font-weight="700" class="mono">hemanthnaidunr@gmail.com</text>
     <text x="20" y="80" fill="#94a3b8" font-size="11" class="sans">Inquiries, full-time engineering offers &amp; technical advisory</text>
-    <rect x="20" y="98" width="130" height="24" rx="6" fill="#240311" stroke="#ef4444" stroke-width="1" />
-    <text x="36" y="114" fill="#fde047" font-size="10" font-weight="bold" class="mono">SEND DISPATCH &#8594;</text>
+    <rect x="20" y="98" width="130" height="24" rx="6" fill="#240311" stroke="#f0233c" stroke-width="1" />
+    <text x="36" y="114" fill="#ff8093" font-size="10" font-weight="bold" class="mono">SEND DISPATCH &#8594;</text>
   </g>
 
   <!-- Channel 2: LinkedIn Network -->
   <g transform="translate(350, 120)">
     <rect width="298" height="136" rx="12" fill="#170620" stroke="#320b3e" stroke-width="1" />
-    <text x="20" y="28" fill="#f59e0b" font-size="12" font-weight="700" class="sans">PROFESSIONAL GRAPH</text>
+    <text x="20" y="28" fill="#ff3c50" font-size="12" font-weight="700" class="sans">PROFESSIONAL GRAPH</text>
     <text x="20" y="56" fill="#ffffff" font-size="14" font-weight="700" class="mono">linkedin.com/in/hemanth-n-r</text>
     <text x="20" y="80" fill="#94a3b8" font-size="11" class="sans">Career history, endorsements, system design posts &amp; network</text>
-    <rect x="20" y="98" width="130" height="24" rx="6" fill="#241403" stroke="#f59e0b" stroke-width="1" />
-    <text x="36" y="114" fill="#fde047" font-size="10" font-weight="bold" class="mono">CONNECT GRAPH &#8594;</text>
+    <rect x="20" y="98" width="130" height="24" rx="6" fill="#250716" stroke="#ff3c50" stroke-width="1" />
+    <text x="36" y="114" fill="#ff8093" font-size="10" font-weight="bold" class="mono">CONNECT GRAPH &#8594;</text>
   </g>
 
   <!-- Channel 3: Production Live Link -->
   <g transform="translate(670, 120)">
     <rect width="298" height="136" rx="12" fill="#08151f" stroke="#0e2f46" stroke-width="1" />
-    <text x="20" y="28" fill="#f59e0b" font-size="12" font-weight="700" class="sans">DEPLOYED SYSTEMS</text>
+    <text x="20" y="28" fill="#ff3c50" font-size="12" font-weight="700" class="sans">DEPLOYED SYSTEMS</text>
     <text x="20" y="56" fill="#ffffff" font-size="15" font-weight="700" class="mono">lock-in-eta-nine.vercel.app</text>
     <text x="20" y="80" fill="#94a3b8" font-size="11" class="sans">Live progressive web application &amp; APK distribution hub</text>
-    <rect x="20" y="98" width="130" height="24" rx="6" fill="#051c27" stroke="#f59e0b" stroke-width="1" />
-    <text x="36" y="114" fill="#f59e0b" font-size="10" font-weight="bold" class="mono">LAUNCH PWA &#8594;</text>
+    <rect x="20" y="98" width="130" height="24" rx="6" fill="#051c27" stroke="#ff3c50" stroke-width="1" />
+    <text x="36" y="114" fill="#ff3c50" font-size="10" font-weight="bold" class="mono">LAUNCH PWA &#8594;</text>
   </g>
 </svg>

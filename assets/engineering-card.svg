@@ -2,11 +2,11 @@
   <defs>
     <!-- Gradients -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ef4444"/>
-      <stop offset="25%" stop-color="#f59e0b"/>
+      <stop offset="0%" stop-color="#f0233c"/>
+      <stop offset="25%" stop-color="#ff3c50"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="75%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#ef4444"/>
+      <stop offset="75%" stop-color="#ff3c50"/>
+      <stop offset="100%" stop-color="#f0233c"/>
     </linearGradient>
     
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -21,17 +21,17 @@
     </linearGradient>
 
     <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1c0a06"/>
-      <stop offset="100%" stop-color="#120403"/>
+      <stop offset="0%" stop-color="#200615"/>
+      <stop offset="100%" stop-color="#15040e"/>
     </linearGradient>
 
     <linearGradient id="textGold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#fde047"/>
+      <stop offset="0%" stop-color="#ff3c50"/>
+      <stop offset="100%" stop-color="#ff8093"/>
     </linearGradient>
 
     <linearGradient id="textCrimson" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="0%" stop-color="#f0233c"/>
       <stop offset="100%" stop-color="#fb7185"/>
     </linearGradient>
   </defs>
@@ -51,7 +51,7 @@
   <line x1="2" y1="42" x2="838" y2="42" stroke="#2e081c" stroke-width="1"/>
 
   <!-- Window Controls -->
-  <circle cx="24" cy="22" r="5.5" fill="#ef4444"/>
+  <circle cx="24" cy="22" r="5.5" fill="#f0233c"/>
   <circle cx="42" cy="22" r="5.5" fill="#f59e0b"/>
   <circle cx="60" cy="22" r="5.5" fill="#22c55e"/>
 
@@ -59,9 +59,9 @@
   <text x="80" y="26" fill="#94a3b8" font-size="12" class="mono">hemanth@lockin-core : ~/doctrine-and-systems</text>
 
   <!-- Status Pill in Header -->
-  <rect x="680" y="12" width="140" height="20" rx="10" fill="#230310" stroke="#ef4444" stroke-width="1"/>
-  <circle cx="693" cy="22" r="3.5" fill="#f59e0b"/>
-  <text x="703" y="26" fill="#fde047" font-size="10" class="mono bold">PRODUCTION CORE</text>
+  <rect x="680" y="12" width="140" height="20" rx="10" fill="#230310" stroke="#f0233c" stroke-width="1"/>
+  <circle cx="693" cy="22" r="3.5" fill="#ff3c50"/>
+  <text x="703" y="26" fill="#ff8093" font-size="10" class="mono bold">PRODUCTION CORE</text>
 
   <!-- Grid Layout: 2 Primary Columns -->
   <!-- Left Box: Core Philosophy -->
@@ -92,20 +92,20 @@
   <text x="444" y="88" fill="url(#textCrimson)" font-size="14" class="sans bold" letter-spacing="0.5">02 // ARCHITECTURAL BLUEPRINT</text>
   <line x1="444" y1="98" x2="796" y2="98" stroke="#3f130b" stroke-width="1"/>
 
-  <rect x="444" y="112" width="352" height="48" rx="6" fill="#200613" stroke="#ef4444" stroke-width="0.8"/>
-  <text x="456" y="132" fill="#ef4444" font-size="11.5" class="mono bold">PRESENTATION LAYER</text>
+  <rect x="444" y="112" width="352" height="48" rx="6" fill="#200613" stroke="#f0233c" stroke-width="0.8"/>
+  <text x="456" y="132" fill="#f0233c" font-size="11.5" class="mono bold">PRESENTATION LAYER</text>
   <text x="456" y="148" fill="#e2e8f0" font-size="11" class="sans">React 18 &#8226; Tailwind CSS &#8226; Vite &#8226; Lucide Icons &#8226; 60fps UI</text>
 
-  <rect x="444" y="168" width="352" height="48" rx="6" fill="#201103" stroke="#f59e0b" stroke-width="0.8"/>
-  <text x="456" y="188" fill="#f59e0b" font-size="11.5" class="mono bold">CROSS-PLATFORM BRIDGE</text>
+  <rect x="444" y="168" width="352" height="48" rx="6" fill="#250716" stroke="#ff3c50" stroke-width="0.8"/>
+  <text x="456" y="188" fill="#ff3c50" font-size="11.5" class="mono bold">CROSS-PLATFORM BRIDGE</text>
   <text x="456" y="204" fill="#e2e8f0" font-size="11" class="sans">Capacitor 6 &#8226; Native Android SDK &#8226; AppWidgetProvider</text>
 
   <rect x="444" y="224" width="352" height="48" rx="6" fill="#190624" stroke="#c084fc" stroke-width="0.8"/>
   <text x="456" y="244" fill="#c084fc" font-size="11.5" class="mono bold">DETERMINISTIC STORAGE</text>
   <text x="456" y="260" fill="#e2e8f0" font-size="11" class="sans">Native SQLite Engine &#8226; WAL Mode &#8226; Immediate Persistence</text>
 
-  <rect x="444" y="280" width="352" height="48" rx="6" fill="#04181a" stroke="#f59e0b" stroke-width="0.8"/>
-  <text x="456" y="300" fill="#f59e0b" font-size="11.5" class="mono bold">SYSTEM PERFORMANCE</text>
+  <rect x="444" y="280" width="352" height="48" rx="6" fill="#04181a" stroke="#ff3c50" stroke-width="0.8"/>
+  <text x="456" y="300" fill="#ff3c50" font-size="11.5" class="mono bold">SYSTEM PERFORMANCE</text>
   <text x="456" y="316" fill="#e2e8f0" font-size="11" class="sans">Sub-1ms Query Execution &#8226; Zero Cloud Outage Risk &#8226; Light Footprint</text>
 
   <!-- Architecture summary footer -->

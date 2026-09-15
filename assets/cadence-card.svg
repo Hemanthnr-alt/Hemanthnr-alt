@@ -7,26 +7,26 @@
     </linearGradient>
 
     <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.9" />
-      <stop offset="25%" stop-color="#f59e0b" stop-opacity="0.85" />
+      <stop offset="0%" stop-color="#f0233c" stop-opacity="0.9" />
+      <stop offset="25%" stop-color="#ff3c50" stop-opacity="0.85" />
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.95" />
-      <stop offset="75%" stop-color="#f59e0b" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#ff3c50" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#f0233c" stop-opacity="0.9" />
     </linearGradient>
 
     <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f59e0b" />
-      <stop offset="100%" stop-color="#fde047" />
+      <stop offset="0%" stop-color="#ff3c50" />
+      <stop offset="100%" stop-color="#ff8093" />
     </linearGradient>
 
     <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="0%" stop-color="#f0233c" />
       <stop offset="100%" stop-color="#fb7185" />
     </linearGradient>
 
     <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f59e0b" />
-      <stop offset="100%" stop-color="#fbbf24" />
+      <stop offset="0%" stop-color="#ff3c50" />
+      <stop offset="100%" stop-color="#ff6579" />
     </linearGradient>
 
     <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -35,11 +35,11 @@
     </linearGradient>
 
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.04" />
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ff3c50" stroke-width="0.5" stroke-opacity="0.04" />
     </pattern>
 
     <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#ef4444" flood-opacity="0.15" />
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#f0233c" flood-opacity="0.15" />
     </filter>
   </defs>
 
@@ -59,14 +59,14 @@
 
   <!-- Top Window Bar -->
   <g transform="translate(30, 26)">
-    <circle cx="6" cy="6" r="4.5" fill="#ef4444" />
+    <circle cx="6" cy="6" r="4.5" fill="#f0233c" />
     <circle cx="22" cy="6" r="4.5" fill="#f59e0b" />
     <circle cx="38" cy="6" r="4.5" fill="#22c55e" />
     <text x="56" y="10" fill="#94a3b8" font-size="11.5" class="mono">cadence://github.com/Hemanthnr-alt/production-velocity</text>
     
-    <rect x="760" y="-3" width="180" height="22" rx="11" fill="#20040f" stroke="#ef4444" stroke-width="1" />
-    <circle cx="774" cy="8" r="4" fill="#f59e0b" class="beacon" />
-    <text x="786" y="12" fill="#fde047" font-size="9.5" font-weight="bold" class="mono">ACTIVE DISPATCH LIVE</text>
+    <rect x="760" y="-3" width="180" height="22" rx="11" fill="#20040f" stroke="#f0233c" stroke-width="1" />
+    <circle cx="774" cy="8" r="4" fill="#ff3c50" class="beacon" />
+    <text x="786" y="12" fill="#ff8093" font-size="9.5" font-weight="bold" class="mono">ACTIVE DISPATCH LIVE</text>
   </g>
 
   <!-- Title & Headline -->
@@ -126,16 +126,16 @@
 
   <!-- Legend Labels -->
   <g transform="translate(30, 276)" font-size="11" class="mono">
-    <circle cx="6" cy="4" r="4.5" fill="#f59e0b" />
+    <circle cx="6" cy="4" r="4.5" fill="#ff3c50" />
     <text x="18" y="8" fill="#e2e8f0">TypeScript &amp; React (46%)</text>
     
-    <circle cx="280" cy="4" r="4.5" fill="#ef4444" />
+    <circle cx="280" cy="4" r="4.5" fill="#f0233c" />
     <text x="292" y="8" fill="#e2e8f0">Android &amp; Native Bridge (24%)</text>
     
     <circle cx="580" cy="4" r="4.5" fill="#22c55e" />
     <text x="592" y="8" fill="#e2e8f0">SQLite &amp; Local-First (18%)</text>
     
-    <circle cx="820" cy="4" r="4.5" fill="#fbbf24" />
+    <circle cx="820" cy="4" r="4.5" fill="#ff6579" />
     <text x="832" y="8" fill="#e2e8f0">Next.js &amp; Tailwind (12%)</text>
   </g>
 </svg>

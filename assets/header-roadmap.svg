@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 44" width="100%" height="44">
+  <defs>
+    <!-- Border Gradient -->
+    <linearGradient id="hdrBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3c50"/>
+      <stop offset="30%" stop-color="#f0233c"/>
+      <stop offset="70%" stop-color="#ff6579"/>
+      <stop offset="100%" stop-color="#ff3c50"/>
+    </linearGradient>
+
+    <!-- Background Glass Gradient -->
+    <linearGradient id="hdrBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#160718"/>
+      <stop offset="50%" stop-color="#0f0411"/>
+      <stop offset="100%" stop-color="#0a030d"/>
+    </linearGradient>
+
+    <!-- Number Pill Gradient -->
+    <linearGradient id="numPill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2d0a1b"/>
+      <stop offset="100%" stop-color="#1f0512"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glowDot" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .bold { font-weight: 700; }
+  </style>
+
+  <!-- Main Chassis -->
+  <rect x="1" y="1" width="838" height="42" rx="9" fill="url(#hdrBg)" stroke="url(#hdrBorder)" stroke-width="1.2"/>
+
+  <!-- Left Cyber Top Accent -->
+  <line x1="12" y1="1" x2="48" y2="1" stroke="#ff3c50" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Subtle Grid Marks -->
+  <line x1="820" y1="1" x2="830" y2="1" stroke="#ff3c50" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="832" cy="7" r="1.5" fill="#ff3c50" opacity="0.6"/>
+
+  <!-- Index Pill -->
+  <rect x="10" y="8" width="46" height="28" rx="6" fill="url(#numPill)" stroke="#ff3c50" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="33" y="26" fill="#ff4d66" font-size="11.5" class="mono bold" text-anchor="middle">// 08</text>
+
+  <!-- Section Title -->
+  <text x="68" y="27" fill="#ffffff" font-size="13" class="sans bold" letter-spacing="0.8">ROADMAP &amp; STRATEGIC MILESTONES</text>
+
+  <!-- Right Status Pill -->
+  <rect x="609.6" y="10" width="216.4" height="24" rx="12" fill="#1f0715" stroke="#ff3c50" stroke-width="0.9" stroke-opacity="0.5"/>
+  <circle cx="623.6" cy="22" r="3.5" fill="#ff3c50" filter="url(#glowDot)"/>
+  <text x="637.6" y="25.5" fill="#ffb3c0" font-size="9.5" class="mono bold" letter-spacing="0.5">TARGETS // Q3-Q4 2026</text>
+</svg>
